@@ -1,0 +1,64 @@
+// colors
+$black: #393836;
+$dark-blue: #354452;
+$light-blue: #6895ab;
+$brown: #7b6059;
+$light: rgb(249, 249, 249);
+// fonts
+$font-regular: 'Graphik Regular',
+helvetica neue,
+arial,
+sans-serif;
+$font-bold: 'Graphik Bold',
+helvetica neue,
+arial,
+sans-serif;
+$font-cervo: 'Cervo-Regular',
+helvetica neue,
+arial,
+sans-serif;
+//
+@import "/bower_components/normalize-css/normalize.css";
+@import "fonts";
+@import "shorthands";
+@import "animations";
+@import "interactive";
+@import "retinajs";
+//
+@import "header";
+@import "hero-image";
+@import "hero-content";
+@import "footer";
+//
+html {
+    background-color: white;
+}
+
+//
+body {
+    font-family: $font-regular;
+    min-width: 1000px;
+    min-height: 100%;
+    font-size: 1em;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    color: $dark-blue;
+    -webkit-font-smoothing: antialiased;
+    //backface-visibility: hidden;
+    //-webkit-text-size-adjust: 100%;
+}
+
+article {
+    overflow: hidden;
+    position: relative;
+}
+
+section {
+    margin: 0 auto;
+    position: relative;
+    //width: 1000px;
+    min-width: 1000px;
+}
+
+///

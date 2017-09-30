@@ -1,0 +1,165 @@
+$opacity-transition: opacity 1s;
+$transform-transition: transform 1.5s;
+$top-transition: top .3s;
+$height-mobile-album: 650px;
+.hero-image {
+    width: 100vw;
+    &__language-switch {
+        position: absolute;
+        right: 2rem;
+        top: 2rem;
+        z-index: 1;
+        @extend .cervo;
+        font-size: 1.5rem;
+        letter-spacing: .2rem;
+        color: white;
+        text-align: right;
+    }
+    &__matlas-logo {
+        position: absolute;
+        width: 37rem;
+        height: 10em;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 11.5em;
+        z-index: 1;
+        transition: $opacity-transition, $transform-transition, $top-transition;
+        @media screen and (max-width: 1150px) {
+            top:8.5em;
+        }
+        @media screen and (max-width: 1000px) and (min-height: $height-mobile-album) {
+            opacity: 0;
+            visibility: hidden;
+        }
+        &.index {
+            @media screen and (max-width: 1000px) {
+                opacity: 1 !important;
+                display: block !important;
+                visibility: visible !important;
+                //transform: translate(0, -4rem);
+            }
+        }
+        &_light {
+            @extend .hero-image__matlas-logo;
+            background: url(/img/matlas-logo-white.png) top center / contain no-repeat;
+            &:lang(en) {
+                background: url(/img/matlas-logo-white-en.png) top center / contain no-repeat;
+            }
+        }
+        &_dark {
+            @extend .hero-image__matlas-logo;
+            background: url(/img/matlas-logo-dark.png) top center / contain no-repeat;
+            &:lang(en) {
+                background: url(/img/matlas-logo-dark-en.png) top center / contain no-repeat;
+            }
+        }
+    }
+    &__title {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 19rem;
+        z-index: 1;
+        width: 1000px;
+        text-align: center;
+        transition: $opacity-transition, $transform-transition, $top-transition;
+        transform-origin: top center;
+        white-space: nowrap;
+        @media screen and (max-width: 1150px) {
+            top:16rem;
+        }
+        @media screen and (max-width: 1000px) and (min-height: $height-mobile-album) {
+            opacity: 0;
+            visibility: hidden;
+        }
+        &.index {
+            @media screen and (max-width: 1000px) {
+                opacity: 1 !important;
+                display: block !important;
+                visibility: visible !important;
+                //transform: translate(0, -4rem);
+            }
+        }
+    }
+    &__stars {
+        display: flex;
+        height: 3rem;
+        width: 10rem;
+        justify-content: space-between;
+        margin: 0 auto;
+        @media screen and (max-width: 1150px) {
+            //transform: translate(0, -3rem);
+        }
+    }
+    &__star {
+        margin-top: 1.2em;
+        width: 1.5em;
+        height: 1.5em;
+        animation-duration: 1s;
+        transition: transform .5s;
+        &:hover {
+            transform: scale(1.5);
+        }
+        &:nth-of-type(1) {
+            animation-delay: 1s;
+        }
+        &:nth-of-type(2) {
+            animation-delay: 1.2s;
+        }
+        &:nth-of-type(3) {
+            animation-delay: 1.4s;
+        }
+        &:nth-of-type(4) {
+            animation-delay: 1.6s;
+        }
+        &:nth-of-type(5) {
+            animation-delay: 1.8s;
+        }
+        &.light {
+            background: url(/img/hotelstar-light.svg) center / contain no-repeat;
+        }
+        &.dark {
+            background: url(/img/hotelstar-dark.svg) center / contain no-repeat;
+        }
+    }
+    &__photo {
+        transition: filter 1s;
+        img {
+            width: 100%;
+        }
+    }
+    ///
+    &__matlasresort {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 80% 88%, 60% 98%, 0% 80%);
+    }
+    &__hotel-four-stars {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 80% 80%, 60% 98%, 0% 50%);
+    }
+    &__golf {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 80% 98%, 65% 90%, 51% 98%, 15% 70%, 0% 80%);
+    }
+    &__commercial {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 75% 98%, 51% 85%, 25% 98%, 0% 85%);
+    }
+    ///
+    .darker {
+        filter: brightness(75%);
+        @media screen and (max-width: 1000px) {
+            filter: brightness(100%);
+        }
+        @media screen and (max-width: 1000px) and (max-height: $height-mobile-album) {
+            filter: brightness(75%);
+        }
+        &.index {
+            filter: brightness(75%);
+        }
+    }
+    .exited {
+        opacity: 0;
+        transform: scale(.95);
+    }
+}
