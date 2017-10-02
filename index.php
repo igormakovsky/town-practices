@@ -1,156 +1,312 @@
 <?php
-$year = '1985';
-$id = 'index';
-$parent = 'object';
-$title_ru = 'Матлас';
-$title_en = 'Matlas';
-$description_ru = 'Всесезонный туристско-рекреационный комплекс';
-$description_en = 'All-season tourist and recreational complex';
-$keywords_ru = 'кейвордс на русском';
-$keywords_en = 'keywords on english';
 
-require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
+$id = 'index'; // id страницы
+$parent = ''; // родительский элемент
+
+require $_SERVER['DOCUMENT_ROOT'].'/includes/vars.php';
+
+$title = $project_title;
+
+$description = 'Описание страницы'; // описание для страницы и поисковиков
+$keywords = 'стартап, школа'; // ключевые слова для поиска
+
+require $docroot.'includes/head.php';
+
 ?>
+   
+   <section class="width1000" style="height:12rem;">
+       <h1 style="margin-top:5.5rem;"><?=$project_title;?></h1>
+       <p class="small">
+           Проект создан на средства гранта президента РФ
+       </p>
+   </section>
+   
+   <section class="index_menu width1000" style="height:5rem;">
+       <ul>
+           <li>
+               <a href="#">Об авторах проекта</a>
+           </li>
+            <li>
+               <a href="#">Список всех городов</a>
+           </li>
+            <li>
+               <a href="#">Еще какие-то пункты меню</a>
+           </li>
+       </ul>
+   </section>
+   
+   <section class="width1000" style="height:15rem;">
+       <h3>Здесь большая карта</h3>
+   </section>
+    
+    <section class="index_list" style="margin-top:5rem;">
 
-    <section class="hero-image">
+        <h3>
+        Выбор практик по типу деятельности
+        </h3>
+        
+        <nav>
+            <ul>
+               <li><a class="chooser" href="#" id="choose_all">Показать все практики</a></li>
+                <li><a class="chooser" href="#" id="choose_<?=$type_1_id;?>"><?=$type_1;?></a></li>
+                <li><a class="chooser" href="#" id="choose_<?=$type_2_id;?>"><?=$type_2;?></a></li>
+                <li><a class="chooser" href="#" id="choose_<?=$type_3_id;?>"><?=$type_3;?></a></li>
+                <li><a class="chooser" href="#" id="choose_<?=$type_4_id;?>"><?=$type_4;?></a></li>
+                <li><a class="chooser" href="#" id="choose_<?=$type_5_id;?>"><?=$type_5;?></a></li>
+                <li><a class="chooser" href="#" id="choose_<?=$type_6_id;?>"><?=$type_6;?></a></li>
+                <li><a class="chooser" href="#" id="choose_<?=$type_7_id;?>"><?=$type_7;?></a></li>
+            </ul>
+        </nav>
 
-        <div id="language-switch" class="hero-image__language-switch">
-            <form action="/includes/switch_languages.php" method="post" id="switch-lang-form">
-                <input type="hidden" name="lang" value="<?=!ru()?'ru':'en'?>">
-                <a href="#" id="switch-lang">
-                    <span lang="ru">english<br>version</span>
-                    <span lang="en">русская<br>версия</span>
-                </a>
-            </form>
+        <div class="list-container">
+            <div class="list_card <?=$practice_1_id;?> <?=$practice_1_types;?>">
+            
+                <p>
+                    <a href="/practices/<?=$practice_1_id;?>/">
+                        <?=$practice_1;?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?=$practice_2_id;?> <?=$practice_2_types;?>">
+            
+                <p>
+                    <a href="/practices/<?=$practice_2_id;?>/">
+                        <?=$practice_2;?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?=$practice_3_id;?> <?=$practice_3_types;?>">
+            
+                <p>
+                    <a href="/practices/<?=$practice_3_id;?>/">
+                        <?=$practice_3;?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?=$practice_4_id;?> <?=$practice_4_types;?>">
+            
+                <p>
+                    <a href="/practices/<?=$practice_4_id;?>/">
+                        <?=$practice_4;?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?=$practice_5_id;?> <?=$practice_5_types;?>">
+            
+                <p>
+                    <a href="/practices/<?=$practice_5_id;?>/">
+                        <?=$practice_5;?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?=$practice_6_id;?> <?=$practice_6_types;?>">
+            
+                <p>
+                    <a href="/practices/<?=$practice_6_id;?>/">
+                        <?=$practice_6;?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?=$practice_7_id;?> <?=$practice_7_types;?>">
+            
+                <p>
+                    <a href="/practices/<?=$practice_7_id;?>/">
+                        <?=$practice_7;?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?=$practice_8_id;?> <?=$practice_8_types;?>">
+            
+                <p>
+                    <a href="/practices/<?=$practice_8_id;?>/">
+                        <?=$practice_8;?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?=$practice_9_id;?> <?=$practice_9_types;?>">
+            
+                <p>
+                    <a href="/practices/<?=$practice_9_id;?>/">
+                        <?=$practice_9;?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?=$practice_10_id;?> <?=$practice_10_types;?>">
+            
+                <p>
+                    <a href="/practices/<?=$practice_10_id;?>/">
+                        <?=$practice_10;?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?=$practice_11_id;?> <?=$practice_11_types;?>">
+            
+                <p>
+                    <a href="/practices/<?=$practice_11_id;?>/">
+                        <?=$practice_11;?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?=$practice_12_id;?> <?=$practice_12_types;?>">
+            
+                <p>
+                    <a href="/practices/<?=$practice_12_id;?>/">
+                        <?=$practice_12;?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?=$practice_13_id;?> <?=$practice_13_types;?>">
+            
+                <p>
+                    <a href="/practices/<?=$practice_13_id;?>/">
+                        <?=$practice_13;?>
+                    </a>
+                </p>
+            
+            </div>
         </div>
 
-        <div id="logo" class="hero-image__matlas-logo_light exited index"></div>
+    </section>
 
+    <!-- <section class="hero-image">
+    
+        <div id="logo" class="hero-image__matlas-logo_light exited index"></div>
+    
         <div id="title" class="hero-image__title exited index">
             <h1>
                 <span lang="ru">Всесезонный<br>туристско-рекреационный<br>комплекс</span>
-                <span lang="en">All-season<br>tourist and recreational<br>complex</span>
             </h1>
         </div>
-
+    
         <div id="hero-image" class="hero-image__photo hero-image__matlasresort index darker">
             <img style="width:100%;" src="img/hero-image.jpg" srcset="img/hero-image@2x.jpg 2x">
         </div>
-
+    
         <div class="hero-content__poetic" style="margin-top:0rem;">
-
+    
             <div class="hero-content__poetic_poem" lang="ru">
                 <p>О, родина,
                     <br>Под гром твоих колоколов
                     <br>Твое я славлю имя.
                     <br>И нет на свете слаще слов,
                     <br>И звука нет любимей</p>
-
+    
                 <div class="hero-content__poetic_author">
                     <p>Расул Гамзатов</p>
                 </div>
-
+    
             </div>
-
-            <div class="hero-content__poetic_poem" lang="en">
-                <p>
-                    Oh the motherland...
-                    <br>Under the thunder of your bells
-                    <br>I praise your name.
-                    <br>And there is no a sweeter words,
-                    <br>And there is no a sound loved</p>
-
-                <div class="hero-content__poetic_author">
-                    <p>Rasul Gamzatov</p>
-                </div>
-            </div>
-
+    
         </div>
-
-        <!-- -->
-
+    
+        
+    
         <div class="hero-content__intermediate" style="margin:0 auto;">
-
+    
             <div class="hero-content__intermediate_map-main">
                 <img src="img/wireframe-map.jpg" srcset="img/wireframe-map@2x.jpg 2x">
-
+    
                 <div class="dot align-left" data-tooltip="Гостиничный комплекс 5*" data-tooltip-en="Hotel complex&nbsp;5*" style="left:23.5%; top:31%;">
                     <a href="#li-1"><span class="dot__number">1</span></a>
                 </div>
-
+    
                 <div class="dot align-right" data-tooltip="Гостиничный комплекс 4*" data-tooltip-en="Hotel complex 4*" style="left:45.9%; top:49%;">
                     <a href="#li-2"><span class="dot__number">2</span></a>
                 </div>
-
+    
                 <div class="dot align-left" data-tooltip="Апартотель" data-tooltip-en="Aparthotel" style="right:28%; top:55%;">
                     <a href="#li-3"><span class="dot__number">3</span></a>
                 </div>
-
+    
                 <div class="dot align-left" data-tooltip="Виллы" data-tooltip-en="Villas" style="left:7%; top:50%;">
                     <a href="#li-4"><span class="dot__number">4</span></a>
                 </div>
-
+    
                 <div class="dot align-right" data-tooltip="Коттеджи" data-tooltip-en="Cottages" style="left:36%; top:17%;">
                     <a href="#li-4"><span class="dot__number">4</span></a>
                 </div>
-
+    
                 <div class="dot align-left" data-tooltip="Бальнеология" data-tooltip-en="Balneology" style="right:36%; top:43%;">
                     <a href="#li-5"><span class="dot__number">5</span></a>
                 </div>
-
+    
                 <div class="dot align-right" data-tooltip="Гольф клуб" data-tooltip-en="Golf club" style="right:4%; top:71%;">
                     <a href="#li-6"><span class="dot__number">6</span></a>
                 </div>
-
+    
                 <div class="dot align-right" data-tooltip="Конно-спортивный клуб" data-tooltip-en="Equestrian club" style="right:10%; top:84%;">
                     <a href="#li-7"><span class="dot__number">7</span></a>
                 </div>
-
+    
                 <div class="dot align-right" data-tooltip="Детский инновационный центр" data-tooltip-en="Children's innovative center" style="right:38%; top:54%; z-index:101;">
                     <a href="#li-8"><span class="dot__number">8</span></a>
                 </div>
-
+    
                 <div class="dot align-right" data-tooltip="Спортивный комплекс" data-tooltip-en="Activity center" style="right:40%; top:60%; z-index:100;">
                     <a href="#li-9"><span class="dot__number">9</span></a>
                 </div>
-
+    
                 <div class="dot align-right" data-tooltip="Горнолыжный комплекс" data-tooltip-en="Ski resort" style="right:45%; top:71%;">
                     <a href="#li-10"><span class="dot__number">10</span></a>
                 </div>
-
+    
                 <div class="dot align-right" data-tooltip="Ресторан" data-tooltip-en="Restaurant" style="left:34.5%; top:5.5%;">
                     <a href="#li-11"><span class="dot__number">11</span></a>
                 </div>
-
+    
                 <div class="dot align-right" data-tooltip="Мечеть" data-tooltip-en="Mosque" style="left:28.5%; top:44.5%;">
                     <a href="#li-12"><span class="dot__number">12</span></a>
                 </div>
-
+    
                 <div class="dot align-right" data-tooltip="Православная часовня" data-tooltip-en="Orthodox chapel" style="right:39%; top:30%;">
                     <a href="#li-13"><span class="dot__number">13</span></a>
                 </div>
-
+    
                 <div class="dot align-left" data-tooltip="Вертолетная площадка" data-tooltip-en="Helicopter pad" style="left:8.5%; top:83%;">
                     <a href="#li-14"><span class="dot__number">14</span></a>
                 </div>
-
+    
                 <div class="dot align-left" data-tooltip="Парковки" data-tooltip-en="Parking lots" style="right:32%; top:63%;">
                     <a href="#li-15"><span class="dot__number">15</span></a>
                 </div>
-
+    
             </div>
-
+    
         </div>
-
+    
         <div class="hero-content__title" style="margin:7rem auto 4rem;">
             <h2 lang="ru">Всесезонный курорт «Матлас»</h2>
             <h3 lang="ru">Основные характеристики объектов курорта</h3>
             <h2 lang="en">All-season resort “Matlas”</h2>
             <h3 lang="en">Main characteristics of the resort facilities</h3>
         </div>
-
+    
         <div class="hero-content__table">
-
+    
             <table class="hero-content__table main">
                 <tr lang="ru">
                     <th></th>
@@ -404,29 +560,29 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
                     <td>47&nbsp;500</td>
                     <td>57&nbsp;300</td>
                 </tr>
-
+    
             </table>
-
+    
         </div>
-
+    
         <div class="hero-content__title" style="margin:7rem auto 4rem;">
             <h3 lang="ru">Главным преимуществом курорта Матлас является<br>его всесезонность и высочайшие стандарты сервиса</h3>
             <h3 lang="en">The main benefit of&nbsp;the&nbsp;Matlas Resort is that it&nbsp;is&nbsp;<span class="nobr">all-season</span> and offers an&nbsp;exemplary standard service</h3>
         </div>
-
-        <!-- caucasus-map -->
-
+    
+        caucasus-map
+    
         <div class="hero-content__intermediate">
-
+    
             <div class="hero-content__intermediate_caucasus-map">
                 <img lang="ru" src="img/caucasus-map-ru.jpg" srcset="img/caucasus-map-ru@2x.jpg 2x">
                 <img lang="en" src="img/caucasus-map-en.jpg" srcset="img/caucasus-map-en@2x.jpg 2x">
             </div>
-
+    
         </div>
-
+    
         <div class="hero-content__description">
-
+    
             <p>
                 <span lang="ru">В окрестностях курорта находится <strong>более 150 памятников</strong> истории и культуры, а также большое количество уникальных природных достопримечательностей</span>
                 <span lang="en">There are <strong>more than 150 historical and cultural monuments</strong> in the vicinity of the resort, as well as&nbsp;a&nbsp;large number of&nbsp;unique natural attractions.</span>
@@ -435,12 +591,12 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
                 <span lang="ru">Хунзахский район — один из древнейших центров Дагестана. Хунзаху <strong>— более 2400 лет</strong></span>
                 <span lang="en">The Khunzakh region is&nbsp;one of&nbsp;the&nbsp;oldest centers of&nbsp;Dagestan. Khunzakh is&nbsp;<strong>more than 2,400 years</strong> old</span>
             </p>
-
+    
         </div>
-
+    
         <div class="hero-content__list">
             <ul>
-
+    
                 <li>
                     <span lang="ru">Курорт «Матлас» располагается на&nbsp;высокогорном Хунзахского плато на высоте <strong>1&nbsp;800&nbsp;метров</strong> над уровнем моря, <strong>в&nbsp;140&nbsp;километрах</strong> от Махачкалы.</span>
                     <span lang="en">The Matlas resort is&nbsp;located on&nbsp;the highlands of&nbsp;the Khunzakh plateau <strong>at&nbsp;1,800 meters</strong> above sea level and <strong>140 kilometers</strong> from Makhachkala</span>
@@ -453,24 +609,24 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
                     <span lang="ru">Такие факторы как наличие территорий для&nbsp;развития, идеальный горный рельеф, мягкие климатические условия, расположение в&nbsp;регионе, хорошо обеспеченном трудовыми ресурсами, будут способствовать успешному развитию комплекса.</span>
                     <span lang="en">The availability of&nbsp;land for development, the mountainous terrain, the mild climate, the excellent location, and the workforce will enable complex to&nbsp;grow and thrive.</span>
                 </li>
-
+    
             </ul>
         </div>
-
+    
         <div class="hero-content__poetic" style="margin-top:0rem;">
-
+    
             <div class="hero-content__poetic_poem" lang="ru">
                 <p>Дагестан, все, что люди мне дали,
                     <br>Я по чести с тобой разделю,
                     <br>Я свои ордена и медали
                     <br>На вершины твои приколю</p>
-
+    
                 <div class="hero-content__poetic_author">
                     <p>Расул Гамзатов</p>
                 </div>
-
+    
             </div>
-
+    
             <div class="hero-content__poetic_poem" lang="en">
                 <p>The gifts that men on me bestow
                     <br>I share with you, my kin,
@@ -479,11 +635,15 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
                 <div class="hero-content__poetic_author">
                     <p>Rasul Gamzatov</p>
                 </div>
-
+    
             </div>
-
+    
         </div>
+    
+    </section> -->
+    
+    </article>
+</body>
+</html>
 
-    </section>
-
-    <?php require $docroot.'includes/bottom.php'; ?>
+    <?php //require $docroot.'includes/bottom.php'; ?>

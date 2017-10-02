@@ -48,13 +48,17 @@
 }
 
 .light {
-    color: white;
+    color: $light;
 }
 
 //
 p {
     font-size: 1.5rem;
     line-height: 1.5;
+    &.small {
+        font-size: .8rem;
+        opacity: .8;
+    }
 }
 
 a {
@@ -74,11 +78,12 @@ a {
 }
 
 h1 {
-    @extend .cervo;
-    @extend .light;
+    //@extend .cervo;
+    //@extend .light;
     font-size: 3rem;
     font-weight: normal;
     padding: 0;
+    margin: 0;
 }
 
 h2 {
@@ -131,8 +136,9 @@ ul {
 ol {
     text-align: left;
     list-style-position: outside;
+    width: 100%;
     li {
-        font-size: 2rem;
+        font-size: 1.5rem;
         line-height: 1.3;
         padding-bottom: 1.5rem;
     }

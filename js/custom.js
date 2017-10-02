@@ -22,6 +22,7 @@ $(function () {
             $('#line-3').toggleClass("x-mark");
             $('#header__opener').toggleClass("x-mark");
         });
+
     $(document).on('click', '.page-moved',
         function (e) {
             e.preventDefault();
@@ -32,12 +33,85 @@ $(function () {
             $('#line-2').toggleClass("x-mark");
             $('#line-3').toggleClass("x-mark");
             $('#header__opener').toggleClass("x-mark");
-        
+
+        });
+
+    /// index
+
+    $(document).on('click', '#choose_all',
+        function (e) {
+            e.preventDefault();
+            $('.list_card').removeClass("hide");
+            $('.chooser').removeClass("activated");
+            $(this).addClass("activated");
+        });
+
+    $(document).on('click', '#choose_business',
+        function (e) {
+            e.preventDefault();
+            $('.list_card').addClass("hide");
+            $('.business').removeClass("hide");
+            $('.chooser').removeClass("activated");
+            $(this).addClass("activated");
+        });
+
+    $(document).on('click', '#choose_social',
+        function (e) {
+            e.preventDefault();
+            $('.list_card').addClass("hide");
+            $('.social').removeClass("hide");
+            $('.chooser').removeClass("activated");
+            $(this).addClass("activated");
+        });
+
+    $(document).on('click', '#choose_education',
+        function (e) {
+            e.preventDefault();
+            $('.list_card').addClass("hide");
+            $('.education').removeClass("hide");
+            $('.chooser').removeClass("activated");
+            $(this).addClass("activated");
+        });
+
+    $(document).on('click', '#choose_events',
+        function (e) {
+            e.preventDefault();
+            $('.list_card').addClass("hide");
+            $('.events').removeClass("hide");
+            $('.chooser').removeClass("activated");
+            $(this).addClass("activated");
+        });
+
+    $(document).on('click', '#choose_gastronomy',
+        function (e) {
+            e.preventDefault();
+            $('.list_card').addClass("hide");
+            $('.gastronomy').removeClass("hide");
+            $('.chooser').removeClass("activated");
+            $(this).addClass("activated");
+        });
+
+    $(document).on('click', '#choose_tourism',
+        function (e) {
+            e.preventDefault();
+            $('.list_card').addClass("hide");
+            $('.tourism').removeClass("hide");
+            $('.chooser').removeClass("activated");
+            $(this).addClass("activated");
+        });
+
+    $(document).on('click', '#choose_culture',
+        function (e) {
+            e.preventDefault();
+            $('.list_card').addClass("hide");
+            $('.culture').removeClass("hide");
+            $('.chooser').removeClass("activated");
+            $(this).addClass("activated");
         });
 
     /// hero-image
 
-    $('#logo').removeClass('exited');
+    /*$('#logo').removeClass('exited');
     $('#title').removeClass('exited');
 
     var wpLogo = new Waypoint({
@@ -49,13 +123,14 @@ $(function () {
             $('#hero-content').toggleClass("show")
         },
         offset: 110
-    })
+    })*/
 
     /// hero-content
 
     $('#carousel').slick({
         prevArrow: $("#btn-left"),
-        nextArrow: $("#btn-right")
+        nextArrow: $("#btn-right"),
+        adaptiveHeight: true
     });
 
     $('h4').parent('li').addClass('no-before');
@@ -76,13 +151,3 @@ $(function () {
     });
 
 });
-
-$(document).ready(function (e) {
-    // Switch languages
-    $(document).on('click','#switch-lang', function (e) {
-        console.log('uuu');
-        e.preventDefault();
-        $('#switch-lang-form').submit();
-        return false;
-    })
-})

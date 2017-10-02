@@ -3,7 +3,7 @@ $black: #393836;
 $dark-blue: #354452;
 $light-blue: #6895ab;
 $brown: #7b6059;
-$light: rgb(249, 249, 249);
+$light: rgb(242, 238, 238);
 // fonts
 $font-regular: 'Graphik Regular',
 helvetica neue,
@@ -37,7 +37,7 @@ html {
 //
 body {
     font-family: $font-regular;
-    min-width: 1000px;
+    min-width: 320px;
     min-height: 100%;
     font-size: 1em;
     width: 100%;
@@ -57,8 +57,7 @@ article {
 section {
     margin: 0 auto;
     position: relative;
-    //width: 1000px;
-    min-width: 1000px;
+    min-width: inherit;
 }
 
 ///

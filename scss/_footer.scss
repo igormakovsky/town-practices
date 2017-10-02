@@ -3,6 +3,40 @@
     @extend section;
     width: 90%;
     max-width: 1350px;
+    .expert-container {
+        display: flex;
+        justify-content: space-around;
+        .expert {
+            width: 33%;
+            padding-right: 1rem;
+            p {
+                font-size: .75rem;
+                &.review {
+                    font-size: 1rem;
+                    &:before {
+                        content: '«';
+                    }
+                    &:after {
+                        content: '»';
+                    }
+                }
+            }
+            .expert-face {
+                img {
+                    border-radius: 50%;
+                    width: 100px;
+                }
+            }
+        }
+    }
+    .f-town {
+        &.active {
+            pointer-events: none;
+            display: none;
+        }
+    }
+
+
     &__menu {
         border-top: dotted 1px lighten($dark-blue, 50%);
         margin-top: 10em;
@@ -140,8 +174,7 @@
         transition: height 1s;
         overflow: hidden;
         border-top: dotted 1px lighten($dark-blue, 50%);
-        position: relative;
-        //background-clip: border-box;
+        position: relative; //background-clip: border-box;
         transform: translate(0, 1px);
         &.show {
             height: 560px;
@@ -164,8 +197,7 @@
         &_primary {
             position: relative;
             margin: 1.5em 0;
-            height: 35rem;
-            //height: 75rem;
+            height: 35rem; //height: 75rem;
             .first-column {
                 position: absolute;
                 display: flex;
@@ -198,8 +230,7 @@
             .partner {
                 position: relative;
                 width: 10rem;
-                min-height: 7rem;
-                //background-color: lightgrey;
+                min-height: 7rem; //background-color: lightgrey;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;

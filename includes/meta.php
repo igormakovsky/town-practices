@@ -22,8 +22,8 @@
 <meta property="og:image" content="<?=$headimage; ?>" />
 <meta property="og:description" content="<?=$description; ?>" />
 <meta property="og:site_name" content="<?=$author; ?>" />
-<meta property="article:author" content="https://www.facebook.com/igor.makovsky" />
-<meta property="article:publisher" content="https://www.facebook.com/igor.makovsky" />
+<meta property="article:author" content="https://www.facebook.com/natalia.ribalchenko" />
+<meta property="article:publisher" content="https://www.facebook.com/natalia.ribalchenko" />
 
 <!-- Social: Google+ / Schema.org  -->
 <link rel="author" href="https://plus.google.com/+ИгорьМаковский/" />
@@ -32,3 +32,7 @@
 <meta itemprop="name" content="<?=$title;?>" />
 <meta itemprop="description" content="<?=$description; ?>" />
 <meta itemprop="image" content="<?=$headimage; ?>" />
+
+<!-- Application -->
+<meta name="apple-mobile-web-app-title" content="<?=$project_title;?>">
+<meta name="application-name" content="<?=$project_title;?>">

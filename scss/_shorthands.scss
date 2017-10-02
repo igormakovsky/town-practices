@@ -711,3 +711,12 @@
 .no-border {
     border: 0px;
 }
+
+.active {
+    text-decoration: none;
+    pointer-events: none;
+    opacity: .5;
+    a {
+        border-bottom: 0px solid #7891a8;
+    }
+}

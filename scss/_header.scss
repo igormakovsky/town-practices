@@ -73,7 +73,8 @@ $max-height: 520px;
         }
         .logo {
             @extend .relate;
-            width: auto;
+            width: 70%;
+            margin: 0 auto;
             height: 8.5rem;
             padding: 0;
             border-bottom: dotted 1px rgba(255, 255, 255, 0.21);

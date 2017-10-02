@@ -1,3 +1,133 @@
+.practice-content {
+    width: 70vw;
+    margin: 5rem auto 0;
+    h1 {
+        margin-top: 0;
+    }
+    p {
+        margin-top: 0;
+        &.small {
+            margin-top: 2.5rem;
+        }
+    }
+    .video {
+        text-align: center;
+        width: 800px;
+        margin: 5rem auto 6.5rem;
+    }
+    &__carousel {
+        height: auto;
+        width: 1000px;
+        position: relative;
+        margin: 6em auto 0; //overflow: hidden;
+        .photos {
+            height: inherit;
+            width: inherit;
+            .photo {
+                outline: none;
+                img {
+                    width: 1000px; //height: 630px;
+                    margin: 0 auto;
+                }
+            }
+        }
+        .carousel-btns {
+            position: absolute;
+            width: inherit;
+            top: 17.5rem;
+            z-index: 1;
+            .btn {
+                height: 4.5em;
+                width: 4.5em;
+                position: absolute;
+                border-radius: 50%;
+                opacity: .5;
+                transition: transform .4s, opacity 1.2s, left .5s, right .5s;
+                &:hover {
+                    transform: scale(1.3);
+                    opacity: 1;
+                }
+            }
+            .btn-left {
+                left: -6rem;
+                background: url(/img/carousel-arrow-left.svg) 30% 50% / 75% 75% no-repeat, $light;
+                @extend .btn;
+                @media screen and (max-width: 1200px) {
+                    left: 2.5rem;
+                    border: solid 1px $light;
+                }
+            }
+            .btn-right {
+                right: -6rem;
+                background: url(/img/carousel-arrow-right.svg) 70% 50% / 75% 75% no-repeat, $light;
+                @extend .btn;
+                @media screen and (max-width: 1200px) {
+                    right: 2.5rem;
+                    border: solid 1px $light;
+                }
+            }
+        }
+    }
+}
+
+.index {
+    &_menu {
+        ul {
+            li {
+                font-size: 1.3rem;
+                float: left;
+                margin-right: 2rem;
+                padding-right: 2rem;
+                &:before {
+                    content: '';
+                }
+            }
+        }
+    }
+    &_list {
+        width: 1000px;
+        height: 100rem;
+        nav {
+            float: left;
+            margin-right: 1.5rem;
+            ul {
+                margin-left: 0;
+                padding-left: 0;
+                li {
+                    font-size: 1rem;
+                    line-height: .5rem;
+                    margin-left: 0;
+                    padding-left: 1rem;
+                    &:before {
+                        content: '';
+                    }
+                    a {
+                        &.chooser {}
+                        &.activated {
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }
+        .list-container {
+            float: left;
+            .list_card {
+                transition: all .5s;
+                opacity: 1;
+                height: 2.5rem;
+                &.hide {
+                    opacity: .1;
+                }
+                p {
+                    margin-top:0;
+                }
+            }
+        }
+
+    }
+}
+
 .hero-content {
     margin-top: 5rem;
     &__matlas-logo {
@@ -182,7 +312,7 @@
                         font-size: 2.5rem;
                     }
                 }
-                &>td {
+                & > td {
                     &:first-child {
                         border-left: none;
                     }
@@ -194,16 +324,14 @@
         height: auto;
         width: 1000px;
         position: relative;
-        margin: 6em auto 0;
-        //overflow: hidden;
+        margin: 6em auto 0; //overflow: hidden;
         .photos {
             height: inherit;
             width: inherit;
             .photo {
                 outline: none;
                 img {
-                    width: 1000px;
-                    //height: 630px;
+                    width: 1000px; //height: 630px;
                     margin: 0 auto;
                 }
             }
@@ -251,8 +379,7 @@
         min-width: 1000px;
         img {
             width: 100%;
-        }
-        // farm
+        } // farm
         &_area {
             clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 0% 98%);
         }
@@ -267,12 +394,10 @@
         }
         &_farm-3 {
             clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 70% 98%, 0% 80%);
-        }
-        // stronghold
+        } // stronghold
         &_stronghold {
             clip-path: polygon(0% 0%, 100% 0%, 100% 65%, 80% 98%, 60% 80%, 0% 98%);
-        }
-        // airport
+        } // airport
         &_map-global {
             clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 81.5% 88%, 68% 98%, 15% 70%, 0% 80%);
         }
@@ -362,8 +487,7 @@
                     transform: scale(.8);
                 }
             }
-        }
-        ///
+        } ///
         &_map-main {
             clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 50% 90%, 0% 98%);
             position: relative;

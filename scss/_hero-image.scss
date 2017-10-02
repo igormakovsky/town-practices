@@ -2,6 +2,45 @@ $opacity-transition: opacity 1s;
 $transform-transition: transform 1.5s;
 $top-transition: top .3s;
 $height-mobile-album: 650px;
+
+.practice-hero {
+    width: 100vw;
+    .heroimage {
+        width: inherit;
+        img {
+            width: 100%;
+        }
+    }
+    &__title {
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 15rem;
+        z-index: 1;
+        width: 500px;
+        text-align: center;
+        transition: $opacity-transition, $transform-transition, $top-transition;
+        transform-origin: top center;
+        @extend .bold;
+        @extend .light;
+        @media screen and (max-width: 1150px) {
+            top:16rem;
+        }
+        @media screen and (max-width: 1000px) and (min-height: $height-mobile-album) {
+            opacity: 0;
+            visibility: hidden;
+        }
+        &.index {
+            @media screen and (max-width: 1000px) {
+                opacity: 1 !important;
+                display: block !important;
+                visibility: visible !important; //transform: translate(0, -4rem);
+            }
+        }
+    }
+}
+
 .hero-image {
     width: 100vw;
     &__language-switch {
@@ -37,8 +76,7 @@ $height-mobile-album: 650px;
             @media screen and (max-width: 1000px) {
                 opacity: 1 !important;
                 display: block !important;
-                visibility: visible !important;
-                //transform: translate(0, -4rem);
+                visibility: visible !important; //transform: translate(0, -4rem);
             }
         }
         &_light {
@@ -80,8 +118,7 @@ $height-mobile-album: 650px;
             @media screen and (max-width: 1000px) {
                 opacity: 1 !important;
                 display: block !important;
-                visibility: visible !important;
-                //transform: translate(0, -4rem);
+                visibility: visible !important; //transform: translate(0, -4rem);
             }
         }
     }
@@ -131,8 +168,7 @@ $height-mobile-album: 650px;
         img {
             width: 100%;
         }
-    }
-    ///
+    } ///
     &__matlasresort {
         clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 80% 88%, 60% 98%, 0% 80%);
     }
@@ -144,8 +180,7 @@ $height-mobile-album: 650px;
     }
     &__commercial {
         clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 75% 98%, 51% 85%, 25% 98%, 0% 85%);
-    }
-    ///
+    } ///
     .darker {
         filter: brightness(75%);
         @media screen and (max-width: 1000px) {

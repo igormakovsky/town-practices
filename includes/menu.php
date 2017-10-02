@@ -11,84 +11,61 @@
     <nav id="header__nav" class="header__nav">
 
         <div class="logo">
-            <a lang="ru" href="/"><img src="/img/matlas-logo-white.png"></a>
-            <a lang="en" href="/"><img src="/img/matlas-logo-white-en.png"></a>
-        </div>
-
-        <div class="language">
-            <form action="/includes/switch_languages.php" method="post" id="switch-lang-form">
-                <input type="hidden" name="lang" value="<?=!ru()?'ru':'en'?>">
-                <a href="#" id="switch-lang">
-                    <?=$settolang;?>
-                </a>
-            </form>
+        <h3><a href="/"><?=$project_title;?></a></h3>
         </div>
 
         <ul>
 
-            <li class="hotel-five-stars">
-                <a lang="ru" href="/objects/hotel-five-stars/">Гостиничный комплекс 5<span class="asterisk">*</span></a>
-                <a lang="en" href="/objects/hotel-five-stars/">Hotel complex 5<span class="asterisk">*</span></a>
+            <li class="<?=$practice_1_id;?>">
+                <a href="/practices/<?=$practice_1_id;?>/"><?=$practice_1;?></a>
             </li>
 
-            <li class="hotel-four-stars">
-                <a lang="ru" href="/objects/hotel-four-stars/">Гостиничный комплекс 4<span class="asterisk">*</span></a>
-                <a lang="en" href="/objects/hotel-four-stars/">Hotel complex 4<span class="asterisk">*</span></a>
+            <li class="<?=$practice_2_id;?>">
+                <a href="/practices/<?=$practice_2_id;?>/"><?=$practice_2;?></a>
             </li>
 
-            <li class="villas-and-cottages">
-                <a lang="ru" href="/objects/villas-and-cottages/">Виллы и коттеджи</a>
-                <a lang="en" href="/objects/villas-and-cottages/">Villas and cottages</a>
+            <li class="<?=$practice_3_id;?>">
+                <a href="/practices/<?=$practice_3_id;?>/"><?=$practice_3;?></a>
             </li>
 
-            <li class="balneology">
-                <a lang="ru" href="/objects/balneology/">Бальнеология</a>
-                <a lang="en" href="/objects/balneology/">Balneology</a>
+            <li class="<?=$practice_4_id;?>">
+                <a href="/practices/<?=$practice_4_id;?>/"><?=$practice_4;?></a>
             </li>
 
-            <li class="spa-and-detox">
-                <a lang="ru" href="/objects/spa-and-detox/">СПА и Детокс</a>
-                <a lang="en" href="/objects/spa-and-detox/">SPA and Detox</a>
+            <li class="<?=$practice_5_id;?>">
+                <a href="/practices/<?=$practice_5_id;?>/"><?=$practice_5;?></a>
             </li>
 
-            <li class="sport">
-                <a lang="ru" href="/objects/sport/">Активные виды отдыха</a>
-                <a lang="en" href="/objects/sport/">Recreational activities</a>
+            <li class="<?=$practice_6_id;?>">
+                <a href="/practices/<?=$practice_6_id;?>/"><?=$practice_6;?></a>
             </li>
 
-            <li class="golf">
-                <a lang="ru" href="/objects/golf/">Гольф</a>
-                <a lang="en" href="/objects/golf/">Golf</a>
+            <li class="<?=$practice_7_id;?>">
+                <a href="/practices/<?=$practice_7_id;?>/"><?=$practice_7;?></a>
             </li>
 
-            <li class="horse-club">
-                <a lang="ru" href="/objects/horse-club/">Конно-спортивный клуб</a>
-                <a lang="en" href="/objects/horse-club/">Equestrian club</a>
+            <li class="<?=$practice_8_id;?>">
+                <a href="/practices/<?=$practice_8_id;?>/"><?=$practice_8;?></a>
             </li>
 
-            <li class="ski">
-                <a lang="ru" href="/objects/ski/">Горнолыжный комплекс</a>
-                <a lang="en" href="/objects/ski/">Ski resort</a>
+            <li class="<?=$practice_9_id;?>">
+                <a href="/practices/<?=$practice_9_id;?>/"><?=$practice_9;?></a>
             </li>
 
-            <li class="commercial">
-                <a lang="ru" href="/objects/commercial/">Коммерческие площади</a>
-                <a lang="en" href="/objects/commercial/">Commercial spaces</a>
+            <li class="<?=$practice_10_id;?>">
+                <a href="/practices/<?=$practice_10_id;?>/"><?=$practice_10;?></a>
             </li>
 
-            <li class="farm">
-                <a lang="ru" href="/objects/farm/">Ферма</a>
-                <a lang="en" href="/objects/farm/">Farm</a>
+            <li class="<?=$practice_11_id;?>">
+                <a href="/practices/<?=$practice_11_id;?>/"><?=$practice_11;?></a>
             </li>
 
-            <li class="stronghold">
-                <a lang="ru" href="/objects/stronghold/">Хунзахская крепость</a>
-                <a lang="en" href="/objects/stronghold/">Khunzakh fortress</a>
+            <li class="<?=$practice_12_id;?>">
+                <a href="/practices/<?=$practice_12_id;?>/"><?=$practice_12;?></a>
             </li>
 
-            <li class="airport">
-                <a lang="ru" href="/objects/airport/">Аэропорт</a>
-                <a lang="en" href="/objects/airport/">Airport</a>
+            <li class="<?=$practice_13_id;?>">
+                <a href="/practices/<?=$practice_13_id;?>/"><?=$practice_13;?></a>
             </li>
 
         </ul>
