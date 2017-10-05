@@ -35,8 +35,11 @@ require $docroot.'includes/head.php';
        </ul>
    </section>
    
-   <section class="width1000" style="height:15rem;">
+   <section class="width1000" style="height:25rem;">
        <h3>Здесь большая карта</h3>
+       <div id="mapid" style="height: 100%">
+       
+       </div>
    </section>
     
     <section class="index_list" style="margin-top:5rem;">
@@ -643,6 +646,9 @@ require $docroot.'includes/head.php';
     </section> -->
     
     </article>
+
+    <script><? require $docroot . '/js/objects.js';?></script>
+    <?require $docroot.'includes/leaflet_js.php';?>
 </body>
 </html>
 

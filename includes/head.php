@@ -15,6 +15,8 @@ require $docroot.'includes/top.php';
 require $docroot.'includes/meta.php';
 require $docroot.'includes/favicon.php';
 require $docroot.'includes/scripts.php';
+require $docroot.'includes/leaflet_css.php';
+
 require $docroot.'includes/styles.php';
 ?>
 
