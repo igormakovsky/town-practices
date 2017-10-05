@@ -55,6 +55,7 @@ var allobjects = L.geoJson(data,
 		}
 	})
 markerClusters.addLayer(allobjects)
+mymap.addLayer( markerClusters );
 var buisness = L.geoJson(data, {
 	filter: function (feature, layer) {
 		return (feature.properties.types.indexOf('buisness') >= 0)
