@@ -35,14 +35,26 @@ var i =0;
 objects.forEach(function (obj, i, arr) {
 	L.marker([obj.lat, obj.long],{icon: mainMarkerIcon}).bindPopup(obj.name + "<br><a href='"+obj.url+"'>подробнее</a>").addTo(mymap)
 })*/
-var mapLayer = mapboxLayer; // osmLayer или mapboxLayer
-mymap.addLayer(mapLayer);
+var mapLayer = mapboxLayer // можно выбрать карту osmLayer или mapboxLayer
+
+var Maps = {
+	'OSM': osmLayer,
+	'MapBox': mapboxLayer
+}
+L.control.layers(Maps, null, {
+	collapsed: false
+}).addTo(mymap)
+
+var markerClusters = L.markerClusterGroup()
+
+mymap.addLayer(mapLayer)
 var allobjects = L.geoJson(data,
 	{
 		pointToLayer: function (feature, latlng) {
 			return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name).openPopup()
 		}
 	})
+markerClusters.addLayer(allobjects)
 var buisness = L.geoJson(data, {
 	filter: function (feature, layer) {
 		return (feature.properties.types.indexOf('buisness') >= 0)
@@ -153,11 +165,12 @@ $('#choose_culture').click(function () {
 })
 
 function removeAllLayers (mymap) {
-	mymap.eachLayer(function (layer) {
-		if (layer !== mapLayer) {
-			mymap.removeLayer(layer)
-		}
-	})
+			mymap.removeLayer(buisness)
+			mymap.removeLayer(social)
+			mymap.removeLayer(education)
+			mymap.removeLayer(events)
+			mymap.removeLayer(gastronomy)
+			mymap.removeLayer(culture)
 }
 
 function addAllLayers (map) {

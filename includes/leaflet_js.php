@@ -6,4 +6,5 @@
      * Time: 19:29
      */?>
 <script src="/js/leaflet.js"></script>
+<script src="/js/leaflet.markercluster.js"></script>
 <script src="/js/leaflet-settings.js"></script>
