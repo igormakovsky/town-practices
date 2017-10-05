@@ -44,18 +44,14 @@ var Maps = {
 L.control.layers(Maps, null, {
 	collapsed: false
 }).addTo(mymap)
-
-var markerClusters = L.markerClusterGroup()
-
 mymap.addLayer(mapLayer)
+
 var allobjects = L.geoJson(data,
 	{
 		pointToLayer: function (feature, latlng) {
 			return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name).openPopup()
 		}
 	})
-markerClusters.addLayer(allobjects)
-mymap.addLayer( markerClusters );
 var buisness = L.geoJson(data, {
 	filter: function (feature, layer) {
 		return (feature.properties.types.indexOf('buisness') >= 0)
@@ -112,66 +108,93 @@ var culture = L.geoJson(data, {
 		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name)
 	}
 })
-mymap.fitBounds(allobjects.getBounds(), {
+var allobjectsClusters = L.markerClusterGroup()
+allobjectsClusters.addLayer(allobjects)
+mymap.addLayer(allobjectsClusters)
+mymap.fitBounds(allobjectsClusters.getBounds(), {
 	padding: [50, 50]
 })
-buisness.addTo(mymap)
-social.addTo(mymap)
-education.addTo(mymap)
-events.addTo(mymap)
-gastronomy.addTo(mymap)
-tourism.addTo(mymap)
-culture.addTo(mymap)
+
+
+
+var buisnessClusters = L.markerClusterGroup()
+buisnessClusters.addLayer(buisness)
+mymap.addLayer(buisnessClusters)
+
+var socialClusters = L.markerClusterGroup()
+socialClusters.addLayer(social)
+mymap.addLayer(socialClusters)
+
+var educationClusters = L.markerClusterGroup()
+educationClusters.addLayer(education)
+mymap.addLayer(educationClusters)
+
+var eventsClusters = L.markerClusterGroup()
+eventsClusters.addLayer(events)
+mymap.addLayer(eventsClusters)
+
+var gastronomyClusters = L.markerClusterGroup()
+gastronomyClusters.addLayer(gastronomy)
+mymap.addLayer(gastronomyClusters)
+
+var tourismClusters = L.markerClusterGroup()
+tourismClusters.addLayer(tourism)
+mymap.addLayer(tourismClusters)
+
+var cultureClusters = L.markerClusterGroup()
+cultureClusters.addLayer(culture)
+mymap.addLayer(cultureClusters)
 
 $('#choose_all').click(function () {
 	removeAllLayers(mymap)
-	addAllLayers(mymap)
 	mymap.addLayer(allobjects)
 	mymap.fitBounds(allobjects.getBounds(), {padding: [50, 50]})
 })
 $('#choose_business').click(function () {
 	removeAllLayers(mymap)
-	mymap.addLayer(buisness)
-	mymap.fitBounds(buisness.getBounds(), {padding: [50, 50]})
+	mymap.addLayer(buisnessClusters)
+	mymap.fitBounds(buisnessClusters.getBounds(), {padding: [50, 50]})
 })
 $('#choose_social').click(function () {
 	removeAllLayers(mymap)
-	mymap.addLayer(social)
-	mymap.fitBounds(social.getBounds(), {padding: [50, 50]})
+	mymap.addLayer(socialClusters)
+	mymap.fitBounds(socialClusters.getBounds(), {padding: [50, 50]})
 })
 $('#choose_education').click(function () {
 	removeAllLayers(mymap)
-	mymap.addLayer(education)
-	mymap.fitBounds(education.getBounds(), {padding: [50, 50]})
+	mymap.addLayer(educationClusters)
+	mymap.fitBounds(educationClusters.getBounds(), {padding: [50, 50]})
 })
 $('#choose_events').click(function () {
 	removeAllLayers(mymap)
-	mymap.addLayer(events)
-	mymap.fitBounds(events.getBounds(), {padding: [50, 50]})
+	mymap.addLayer(eventsClusters)
+	mymap.fitBounds(eventsClusters.getBounds(), {padding: [50, 50]})
 })
 $('#choose_gastronomy').click(function () {
 	removeAllLayers(mymap)
-	mymap.addLayer(gastronomy)
-	mymap.fitBounds(gastronomy.getBounds(), {padding: [50, 50]})
+	mymap.addLayer(gastronomyClusters)
+	mymap.fitBounds(gastronomyClusters.getBounds(), {padding: [50, 50]})
 })
 $('#choose_tourism').click(function () {
 	removeAllLayers(mymap)
-	mymap.addLayer(tourism)
-	mymap.fitBounds(tourism.getBounds(), {padding: [50, 50]})
+	mymap.addLayer(tourismClusters)
+	mymap.fitBounds(tourismClusters.getBounds(), {padding: [50, 50]})
 })
 $('#choose_culture').click(function () {
 	removeAllLayers(mymap)
-	mymap.addLayer(culture)
-	mymap.fitBounds(culture.getBounds(), {padding: [50, 50]})
+	mymap.addLayer(cultureClusters)
+	mymap.fitBounds(cultureClusters.getBounds(), {padding: [50, 50]})
 })
 
 function removeAllLayers (mymap) {
-			mymap.removeLayer(buisness)
-			mymap.removeLayer(social)
-			mymap.removeLayer(education)
-			mymap.removeLayer(events)
-			mymap.removeLayer(gastronomy)
-			mymap.removeLayer(culture)
+	mymap.removeLayer(allobjectsClusters)
+	mymap.removeLayer(buisnessClusters)
+	mymap.removeLayer(socialClusters)
+	mymap.removeLayer(educationClusters)
+	mymap.removeLayer(eventsClusters)
+	mymap.removeLayer(gastronomyClusters)
+	mymap.removeLayer(tourismClusters)
+	mymap.removeLayer(cultureClusters)
 }
 
 function addAllLayers (map) {
