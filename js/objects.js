@@ -84,6 +84,198 @@ var data = {
 				'type': 'Point',
 				'coordinates': [66.492543, 62.439401]
 			}
+		}, {
+			'type': 'Feature',
+			'properties': {
+				'Name': 'Зарайск',
+				'types': ['social'],
+				'Description': 'Inn and cocktail bar in a beautifully restored historic mansion.'
+
+			},
+			'geometry': {
+				'type': 'Point',
+				'coordinates': [76.492543, 52.439401]
+			}
+		}, {
+			'type': 'Feature',
+			'properties': {
+				'Name': 'Зарайск',
+				'types': ['social'],
+				'Description': 'Inn and cocktail bar in a beautifully restored historic mansion.'
+
+			},
+			'geometry': {
+				'type': 'Point',
+				'coordinates': [72, 48]
+			}
+		}, {
+			'type': 'Feature',
+			'properties': {
+				'Name': 'Зарайск',
+				'types': ['social'],
+				'Description': 'Inn and cocktail bar in a beautifully restored historic mansion.'
+
+			},
+			'geometry': {
+				'type': 'Point',
+				'coordinates': [70,50]
+			}
+		}, {
+			'type': 'Feature',
+			'properties': {
+				'Name': 'Зарайск',
+				'types': ['culture'],
+				'Description': 'Inn and cocktail bar in a beautifully restored historic mansion.'
+
+			},
+			'geometry': {
+				'type': 'Point',
+				'coordinates': [68, 52]
+			}
+		}, {
+			'type': 'Feature',
+			'properties': {
+				'Name': 'Зарайск',
+				'types': ['culture'],
+				'Description': 'Inn and cocktail bar in a beautifully restored historic mansion.'
+
+			},
+			'geometry': {
+				'type': 'Point',
+				'coordinates': [64,56]
+			}
+		}, {
+			'type': 'Feature',
+			'properties': {
+				'Name': 'Зарайск',
+				'types': ['social'],
+				'Description': 'Inn and cocktail bar in a beautifully restored historic mansion.'
+
+			},
+			'geometry': {
+				'type': 'Point',
+				'coordinates': [55, 58]
+			}
+		}, {
+			'type': 'Feature',
+			'properties': {
+				'Name': 'Зарайск',
+				'types': ['education'],
+				'Description': 'Inn and cocktail bar in a beautifully restored historic mansion.'
+
+			},
+			'geometry': {
+				'type': 'Point',
+				'coordinates': [68, 62.439401]
+			}
+		}, {
+			'type': 'Feature',
+			'properties': {
+				'Name': 'Зарайск',
+				'types': ['education'],
+				'Description': 'Inn and cocktail bar in a beautifully restored historic mansion.'
+
+			},
+			'geometry': {
+				'type': 'Point',
+				'coordinates': [66.492543, 62.439401]
+			}
+		}, {
+			'type': 'Feature',
+			'properties': {
+				'Name': 'Зарайск',
+				'types': ['events'],
+				'Description': 'Inn and cocktail bar in a beautifully restored historic mansion.'
+
+			},
+			'geometry': {
+				'type': 'Point',
+				'coordinates': [66.492543, 62.439401]
+			}
+		}, {
+			'type': 'Feature',
+			'properties': {
+				'Name': 'Зарайск',
+				'types': ['events'],
+				'Description': 'Inn and cocktail bar in a beautifully restored historic mansion.'
+
+			},
+			'geometry': {
+				'type': 'Point',
+				'coordinates': [66.492543, 62.439401]
+			}
+		}, {
+			'type': 'Feature',
+			'properties': {
+				'Name': 'Зарайск',
+				'types': ['social' ,'events', 'education'],
+				'Description': 'Inn and cocktail bar in a beautifully restored historic mansion.'
+
+			},
+			'geometry': {
+				'type': 'Point',
+				'coordinates': [54, 54]
+			}
+		}, {
+			'type': 'Feature',
+			'properties': {
+				'Name': 'Зарайск',
+				'types': ['social'],
+				'Description': 'Inn and cocktail bar in a beautifully restored historic mansion.'
+
+			},
+			'geometry': {
+				'type': 'Point',
+				'coordinates': [66.492543, 62.439401]
+			}
+		}, {
+			'type': 'Feature',
+			'properties': {
+				'Name': 'Зарайск',
+				'types': ['gastronomy', 'education'],
+				'Description': 'Inn and cocktail bar in a beautifully restored historic mansion.'
+
+			},
+			'geometry': {
+				'type': 'Point',
+				'coordinates': [55, 44]
+			}
+		}, {
+			'type': 'Feature',
+			'properties': {
+				'Name': 'Зарайск',
+				'types': ['education','events'],
+				'Description': 'Inn and cocktail bar in a beautifully restored historic mansion.'
+
+			},
+			'geometry': {
+				'type': 'Point',
+				'coordinates': [54, 46]
+			}
+		}, {
+			'type': 'Feature',
+			'properties': {
+				'Name': 'Зарайск',
+				'types': ['events','tourism'],
+				'Description': 'Inn and cocktail bar in a beautifully restored historic mansion.'
+
+			},
+			'geometry': {
+				'type': 'Point',
+				'coordinates': [78, 72.439401]
+			}
+		}, {
+			'type': 'Feature',
+			'properties': {
+				'Name': 'Зарайск',
+				'types': ['gastronomy', 'tourism'],
+				'Description': 'Inn and cocktail bar in a beautifully restored historic mansion.'
+
+			},
+			'geometry': {
+				'type': 'Point',
+				'coordinates': [53, 69]
+			}
 		}
 
 	]
