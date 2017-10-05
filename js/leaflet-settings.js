@@ -2,7 +2,6 @@
 var mainMarkerIcon = L.icon({
 	iconUrl: '/img/markers/marker-icon.png',
 	shadowUrl: '/img/markers/marker-shadow.png',
-
 	iconSize: [25, 41], // size of the icon
 	shadowSize: [41, 41], // size of the shadow
 	iconAnchor: [0, 0], // point of the icon which will correspond to marker's location
@@ -11,20 +10,27 @@ var mainMarkerIcon = L.icon({
 })
 
 var mymap = L.map('mapid').setView([60, 70], 4)
-
-L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-	maxZoom: 18,
-	attribution: '',
-	id: 'mapbox.streets'
-}).addTo(mymap)
-
+/*var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+var osmAttrib = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+L.tileLayer(
+	'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+	{
+		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+		subdomains: ['a', 'b', 'c']//,
+		//id: 'mapbox.streets'
+	}
+).addTo(mymap)*/
+var osmLayer = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+	subdomains: ['a', 'b', 'c']
+})
 /*var marker = L.marker([60, 70], {icon: mainMarkerIcon}).addTo(mymap);
 marker.bindPopup("<b>Hello world!</b><br><a href='http://ya.ru'>Ссылка</a> I am a popup.");
 var i =0;
 objects.forEach(function (obj, i, arr) {
 	L.marker([obj.lat, obj.long],{icon: mainMarkerIcon}).bindPopup(obj.name + "<br><a href='"+obj.url+"'>подробнее</a>").addTo(mymap)
 })*/
-
+mymap.addLayer(osmLayer)
 var allobjects = L.geoJson(data,
 	{
 		pointToLayer: function (feature, latlng) {
@@ -142,7 +148,9 @@ $('#choose_culture').click(function () {
 
 function removeAllLayers (mymap) {
 	mymap.eachLayer(function (layer) {
-		mymap.removeLayer(layer)
+		if (layer !== osmLayer) {
+			mymap.removeLayer(layer)
+		}
 	})
 }
 
