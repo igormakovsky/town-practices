@@ -10,27 +10,33 @@ var mainMarkerIcon = L.icon({
 })
 
 var mymap = L.map('mapid').setView([60, 70], 4)
-/*var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+
+/* параметры подключения OSM */
+var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 var osmAttrib = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-L.tileLayer(
-	'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-	{
-		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-		subdomains: ['a', 'b', 'c']//,
-		//id: 'mapbox.streets'
-	}
-).addTo(mymap)*/
-var osmLayer = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-	subdomains: ['a', 'b', 'c']
+
+var osmLayer = L.tileLayer(osmUrl, {
+	attribution: osmAttrib, subdomains: ['a', 'b', 'c']
 })
+/* параметры подключения MapBox */
+var mapboxUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}'
+var mapboxTokken = 'pk.eyJ1IjoicG9yY2VsYW5vc2EiLCJhIjoiY2o4ZXZqaXMyMHZmZjJ3bWphbm9hcjNyaCJ9.BjHG9NT_xFgYSRBW7aF2Aw'
+var mapboxAttrib = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>'
+var mapboxLayer = L.tileLayer(
+	mapboxUrl, {
+		attribution: mapboxAttrib,
+		maxZoom: 18,
+		id: 'mapbox.streets',
+		accessToken: mapboxTokken
+	})
 /*var marker = L.marker([60, 70], {icon: mainMarkerIcon}).addTo(mymap);
 marker.bindPopup("<b>Hello world!</b><br><a href='http://ya.ru'>Ссылка</a> I am a popup.");
 var i =0;
 objects.forEach(function (obj, i, arr) {
 	L.marker([obj.lat, obj.long],{icon: mainMarkerIcon}).bindPopup(obj.name + "<br><a href='"+obj.url+"'>подробнее</a>").addTo(mymap)
 })*/
-mymap.addLayer(osmLayer)
+var mapLayer = mapboxLayer; // osmLayer или mapboxLayer
+mymap.addLayer(mapLayer);
 var allobjects = L.geoJson(data,
 	{
 		pointToLayer: function (feature, latlng) {
@@ -148,7 +154,7 @@ $('#choose_culture').click(function () {
 
 function removeAllLayers (mymap) {
 	mymap.eachLayer(function (layer) {
-		if (layer !== osmLayer) {
+		if (layer !== mapLayer) {
 			mymap.removeLayer(layer)
 		}
 	})
