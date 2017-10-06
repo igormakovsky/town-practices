@@ -108,7 +108,7 @@ var culture = L.geoJson(data, {
 		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name)
 	}
 })
-var allobjectsClusters = L.markerClusterGroup()
+var allobjectsClusters = L.markerClusterGroup({maxClusterRadius:30})
 allobjectsClusters.addLayer(allobjects)
 mymap.addLayer(allobjectsClusters)
 mymap.fitBounds(allobjectsClusters.getBounds(), {
@@ -119,36 +119,36 @@ mymap.fitBounds(allobjectsClusters.getBounds(), {
 
 var buisnessClusters = L.markerClusterGroup()
 buisnessClusters.addLayer(buisness)
-mymap.addLayer(buisnessClusters)
+//mymap.addLayer(buisnessClusters)
 
 var socialClusters = L.markerClusterGroup()
 socialClusters.addLayer(social)
-mymap.addLayer(socialClusters)
+//mymap.addLayer(socialClusters)
 
 var educationClusters = L.markerClusterGroup()
 educationClusters.addLayer(education)
-mymap.addLayer(educationClusters)
+//mymap.addLayer(educationClusters)
 
 var eventsClusters = L.markerClusterGroup()
 eventsClusters.addLayer(events)
-mymap.addLayer(eventsClusters)
+//mymap.addLayer(eventsClusters)
 
 var gastronomyClusters = L.markerClusterGroup()
 gastronomyClusters.addLayer(gastronomy)
-mymap.addLayer(gastronomyClusters)
+//mymap.addLayer(gastronomyClusters)
 
 var tourismClusters = L.markerClusterGroup()
 tourismClusters.addLayer(tourism)
-mymap.addLayer(tourismClusters)
+//mymap.addLayer(tourismClusters)
 
 var cultureClusters = L.markerClusterGroup()
 cultureClusters.addLayer(culture)
-mymap.addLayer(cultureClusters)
+//mymap.addLayer(cultureClusters)
 
 $('#choose_all').click(function () {
 	removeAllLayers(mymap)
-	mymap.addLayer(allobjects)
-	mymap.fitBounds(allobjects.getBounds(), {padding: [50, 50]})
+	mymap.addLayer(allobjectsClusters)
+	mymap.fitBounds(allobjectsClusters.getBounds(), {padding: [50, 50]})
 })
 $('#choose_business').click(function () {
 	removeAllLayers(mymap)
