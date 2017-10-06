@@ -2761,6 +2761,16 @@
 		"oAP": "\/css\/custom.css.map",
 		"oF": 0
 		},
+	"\/css\/leaflet.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/leaflet-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/main.css": {
 		"aP": 0,
 		"bl": 0,
@@ -2776,6 +2786,26 @@
 		"oA": 2,
 		"oAP": "\/css\/main.css.map",
 		"oF": 0
+		},
+	"\/css\/MarkerCluster.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/MarkerCluster-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/MarkerCluster.Default.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/MarkerCluster.Default-ck.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/favicon.png": {
 		"ft": 32768,
@@ -3004,6 +3034,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/markers\/layers.png": {
+		"ft": 32768,
+		"iS": 696,
+		"oA": 0,
+		"oAP": "\/img\/markers\/layers.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/markers\/marker-icon.png": {
+		"ft": 32768,
+		"iS": 1466,
+		"oA": 0,
+		"oAP": "\/img\/markers\/marker-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/markers\/marker-shadow.png": {
+		"ft": 32768,
+		"iS": 618,
+		"oA": 0,
+		"oAP": "\/img\/markers\/marker-shadow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/includes\/backtocontents.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -3032,6 +3095,18 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/head.php",
+		"oF": 0
+		},
+	"\/includes\/leaflet_css.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/includes\/leaflet_css.php",
+		"oF": 0
+		},
+	"\/includes\/leaflet_js.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/includes\/leaflet_js.php",
 		"oF": 0
 		},
 	"\/includes\/menu.php": {
@@ -3122,12 +3197,42 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/js\/leaflet.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/js\/min\/leaflet-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/leaflet.markercluster.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/js\/min\/leaflet.markercluster-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/js\/min\/smoothScroller-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/js\/min\/min\/smoothScroller-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/objects.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/js\/min\/objects-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
