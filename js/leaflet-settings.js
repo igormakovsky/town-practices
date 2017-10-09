@@ -49,7 +49,7 @@ mymap.addLayer(mapLayer)
 var allobjects = L.geoJson(data,
 	{
 		pointToLayer: function (feature, latlng) {
-			return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name).openPopup()
+			return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup('<a href="/practices/'+feature.properties.id+'">'+feature.properties.name+'</a>').openPopup()
 		}
 	})
 var business = L.geoJson(data, {
@@ -57,7 +57,7 @@ var business = L.geoJson(data, {
 		return (feature.properties.types.indexOf('business') >= 0)
 	},
 	pointToLayer: function (feature, latlng) {
-		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name).openPopup()
+		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup('<a href="/practices/'+feature.properties.id+'">'+feature.properties.name+'</a>').openPopup()
 	}
 })
 var social = L.geoJson(data, {
@@ -65,7 +65,7 @@ var social = L.geoJson(data, {
 		return (feature.properties.types.indexOf('social') >= 0)
 	},
 	pointToLayer: function (feature, latlng) {
-		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name)
+		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup('<a href="/practices/'+feature.properties.id+'">'+feature.properties.name+'</a>')
 	}
 })
 var education = L.geoJson(data, {
@@ -73,7 +73,7 @@ var education = L.geoJson(data, {
 		return (feature.properties.types.indexOf('education') >= 0)
 	},
 	pointToLayer: function (feature, latlng) {
-		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name)
+		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup('<a href="/practices/'+feature.properties.id+'">'+feature.properties.name+'</a>')
 	}
 })
 var events = L.geoJson(data, {
@@ -81,7 +81,7 @@ var events = L.geoJson(data, {
 		return (feature.properties.types.indexOf('events') >= 0)
 	},
 	pointToLayer: function (feature, latlng) {
-		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name)
+		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup('<a href="/practices/'+feature.properties.id+'">'+feature.properties.name+'</a>')
 	}
 })
 var gastronomy = L.geoJson(data, {
@@ -89,7 +89,7 @@ var gastronomy = L.geoJson(data, {
 		return (feature.properties.types.indexOf('gastronomy') >= 0)
 	},
 	pointToLayer: function (feature, latlng) {
-		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name)
+		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup('<a href="/practices/'+feature.properties.id+'">'+feature.properties.name+'</a>')
 	}
 })
 var tourism = L.geoJson(data, {
@@ -97,7 +97,7 @@ var tourism = L.geoJson(data, {
 		return (feature.properties.types.indexOf('tourism') >= 0)
 	},
 	pointToLayer: function (feature, latlng) {
-		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name)
+		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup('<a href="/practices/'+feature.properties.id+'">'+feature.properties.name+'</a>')
 	}
 })
 var culture = L.geoJson(data, {
@@ -105,7 +105,7 @@ var culture = L.geoJson(data, {
 		return (feature.properties.types.indexOf('culture') >= 0)
 	},
 	pointToLayer: function (feature, latlng) {
-		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name)
+		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup('<a href="/practices/'+feature.properties.id+'">'+feature.properties.name+'</a>')
 	}
 })
 var allobjectsClusters = L.markerClusterGroup({maxClusterRadius:30})
