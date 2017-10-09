@@ -649,6 +649,7 @@ require $docroot.'includes/head.php';
 
     <script><? require $docroot . '/js/objects.js';?></script>
     <?require $docroot.'includes/leaflet_js.php';?>
+    <?require $docroot.'includes/list_js.php';?>
 </body>
 </html>
 

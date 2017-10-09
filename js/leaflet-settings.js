@@ -52,9 +52,9 @@ var allobjects = L.geoJson(data,
 			return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name).openPopup()
 		}
 	})
-var buisness = L.geoJson(data, {
+var business = L.geoJson(data, {
 	filter: function (feature, layer) {
-		return (feature.properties.types.indexOf('buisness') >= 0)
+		return (feature.properties.types.indexOf('business') >= 0)
 	},
 	pointToLayer: function (feature, latlng) {
 		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name).openPopup()
@@ -117,9 +117,9 @@ mymap.fitBounds(allobjectsClusters.getBounds(), {
 
 
 
-var buisnessClusters = L.markerClusterGroup()
-buisnessClusters.addLayer(buisness)
-//mymap.addLayer(buisnessClusters)
+var businessClusters = L.markerClusterGroup()
+businessClusters.addLayer(business)
+//mymap.addLayer(businessClusters)
 
 var socialClusters = L.markerClusterGroup()
 socialClusters.addLayer(social)
@@ -152,8 +152,8 @@ $('#choose_all').click(function () {
 })
 $('#choose_business').click(function () {
 	removeAllLayers(mymap)
-	mymap.addLayer(buisnessClusters)
-	mymap.fitBounds(buisnessClusters.getBounds(), {padding: [50, 50]})
+	mymap.addLayer(businessClusters)
+	mymap.fitBounds(businessClusters.getBounds(), {padding: [50, 50]})
 })
 $('#choose_social').click(function () {
 	removeAllLayers(mymap)
@@ -188,7 +188,7 @@ $('#choose_culture').click(function () {
 
 function removeAllLayers (mymap) {
 	mymap.removeLayer(allobjectsClusters)
-	mymap.removeLayer(buisnessClusters)
+	mymap.removeLayer(businessClusters)
 	mymap.removeLayer(socialClusters)
 	mymap.removeLayer(educationClusters)
 	mymap.removeLayer(eventsClusters)
