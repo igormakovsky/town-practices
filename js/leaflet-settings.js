@@ -57,7 +57,7 @@ var business = L.geoJson(data, {
 		return (feature.properties.types.indexOf('business') >= 0)
 	},
 	pointToLayer: function (feature, latlng) {
-		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup('<a href="/practices/'+feature.properties.id+'">'+feature.properties.name+'</a><br>'+feature.properties.townName).openPopup()
+		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup('<a href="/practices/'+feature.properties.id+'">'+feature.properties.name+'</a><br>'+feature.properties.townName).openPopup().bindTooltip(feature.properties.townName,{'permanent':true, 'offset':L.point(25, 20), 'direction':'right'}).openTooltip();
 	}
 })
 var social = L.geoJson(data, {
