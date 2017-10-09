@@ -15,4 +15,25 @@
         border-radius: 0;
         font-size: 14px;
     }
+    .leaflet-tooltip {
+        position: absolute;
+        padding: 6px;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        color: #222;
+        font-weight: bold;
+        white-space: nowrap;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        pointer-events: none;
+        box-shadow: none;
+    }
+    .leaflet-tooltip-right:before {
+        left: 0;
+        margin-left: -12px;
+        border-right-color: transparent;
+    }
 </style>

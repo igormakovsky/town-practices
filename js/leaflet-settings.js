@@ -49,15 +49,15 @@ mymap.addLayer(mapLayer)
 var allobjects = L.geoJson(data,
 	{
 		pointToLayer: function (feature, latlng) {
-			return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name).openPopup()
+			return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup('<a href="/practices/'+feature.properties.id+'">'+feature.properties.name+'</a><br>'+feature.properties.townName).openPopup()
 		}
 	})
-var buisness = L.geoJson(data, {
+var business = L.geoJson(data, {
 	filter: function (feature, layer) {
-		return (feature.properties.types.indexOf('buisness') >= 0)
+		return (feature.properties.types.indexOf('business') >= 0)
 	},
 	pointToLayer: function (feature, latlng) {
-		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name).openPopup()
+		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup('<a href="/practices/'+feature.properties.id+'">'+feature.properties.name+'</a><br>'+feature.properties.townName).openPopup().bindTooltip(feature.properties.townName,{'permanent':true, 'offset':L.point(25, 20), 'direction':'right'}).openTooltip();
 	}
 })
 var social = L.geoJson(data, {
@@ -65,7 +65,7 @@ var social = L.geoJson(data, {
 		return (feature.properties.types.indexOf('social') >= 0)
 	},
 	pointToLayer: function (feature, latlng) {
-		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name)
+		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup('<a href="/practices/'+feature.properties.id+'">'+feature.properties.name+'</a><br>'+feature.properties.townName)
 	}
 })
 var education = L.geoJson(data, {
@@ -73,7 +73,7 @@ var education = L.geoJson(data, {
 		return (feature.properties.types.indexOf('education') >= 0)
 	},
 	pointToLayer: function (feature, latlng) {
-		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name)
+		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup('<a href="/practices/'+feature.properties.id+'">'+feature.properties.name+'</a><br>'+feature.properties.townName)
 	}
 })
 var events = L.geoJson(data, {
@@ -81,7 +81,7 @@ var events = L.geoJson(data, {
 		return (feature.properties.types.indexOf('events') >= 0)
 	},
 	pointToLayer: function (feature, latlng) {
-		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name)
+		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup('<a href="/practices/'+feature.properties.id+'">'+feature.properties.name+'</a><br>'+feature.properties.townName)
 	}
 })
 var gastronomy = L.geoJson(data, {
@@ -89,7 +89,7 @@ var gastronomy = L.geoJson(data, {
 		return (feature.properties.types.indexOf('gastronomy') >= 0)
 	},
 	pointToLayer: function (feature, latlng) {
-		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name)
+		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup('<a href="/practices/'+feature.properties.id+'">'+feature.properties.name+'</a><br>'+feature.properties.townName)
 	}
 })
 var tourism = L.geoJson(data, {
@@ -97,7 +97,7 @@ var tourism = L.geoJson(data, {
 		return (feature.properties.types.indexOf('tourism') >= 0)
 	},
 	pointToLayer: function (feature, latlng) {
-		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name)
+		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup('<a href="/practices/'+feature.properties.id+'">'+feature.properties.name+'</a><br>'+feature.properties.townName)
 	}
 })
 var culture = L.geoJson(data, {
@@ -105,7 +105,7 @@ var culture = L.geoJson(data, {
 		return (feature.properties.types.indexOf('culture') >= 0)
 	},
 	pointToLayer: function (feature, latlng) {
-		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup(feature.properties.Name)
+		return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup('<a href="/practices/'+feature.properties.id+'">'+feature.properties.name+'</a><br>'+feature.properties.townName)
 	}
 })
 var allobjectsClusters = L.markerClusterGroup({maxClusterRadius:30})
@@ -117,9 +117,9 @@ mymap.fitBounds(allobjectsClusters.getBounds(), {
 
 
 
-var buisnessClusters = L.markerClusterGroup()
-buisnessClusters.addLayer(buisness)
-//mymap.addLayer(buisnessClusters)
+var businessClusters = L.markerClusterGroup()
+businessClusters.addLayer(business)
+//mymap.addLayer(businessClusters)
 
 var socialClusters = L.markerClusterGroup()
 socialClusters.addLayer(social)
@@ -152,8 +152,8 @@ $('#choose_all').click(function () {
 })
 $('#choose_business').click(function () {
 	removeAllLayers(mymap)
-	mymap.addLayer(buisnessClusters)
-	mymap.fitBounds(buisnessClusters.getBounds(), {padding: [50, 50]})
+	mymap.addLayer(businessClusters)
+	mymap.fitBounds(businessClusters.getBounds(), {padding: [50, 50]})
 })
 $('#choose_social').click(function () {
 	removeAllLayers(mymap)
@@ -188,7 +188,7 @@ $('#choose_culture').click(function () {
 
 function removeAllLayers (mymap) {
 	mymap.removeLayer(allobjectsClusters)
-	mymap.removeLayer(buisnessClusters)
+	mymap.removeLayer(businessClusters)
 	mymap.removeLayer(socialClusters)
 	mymap.removeLayer(educationClusters)
 	mymap.removeLayer(eventsClusters)

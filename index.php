@@ -60,138 +60,140 @@ require $docroot.'includes/head.php';
                 <li><a class="chooser" href="#" id="choose_<?=$type_7_id;?>"><?=$type_7;?></a></li>
             </ul>
         </nav>
-
-        <div class="list-container">
-            <div class="list_card <?=$practice_1_id;?> <?=$practice_1_types;?>">
-            
-                <p>
-                    <a href="/practices/<?=$practice_1_id;?>/">
-                        <?=$practice_1;?>
-                    </a>
-                </p>
-            
-            </div>
-            
-            <div class="list_card <?=$practice_2_id;?> <?=$practice_2_types;?>">
-            
-                <p>
-                    <a href="/practices/<?=$practice_2_id;?>/">
-                        <?=$practice_2;?>
-                    </a>
-                </p>
-            
-            </div>
-            
-            <div class="list_card <?=$practice_3_id;?> <?=$practice_3_types;?>">
-            
-                <p>
-                    <a href="/practices/<?=$practice_3_id;?>/">
-                        <?=$practice_3;?>
-                    </a>
-                </p>
-            
-            </div>
-            
-            <div class="list_card <?=$practice_4_id;?> <?=$practice_4_types;?>">
-            
-                <p>
-                    <a href="/practices/<?=$practice_4_id;?>/">
-                        <?=$practice_4;?>
-                    </a>
-                </p>
-            
-            </div>
-            
-            <div class="list_card <?=$practice_5_id;?> <?=$practice_5_types;?>">
-            
-                <p>
-                    <a href="/practices/<?=$practice_5_id;?>/">
-                        <?=$practice_5;?>
-                    </a>
-                </p>
-            
-            </div>
-            
-            <div class="list_card <?=$practice_6_id;?> <?=$practice_6_types;?>">
-            
-                <p>
-                    <a href="/practices/<?=$practice_6_id;?>/">
-                        <?=$practice_6;?>
-                    </a>
-                </p>
-            
-            </div>
-            
-            <div class="list_card <?=$practice_7_id;?> <?=$practice_7_types;?>">
-            
-                <p>
-                    <a href="/practices/<?=$practice_7_id;?>/">
-                        <?=$practice_7;?>
-                    </a>
-                </p>
-            
-            </div>
-            
-            <div class="list_card <?=$practice_8_id;?> <?=$practice_8_types;?>">
-            
-                <p>
-                    <a href="/practices/<?=$practice_8_id;?>/">
-                        <?=$practice_8;?>
-                    </a>
-                </p>
-            
-            </div>
-            
-            <div class="list_card <?=$practice_9_id;?> <?=$practice_9_types;?>">
-            
-                <p>
-                    <a href="/practices/<?=$practice_9_id;?>/">
-                        <?=$practice_9;?>
-                    </a>
-                </p>
-            
-            </div>
-            
-            <div class="list_card <?=$practice_10_id;?> <?=$practice_10_types;?>">
-            
-                <p>
-                    <a href="/practices/<?=$practice_10_id;?>/">
-                        <?=$practice_10;?>
-                    </a>
-                </p>
-            
-            </div>
-            
-            <div class="list_card <?=$practice_11_id;?> <?=$practice_11_types;?>">
-            
-                <p>
-                    <a href="/practices/<?=$practice_11_id;?>/">
-                        <?=$practice_11;?>
-                    </a>
-                </p>
-            
-            </div>
-            
-            <div class="list_card <?=$practice_12_id;?> <?=$practice_12_types;?>">
-            
-                <p>
-                    <a href="/practices/<?=$practice_12_id;?>/">
-                        <?=$practice_12;?>
-                    </a>
-                </p>
-            
-            </div>
-            
-            <div class="list_card <?=$practice_13_id;?> <?=$practice_13_types;?>">
-            
-                <p>
-                    <a href="/practices/<?=$practice_13_id;?>/">
-                        <?=$practice_13;?>
-                    </a>
-                </p>
-            
-            </div>
+        
+        <div class="list-container" id="practicesList">
         </div>
+       <!-- <div class="list-container">
+            <div class="list_card <?/*=$practice_1_id;*/?> <?/*=$practice_1_types;*/?>">
+            
+                <p>
+                    <a href="/practices/<?/*=$practice_1_id;*/?>/">
+                        <?/*=$practice_1;*/?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?/*=$practice_2_id;*/?> <?/*=$practice_2_types;*/?>">
+            
+                <p>
+                    <a href="/practices/<?/*=$practice_2_id;*/?>/">
+                        <?/*=$practice_2;*/?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?/*=$practice_3_id;*/?> <?/*=$practice_3_types;*/?>">
+            
+                <p>
+                    <a href="/practices/<?/*=$practice_3_id;*/?>/">
+                        <?/*=$practice_3;*/?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?/*=$practice_4_id;*/?> <?/*=$practice_4_types;*/?>">
+            
+                <p>
+                    <a href="/practices/<?/*=$practice_4_id;*/?>/">
+                        <?/*=$practice_4;*/?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?/*=$practice_5_id;*/?> <?/*=$practice_5_types;*/?>">
+            
+                <p>
+                    <a href="/practices/<?/*=$practice_5_id;*/?>/">
+                        <?/*=$practice_5;*/?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?/*=$practice_6_id;*/?> <?/*=$practice_6_types;*/?>">
+            
+                <p>
+                    <a href="/practices/<?/*=$practice_6_id;*/?>/">
+                        <?/*=$practice_6;*/?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?/*=$practice_7_id;*/?> <?/*=$practice_7_types;*/?>">
+            
+                <p>
+                    <a href="/practices/<?/*=$practice_7_id;*/?>/">
+                        <?/*=$practice_7;*/?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?/*=$practice_8_id;*/?> <?/*=$practice_8_types;*/?>">
+            
+                <p>
+                    <a href="/practices/<?/*=$practice_8_id;*/?>/">
+                        <?/*=$practice_8;*/?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?/*=$practice_9_id;*/?> <?/*=$practice_9_types;*/?>">
+            
+                <p>
+                    <a href="/practices/<?/*=$practice_9_id;*/?>/">
+                        <?/*=$practice_9;*/?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?/*=$practice_10_id;*/?> <?/*=$practice_10_types;*/?>">
+            
+                <p>
+                    <a href="/practices/<?/*=$practice_10_id;*/?>/">
+                        <?/*=$practice_10;*/?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?/*=$practice_11_id;*/?> <?/*=$practice_11_types;*/?>">
+            
+                <p>
+                    <a href="/practices/<?/*=$practice_11_id;*/?>/">
+                        <?/*=$practice_11;*/?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?/*=$practice_12_id;*/?> <?/*=$practice_12_types;*/?>">
+            
+                <p>
+                    <a href="/practices/<?/*=$practice_12_id;*/?>/">
+                        <?/*=$practice_12;*/?>
+                    </a>
+                </p>
+            
+            </div>
+            
+            <div class="list_card <?/*=$practice_13_id;*/?> <?/*=$practice_13_types;*/?>">
+            
+                <p>
+                    <a href="/practices/<?/*=$practice_13_id;*/?>/">
+                        <?/*=$practice_13;*/?>
+                    </a>
+                </p>
+            
+            </div>
+        </div>-->
 
     </section>
 
@@ -649,6 +651,7 @@ require $docroot.'includes/head.php';
 
     <script><? require $docroot . '/js/objects.js';?></script>
     <?require $docroot.'includes/leaflet_js.php';?>
+    <?require $docroot.'includes/list_js.php';?>
 </body>
 </html>
 
