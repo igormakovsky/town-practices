@@ -314,7 +314,7 @@ var data = {
 			},
 			geometry: {
 				type: 'Point',
-				coordinates: [54.712628,57.8892188]
+				coordinates: [41.731934,64.2323163]
 			}
 		}
 
