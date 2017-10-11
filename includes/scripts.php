@@ -10,3 +10,6 @@
 <script src="/js/appear.js"></script>
 <script src="/js/clickhover.js"></script>
 <script src="/js/custom.js"></script>
+
+<script><? require $docroot . '/js/objects.js'; ?></script>
+<? require $docroot . 'includes/list_js.php'; ?>
