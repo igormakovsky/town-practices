@@ -1,21 +1,12 @@
 <?php
 
-$id = 'familia-cluster'; // id страницы
+$id = 'flower-carnival'; // id страницы
 $parent = 'practices'; // родительский элемент
 
 require $_SERVER['DOCUMENT_ROOT'].'/includes/vars.php';
 
-$title = $practice_1_id;
-$practice_title = $practice_1; // название практики
-
-$oblast = $practice_1_oblast; // область
-$oblast_id = $practice_1_oblast_id;
-$town = $practice_1_town;
-$town_id = $practice_1_town_id; // город
-$geotag = ''; //
-
 $description = 'Описание страницы'; // описание для страницы и поисковиков
-$keywords = $oblast.$town.'стартап, школа'; // ключевые слова для поиска
+$keywords = 'сарапул, стартап, школа'; // ключевые слова для поиска
 
 require $docroot.'includes/head.php';
 
@@ -58,12 +49,22 @@ $link_9 = '';
 $link_10 = '';
 
 ?>
+    
+<script>
+	$(document).ready(
+		function () {
+			var town = getObjects(data, 'id', "<?=$id?>")[0] // Returns an array of matching objects
+            $('.town-title').html(town.title),
+            $('.town-descr').html(town.title)
+		}
+	)
+</script>
 
     <section class="practice-hero">
 
         <div id="title" class="practice-hero__title">
-            <h1>
-                <?=$project_title?>
+            <h1 class="town-title">
+                
             </h1>
         </div>
 
@@ -76,14 +77,7 @@ $link_10 = '';
     <section class="practice-content">
 
         <p class="small">Название практики</p>
-        <h1>
-            <?=$practice_title?>
-        </h1>
-
-        <p class="small">Область, город</p>
-        <p>
-            <?=$oblast.', город '.$town?>
-        </p>
+        <h1 class="town-title"></h1>
 
         <p class="small">Тема</p>
         <p>

@@ -1,5 +1,3 @@
-<?// require $docroot.'includes/favicon.php';?>
-
 <!-- SEO -->
 <meta name="title" content="<?=$title;?>" />
 <meta name="author" content="<?=$author; ?>" />

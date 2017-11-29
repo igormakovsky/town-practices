@@ -626,6 +626,15 @@
 ///
 .fullwidth {
     width: 100vw;
+    margin: 5rem auto;
+    img {
+        width: 100%;
+    }
+    &-author {
+        @extend .small;
+        width: 1000px;
+        margin: 0 auto;
+    }
 }
 
 .width1000 {
@@ -693,8 +702,7 @@
 
 .hidden {
     display: none;
-    visibility: hidden;
-    //clip-path: inset(100%);
+    visibility: hidden; //clip-path: inset(100%);
     //clip-path: rect(0, 0, 0, 0); not working?
 }
 
@@ -702,8 +710,7 @@
     @media screen and (max-width: 1000px) {
         opacity: 0;
         display: none;
-        visibility: hidden;
-        //clip-path: inset(100%);
+        visibility: hidden; //clip-path: inset(100%);
         //clip-path: rect(0, 0, 0, 0); not working?
     }
 }

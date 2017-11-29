@@ -17,10 +17,8 @@
         <div id="practices">
             <input class="search" placeholder="Поиск"/>
 
-            <ul class="list">
-
+            <ul class="list"></ul>
             
-            </ul>
         </div>
     </nav>
 

@@ -7,15 +7,17 @@
 		"uuidString": "983526D5-7E6B-4E3D-B34F-DC13F23F94C4"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26148",
 "files": {
 	"\/.bowerrc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.bowerrc",
 		"oF": 0
 		},
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
@@ -84,6 +86,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/animate.css\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/animate.css\/LICENSE",
@@ -884,6 +887,7 @@
 		"oS": 1
 		},
 	"\/bower_components\/fotorama\/example.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/fotorama\/example.html",
@@ -932,10 +936,10 @@
 		"q": 100
 		},
 	"\/bower_components\/fotorama\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -986,6 +990,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/isInViewport\/lib\/isInViewport.es6.js.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/isInViewport\/lib\/isInViewport.es6.js.map",
@@ -1002,6 +1007,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/isInViewport\/lib\/isInViewport.js.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/isInViewport\/lib\/isInViewport.js.map",
@@ -1018,16 +1024,17 @@
 		"tS": 0
 		},
 	"\/bower_components\/isInViewport\/lib\/isInViewport.min.js.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/isInViewport\/lib\/isInViewport.min.js.map",
 		"oF": 0
 		},
 	"\/bower_components\/isInViewport\/license.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1042,10 +1049,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/isInViewport\/readme.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1078,6 +1085,7 @@
 		"oS": 1
 		},
 	"\/bower_components\/jquery\/AUTHORS.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/AUTHORS.txt",
@@ -1122,6 +1130,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/jquery\/dist\/jquery.min.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/dist\/jquery.min.map",
@@ -1148,6 +1157,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/jquery\/dist\/jquery.slim.min.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/dist\/jquery.slim.min.map",
@@ -1174,28 +1184,31 @@
 		"tS": 0
 		},
 	"\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.map",
 		"oF": 0
 		},
 	"\/bower_components\/jquery\/external\/sizzle\/LICENSE.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/external\/sizzle\/LICENSE.txt",
 		"oF": 0
 		},
 	"\/bower_components\/jquery\/LICENSE.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/LICENSE.txt",
 		"oF": 0
 		},
 	"\/bower_components\/jquery\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -2237,6 +2250,1366 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/bower_components\/list.js\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/list.js\/__test__\/add-get-remove.test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/add-get-remove.test.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/buttons.test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/buttons.test.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/create.test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/create.test.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/defaults.test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/defaults.test.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/filter.test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/filter.test.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/fixtures-fuzzysearch.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/fixtures-fuzzysearch.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/fixtures-pagination.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/fixtures-pagination.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/fixtures.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/fixtures.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/fuzzysearch.test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/fuzzysearch.test.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/__test__\/item.test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/item.test.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/off.test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/off.test.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/on.test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/on.test.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/pagination.test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/pagination.test.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/parse.test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/parse.test.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/re-index.test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/re-index.test.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/search-filter.test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/search-filter.test.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/search.test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/search.test.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/show.test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/show.test.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/sort.test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/sort.test.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/trigger.test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/trigger.test.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/usage\/amd.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/usage\/amd.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/__test__\/usage\/boba.jpeg": {
+		"ft": 16384,
+		"iS": 3271,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/usage\/boba.jpeg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/list.js\/__test__\/usage\/classic.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/usage\/classic.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/__test__\/usage\/darth.jpeg": {
+		"ft": 16384,
+		"iS": 2109,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/usage\/darth.jpeg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/list.js\/__test__\/usage\/fuzzy-search-pagination.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/usage\/fuzzy-search-pagination.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/__test__\/usage\/leia.jpeg": {
+		"ft": 16384,
+		"iS": 1707,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/usage\/leia.jpeg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/list.js\/__test__\/usage\/luke.jpeg": {
+		"ft": 16384,
+		"iS": 2009,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/usage\/luke.jpeg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/list.js\/__test__\/usage\/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/usage\/main.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/usage\/require.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/usage\/require.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/usage\/rey.jpeg": {
+		"ft": 16384,
+		"iS": 2281,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/usage\/rey.jpeg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/list.js\/__test__\/usage\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/usage\/style.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/utils.classes.test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/utils.classes.test.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/__test__\/utils.get-by-class.test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/__test__\/utils.get-by-class.test.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/list.js\/circle.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/circle.yml",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/dist\/list.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/dist\/list.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/dist\/list.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/dist\/list.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/docs\/_config.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/bower_components\/list.js\/docs\/_config.yml",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/_data\/pkg.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_data\/pkg.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/list.js\/docs\/_examples\/add-get-remove.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_examples\/add-get-remove.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/_examples\/data-attributes-custom-attributes.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_examples\/data-attributes-custom-attributes.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/_examples\/existing-list-add.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_examples\/existing-list-add.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/_examples\/existing-list.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_examples\/existing-list.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/_examples\/fuzzy-search.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_examples\/fuzzy-search.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/_examples\/new-list.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_examples\/new-list.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/_examples\/pagination.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_examples\/pagination.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/_examples\/table.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_examples\/table.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/_includes\/author.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_includes\/author.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/_includes\/carbon.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_includes\/carbon.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/_includes\/codepen.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_includes\/codepen.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/_includes\/examples\/annotated-example.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_includes\/examples\/annotated-example.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/_includes\/javascripts\/vendor\/bootstrap\/tab.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_includes\/javascripts\/vendor\/bootstrap\/tab.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/docs\/_includes\/javascripts\/vendor\/bootstrap\/tooltip.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_includes\/javascripts\/vendor\/bootstrap\/tooltip.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/docs\/_includes\/javascripts\/vendor\/bootstrap\/transition.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_includes\/javascripts\/vendor\/bootstrap\/transition.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/docs\/_includes\/javascripts\/vendor\/highlight.pack.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_includes\/javascripts\/vendor\/highlight.pack.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/docs\/_includes\/javascripts\/vendor\/jquery-1.8.3.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_includes\/javascripts\/vendor\/jquery-1.8.3.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/docs\/_includes\/menu.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_includes\/menu.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/_layouts\/default.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_layouts\/default.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/_sass\/_base.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/list.js\/docs\/_sass\/_base.scss",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/bower_components\/list.js\/docs\/_sass\/_carbonads.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/list.js\/docs\/_sass\/_carbonads.scss",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/bower_components\/list.js\/docs\/_sass\/_docs.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/list.js\/docs\/_sass\/_docs.scss",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/bower_components\/list.js\/docs\/_sass\/_menu.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/list.js\/docs\/_sass\/_menu.scss",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/bower_components\/list.js\/docs\/_sass\/_mixins.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/list.js\/docs\/_sass\/_mixins.scss",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/bower_components\/list.js\/docs\/_sass\/_normalize.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/list.js\/docs\/_sass\/_normalize.scss",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/bower_components\/list.js\/docs\/_sass\/vendor\/highlight\/xcode.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/_sass\/vendor\/highlight\/xcode.scss",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/bower_components\/list.js\/docs\/api.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/api.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/assets\/css\/style.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/assets\/css\/style.scss",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/bower_components\/list.js\/docs\/assets\/images\/graphics\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/assets\/images\/graphics\/favicon.ico",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/assets\/images\/graphics\/javve-coffee.jpg": {
+		"ft": 16384,
+		"iS": 4436,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/assets\/images\/graphics\/javve-coffee.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/list.js\/docs\/assets\/images\/graphics\/javve-coffee2.jpg": {
+		"ft": 16384,
+		"iS": 6180,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/assets\/images\/graphics\/javve-coffee2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/list.js\/docs\/assets\/images\/graphics\/javve.jpg": {
+		"ft": 16384,
+		"iS": 7363,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/assets\/images\/graphics\/javve.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/list.js\/docs\/assets\/images\/graphics\/listjs-logo.png": {
+		"ft": 32768,
+		"iS": 9780,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/assets\/images\/graphics\/listjs-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/bower_components\/list.js\/docs\/assets\/javascripts\/list.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/assets\/javascripts\/list.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/docs\/assets\/javascripts\/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/assets\/javascripts\/main.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/docs\/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/CNAME",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/docs\/fuzzysearch.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/docs\/fuzzysearch.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/docs\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/docs\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/docs\/item-api.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/docs\/item-api.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/docs\/pagination.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/docs\/pagination.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/docs\/plugins\/build.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/docs\/plugins\/build.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/docs\/plugins\/fuzzysearch.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/docs\/plugins\/fuzzysearch.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/docs\/plugins\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/docs\/plugins\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/docs\/plugins\/pagination.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/docs\/plugins\/pagination.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/feed.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/feed.xml",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/Gemfile": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/Gemfile",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/Gemfile.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/Gemfile.lock",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/overview\/changelog.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/overview\/changelog.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/overview\/contribute.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/overview\/contribute.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/overview\/download.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/overview\/download.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/overview\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/overview\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/overview\/press.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/overview\/press.html",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/docs\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/docs\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/list.js\/History.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/History.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/list.js\/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/LICENSE",
+		"oF": 0
+		},
+	"\/bower_components\/list.js\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/list.js\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/list.js\/Release.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/Release.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/list.js\/src\/add-async.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/src\/add-async.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/src\/filter.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/src\/filter.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/src\/fuzzy-search.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/src\/fuzzy-search.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/src\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/src\/index.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/src\/item.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/src\/item.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/src\/pagination.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/src\/pagination.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/src\/parse.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/src\/parse.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/src\/search.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/src\/search.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/src\/sort.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/src\/sort.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/src\/templater.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/src\/templater.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/src\/utils\/classes.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/src\/utils\/classes.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/src\/utils\/events.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/src\/utils\/events.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/src\/utils\/extend.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/src\/utils\/extend.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/src\/utils\/fuzzy.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/src\/utils\/fuzzy.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/src\/utils\/get-attribute.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/src\/utils\/get-attribute.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/src\/utils\/get-by-class.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/src\/utils\/get-by-class.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/src\/utils\/index-of.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/src\/utils\/index-of.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/src\/utils\/to-array.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/src\/utils\/to-array.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/src\/utils\/to-string.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/src\/utils\/to-string.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/list.js\/webpack.config.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/list.js\/webpack.config.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/mustache.js\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/mustache.js\/bin\/mustache": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/bin\/mustache",
+		"oF": 0
+		},
+	"\/bower_components\/mustache.js\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/mustache.js\/CHANGELOG.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/CHANGELOG.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/mustache.js\/hooks\/install-hooks.sh": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/hooks\/install-hooks.sh",
+		"oF": 0
+		},
+	"\/bower_components\/mustache.js\/hooks\/pre-commit": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/hooks\/pre-commit",
+		"oF": 0
+		},
+	"\/bower_components\/mustache.js\/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/LICENSE",
+		"oF": 0
+		},
+	"\/bower_components\/mustache.js\/MIGRATING.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/MIGRATING.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/mustache.js\/mustache.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/mustache.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/mustache.js\/mustache.js.nuspec": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/mustache.js.nuspec",
+		"oF": 0
+		},
+	"\/bower_components\/mustache.js\/mustache.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/mustache.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/mustache.js\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/mustache.js\/Rakefile": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/Rakefile",
+		"oF": 0
+		},
+	"\/bower_components\/mustache.js\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/mustache.js\/spec\/_files\/bom_as_whitespace.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/spec\/_files\/bom_as_whitespace.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/mustache.js\/spec\/_files\/bom_as_whitespace.mustache": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/spec\/_files\/bom_as_whitespace.mustache",
+		"oF": 0
+		},
+	"\/bower_components\/mustache.js\/spec\/_files\/bom_as_whitespace.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/spec\/_files\/bom_as_whitespace.txt",
+		"oF": 0
+		},
+	"\/bower_components\/mustache.js\/wrappers\/dojo\/mustache.js.post": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/wrappers\/dojo\/mustache.js.post",
+		"oF": 0
+		},
+	"\/bower_components\/mustache.js\/wrappers\/dojo\/mustache.js.pre": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/wrappers\/dojo\/mustache.js.pre",
+		"oF": 0
+		},
+	"\/bower_components\/mustache.js\/wrappers\/jquery\/mustache.js.post": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/wrappers\/jquery\/mustache.js.post",
+		"oF": 0
+		},
+	"\/bower_components\/mustache.js\/wrappers\/jquery\/mustache.js.pre": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/wrappers\/jquery\/mustache.js.pre",
+		"oF": 0
+		},
+	"\/bower_components\/mustache.js\/wrappers\/mootools\/mustache.js.post": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/wrappers\/mootools\/mustache.js.post",
+		"oF": 0
+		},
+	"\/bower_components\/mustache.js\/wrappers\/mootools\/mustache.js.pre": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/wrappers\/mootools\/mustache.js.pre",
+		"oF": 0
+		},
+	"\/bower_components\/mustache.js\/wrappers\/qooxdoo\/mustache.js.post": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/wrappers\/qooxdoo\/mustache.js.post",
+		"oF": 0
+		},
+	"\/bower_components\/mustache.js\/wrappers\/qooxdoo\/mustache.js.pre": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/wrappers\/qooxdoo\/mustache.js.pre",
+		"oF": 0
+		},
+	"\/bower_components\/mustache.js\/wrappers\/yui3\/mustache.js.post": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/wrappers\/yui3\/mustache.js.post",
+		"oF": 0
+		},
+	"\/bower_components\/mustache.js\/wrappers\/yui3\/mustache.js.pre": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/mustache.js\/wrappers\/yui3\/mustache.js.pre",
+		"oF": 0
+		},
 	"\/bower_components\/normalize-css\/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -2246,24 +3619,28 @@
 		"oS": 1
 		},
 	"\/bower_components\/normalize-css\/.editorconfig": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/normalize-css\/.editorconfig",
 		"oF": 0
 		},
 	"\/bower_components\/normalize-css\/.gitattributes": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/normalize-css\/.gitattributes",
 		"oF": 0
 		},
 	"\/bower_components\/normalize-css\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/normalize-css\/.gitignore",
 		"oF": 0
 		},
 	"\/bower_components\/normalize-css\/.travis.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/normalize-css\/.travis.yml",
@@ -2278,10 +3655,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/normalize-css\/LICENSE.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -2330,16 +3707,17 @@
 		"oS": 1
 		},
 	"\/bower_components\/slick-carousel\/CONTRIBUTING.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/slick-carousel\/CONTRIBUTING.markdown",
 		"oF": 0
 		},
 	"\/bower_components\/slick-carousel\/ISSUE_TEMPLATE.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -2354,18 +3732,21 @@
 		"uCM": 0
 		},
 	"\/bower_components\/slick-carousel\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/slick-carousel\/LICENSE",
 		"oF": 0
 		},
 	"\/bower_components\/slick-carousel\/Makefile": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/slick-carousel\/Makefile",
 		"oF": 0
 		},
 	"\/bower_components\/slick-carousel\/README.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/slick-carousel\/README.markdown",
@@ -2388,12 +3769,14 @@
 		"opt": 0
 		},
 	"\/bower_components\/slick-carousel\/slick\/config.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/slick-carousel\/slick\/config.rb",
 		"oF": 0
 		},
 	"\/bower_components\/slick-carousel\/slick\/fonts\/slick.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/slick-carousel\/slick\/fonts\/slick.eot",
@@ -2410,12 +3793,14 @@
 		"prP": 0
 		},
 	"\/bower_components\/slick-carousel\/slick\/fonts\/slick.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/slick-carousel\/slick\/fonts\/slick.ttf",
 		"oF": 0
 		},
 	"\/bower_components\/slick-carousel\/slick\/fonts\/slick.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/slick-carousel\/slick\/fonts\/slick.woff",
@@ -2530,18 +3915,21 @@
 		"oS": 1
 		},
 	"\/bower_components\/waypoints\/.eslintrc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/waypoints\/.eslintrc",
 		"oF": 0
 		},
 	"\/bower_components\/waypoints\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/waypoints\/.gitignore",
 		"oF": 0
 		},
 	"\/bower_components\/waypoints\/.travis.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/waypoints\/.travis.yml",
@@ -2556,10 +3944,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/waypoints\/CHANGELOG.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -2574,10 +3962,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/waypoints\/CONTRIBUTING.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -2722,16 +4110,17 @@
 		"tS": 0
 		},
 	"\/bower_components\/waypoints\/licenses.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/waypoints\/licenses.txt",
 		"oF": 0
 		},
 	"\/bower_components\/waypoints\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -2756,6 +4145,7 @@
 		"oS": 0
 		},
 	"\/css\/custom.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/custom.css.map",
@@ -2782,6 +4172,7 @@
 		"oS": 0
 		},
 	"\/css\/main.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/main.css.map",
@@ -2807,108 +4198,113 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/favicon.png": {
-		"ft": 32768,
-		"iS": 1426,
-		"oA": 0,
-		"oAP": "\/favicon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/fonts\/cervo-regular\/322B3C_0_0.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/cervo-regular\/322B3C_0_0.eot",
 		"oF": 0
 		},
 	"\/fonts\/cervo-regular\/322B3C_0_0.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/cervo-regular\/322B3C_0_0.ttf",
 		"oF": 0
 		},
 	"\/fonts\/cervo-regular\/322B3C_0_0.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/cervo-regular\/322B3C_0_0.woff",
 		"oF": 0
 		},
 	"\/fonts\/cervo-regular\/322B3C_0_0.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/cervo-regular\/322B3C_0_0.woff2",
 		"oF": 0
 		},
 	"\/fonts\/graphik-bold-web\/Graphik usage example.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/fonts\/graphik-bold-web\/Graphik usage example.html",
 		"oF": 0
 		},
 	"\/fonts\/graphik-bold-web\/Graphik-Bold-Web.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/graphik-bold-web\/Graphik-Bold-Web.eot",
 		"oF": 0
 		},
 	"\/fonts\/graphik-bold-web\/Graphik-Bold-Web.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/graphik-bold-web\/Graphik-Bold-Web.ttf",
 		"oF": 0
 		},
 	"\/fonts\/graphik-bold-web\/Graphik-Bold-Web.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/graphik-bold-web\/Graphik-Bold-Web.woff",
 		"oF": 0
 		},
 	"\/fonts\/graphik-bold-web\/Graphik-Bold-Web.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/graphik-bold-web\/Graphik-Bold-Web.woff2",
 		"oF": 0
 		},
 	"\/fonts\/graphik-bold-web\/ttEULA.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/graphik-bold-web\/ttEULA.txt",
 		"oF": 0
 		},
 	"\/fonts\/graphik-regular-web\/Graphik usage example.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/fonts\/graphik-regular-web\/Graphik usage example.html",
 		"oF": 0
 		},
 	"\/fonts\/graphik-regular-web\/Graphik-Regular-Web.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/graphik-regular-web\/Graphik-Regular-Web.eot",
 		"oF": 0
 		},
 	"\/fonts\/graphik-regular-web\/Graphik-Regular-Web.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/graphik-regular-web\/Graphik-Regular-Web.ttf",
 		"oF": 0
 		},
 	"\/fonts\/graphik-regular-web\/Graphik-Regular-Web.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/graphik-regular-web\/Graphik-Regular-Web.woff",
 		"oF": 0
 		},
 	"\/fonts\/graphik-regular-web\/Graphik-Regular-Web.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/graphik-regular-web\/Graphik-Regular-Web.woff2",
 		"oF": 0
 		},
 	"\/fonts\/graphik-regular-web\/ttEULA.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/graphik-regular-web\/ttEULA.txt",
@@ -3068,92 +4464,86 @@
 		"q": 100
 		},
 	"\/includes\/backtocontents.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/backtocontents.php",
 		"oF": 0
 		},
 	"\/includes\/bottom.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/bottom.php",
 		"oF": 0
 		},
+	"\/includes\/css.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/css.php",
+		"oF": 0
+		},
 	"\/includes\/favicon.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/favicon.php",
 		"oF": 0
 		},
 	"\/includes\/footer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/footer.php",
 		"oF": 0
 		},
 	"\/includes\/head.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/head.php",
 		"oF": 0
 		},
-	"\/includes\/leaflet_css.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/includes\/leaflet_css.php",
-		"oF": 0
-		},
-	"\/includes\/leaflet_js.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/includes\/leaflet_js.php",
-		"oF": 0
-		},
 	"\/includes\/menu.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/includes\/menu.php",
 		"oF": 0
 		},
 	"\/includes\/meta.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/meta.php",
 		"oF": 0
 		},
 	"\/includes\/scripts.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/includes\/scripts.php",
 		"oF": 0
 		},
-	"\/includes\/styles.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/includes\/styles.php",
-		"oF": 0
-		},
-	"\/includes\/switch_languages.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/includes\/switch_languages.php",
-		"oF": 0
-		},
 	"\/includes\/top.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/top.php",
 		"oF": 0
 		},
 	"\/includes\/vars.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/vars.php",
 		"oF": 0
 		},
 	"\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/index.php",
 		"oF": 0
 		},
@@ -3197,6 +4587,16 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/js\/leaflet-settings.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/js\/min\/leaflet-settings-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/js\/leaflet.js": {
 		"ft": 64,
 		"ma": 0,
@@ -3217,12 +4617,42 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/js\/list.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/js\/min\/list.min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/lists.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/js\/min\/lists-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/js\/min\/smoothScroller-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/js\/min\/min\/smoothScroller-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/mustache.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/js\/min\/mustache.min-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -3285,342 +4715,18 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/practices\/!empty\/index-new.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/!empty\/index-new.php",
+		"oF": 0
+		},
 	"\/practices\/!empty\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/practices\/!empty\/index.php",
-		"oF": 0
-		},
-	"\/practices\/cubicle-stamps\/img\/gallery-image-1.jpg": {
-		"ft": 16384,
-		"iS": 368955,
-		"oA": 1,
-		"oAP": "\/practices\/cubicle-stamps\/img\/gallery-image-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/cubicle-stamps\/img\/gallery-image-1@2x.jpg": {
-		"ft": 16384,
-		"iS": 948126,
-		"oA": 1,
-		"oAP": "\/practices\/cubicle-stamps\/img\/gallery-image-1@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/cubicle-stamps\/img\/gallery-image-2.jpg": {
-		"ft": 16384,
-		"iS": 245418,
-		"oA": 1,
-		"oAP": "\/practices\/cubicle-stamps\/img\/gallery-image-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/cubicle-stamps\/img\/gallery-image-2@2x.jpg": {
-		"ft": 16384,
-		"iS": 614141,
-		"oA": 1,
-		"oAP": "\/practices\/cubicle-stamps\/img\/gallery-image-2@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/cubicle-stamps\/img\/gallery-image-3.jpg": {
-		"ft": 16384,
-		"iS": 290075,
-		"oA": 1,
-		"oAP": "\/practices\/cubicle-stamps\/img\/gallery-image-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/cubicle-stamps\/img\/gallery-image-3@2x.jpg": {
-		"ft": 16384,
-		"iS": 725268,
-		"oA": 1,
-		"oAP": "\/practices\/cubicle-stamps\/img\/gallery-image-3@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/cubicle-stamps\/img\/gallery-image-4.jpg": {
-		"ft": 16384,
-		"iS": 435280,
-		"oA": 1,
-		"oAP": "\/practices\/cubicle-stamps\/img\/gallery-image-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/cubicle-stamps\/img\/gallery-image-4@2x.jpg": {
-		"ft": 16384,
-		"iS": 1129291,
-		"oA": 1,
-		"oAP": "\/practices\/cubicle-stamps\/img\/gallery-image-4@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/cubicle-stamps\/img\/gallery-image-5.jpg": {
-		"ft": 16384,
-		"iS": 273251,
-		"oA": 1,
-		"oAP": "\/practices\/cubicle-stamps\/img\/gallery-image-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/cubicle-stamps\/img\/gallery-image-5@2x.jpg": {
-		"ft": 16384,
-		"iS": 705013,
-		"oA": 1,
-		"oAP": "\/practices\/cubicle-stamps\/img\/gallery-image-5@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/cubicle-stamps\/img\/gallery-image-6.jpg": {
-		"ft": 16384,
-		"iS": 337000,
-		"oA": 1,
-		"oAP": "\/practices\/cubicle-stamps\/img\/gallery-image-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/cubicle-stamps\/img\/gallery-image-6@2x.jpg": {
-		"ft": 16384,
-		"iS": 866060,
-		"oA": 1,
-		"oAP": "\/practices\/cubicle-stamps\/img\/gallery-image-6@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/cubicle-stamps\/img\/gallery-image-7.jpg": {
-		"ft": 16384,
-		"iS": 314600,
-		"oA": 1,
-		"oAP": "\/practices\/cubicle-stamps\/img\/gallery-image-7.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/cubicle-stamps\/img\/gallery-image-7@2x.jpg": {
-		"ft": 16384,
-		"iS": 796022,
-		"oA": 1,
-		"oAP": "\/practices\/cubicle-stamps\/img\/gallery-image-7@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/cubicle-stamps\/img\/hero-image.jpg": {
-		"ft": 16384,
-		"iS": 380922,
-		"oA": 1,
-		"oAP": "\/practices\/cubicle-stamps\/img\/hero-image.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/cubicle-stamps\/img\/hero-image@2x.jpg": {
-		"ft": 16384,
-		"iS": 976751,
-		"oA": 1,
-		"oAP": "\/practices\/cubicle-stamps\/img\/hero-image@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/cubicle-stamps\/index.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/practices\/cubicle-stamps\/index.php",
-		"oF": 0
-		},
-	"\/practices\/familia-cluster\/img\/gallery-image-1.jpg": {
-		"ft": 16384,
-		"iS": 368955,
-		"oA": 1,
-		"oAP": "\/practices\/familia-cluster\/img\/gallery-image-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/familia-cluster\/img\/gallery-image-1@2x.jpg": {
-		"ft": 16384,
-		"iS": 948126,
-		"oA": 1,
-		"oAP": "\/practices\/familia-cluster\/img\/gallery-image-1@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/familia-cluster\/img\/gallery-image-2.jpg": {
-		"ft": 16384,
-		"iS": 245418,
-		"oA": 1,
-		"oAP": "\/practices\/familia-cluster\/img\/gallery-image-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/familia-cluster\/img\/gallery-image-2@2x.jpg": {
-		"ft": 16384,
-		"iS": 614141,
-		"oA": 1,
-		"oAP": "\/practices\/familia-cluster\/img\/gallery-image-2@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/familia-cluster\/img\/gallery-image-3.jpg": {
-		"ft": 16384,
-		"iS": 290075,
-		"oA": 1,
-		"oAP": "\/practices\/familia-cluster\/img\/gallery-image-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/familia-cluster\/img\/gallery-image-3@2x.jpg": {
-		"ft": 16384,
-		"iS": 725268,
-		"oA": 1,
-		"oAP": "\/practices\/familia-cluster\/img\/gallery-image-3@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/familia-cluster\/img\/gallery-image-4.jpg": {
-		"ft": 16384,
-		"iS": 435280,
-		"oA": 1,
-		"oAP": "\/practices\/familia-cluster\/img\/gallery-image-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/familia-cluster\/img\/gallery-image-4@2x.jpg": {
-		"ft": 16384,
-		"iS": 1129291,
-		"oA": 1,
-		"oAP": "\/practices\/familia-cluster\/img\/gallery-image-4@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/familia-cluster\/img\/gallery-image-5.jpg": {
-		"ft": 16384,
-		"iS": 273251,
-		"oA": 1,
-		"oAP": "\/practices\/familia-cluster\/img\/gallery-image-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/familia-cluster\/img\/gallery-image-5@2x.jpg": {
-		"ft": 16384,
-		"iS": 705013,
-		"oA": 1,
-		"oAP": "\/practices\/familia-cluster\/img\/gallery-image-5@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/familia-cluster\/img\/gallery-image-6.jpg": {
-		"ft": 16384,
-		"iS": 337000,
-		"oA": 1,
-		"oAP": "\/practices\/familia-cluster\/img\/gallery-image-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/familia-cluster\/img\/gallery-image-6@2x.jpg": {
-		"ft": 16384,
-		"iS": 866060,
-		"oA": 1,
-		"oAP": "\/practices\/familia-cluster\/img\/gallery-image-6@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/familia-cluster\/img\/gallery-image-7.jpg": {
-		"ft": 16384,
-		"iS": 314600,
-		"oA": 1,
-		"oAP": "\/practices\/familia-cluster\/img\/gallery-image-7.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/familia-cluster\/img\/gallery-image-7@2x.jpg": {
-		"ft": 16384,
-		"iS": 796022,
-		"oA": 1,
-		"oAP": "\/practices\/familia-cluster\/img\/gallery-image-7@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/familia-cluster\/img\/hero-image.jpg": {
-		"ft": 16384,
-		"iS": 380922,
-		"oA": 1,
-		"oAP": "\/practices\/familia-cluster\/img\/hero-image.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/familia-cluster\/img\/hero-image@2x.jpg": {
-		"ft": 16384,
-		"iS": 976751,
-		"oA": 1,
-		"oAP": "\/practices\/familia-cluster\/img\/hero-image@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/familia-cluster\/index.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/practices\/familia-cluster\/index.php",
 		"oF": 0
 		},
 	"\/practices\/flower-carnival\/img\/gallery-image-1.jpg": {
@@ -3784,1510 +4890,225 @@
 		"q": 100
 		},
 	"\/practices\/flower-carnival\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/practices\/flower-carnival\/index.php",
 		"oF": 0
 		},
-	"\/practices\/forest-cousine\/img\/gallery-image-1.jpg": {
-		"ft": 16384,
-		"iS": 368955,
-		"oA": 1,
-		"oAP": "\/practices\/forest-cousine\/img\/gallery-image-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/forest-cousine\/img\/gallery-image-1@2x.jpg": {
-		"ft": 16384,
-		"iS": 948126,
-		"oA": 1,
-		"oAP": "\/practices\/forest-cousine\/img\/gallery-image-1@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/forest-cousine\/img\/gallery-image-2.jpg": {
-		"ft": 16384,
-		"iS": 245418,
-		"oA": 1,
-		"oAP": "\/practices\/forest-cousine\/img\/gallery-image-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/forest-cousine\/img\/gallery-image-2@2x.jpg": {
-		"ft": 16384,
-		"iS": 614141,
-		"oA": 1,
-		"oAP": "\/practices\/forest-cousine\/img\/gallery-image-2@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/forest-cousine\/img\/gallery-image-3.jpg": {
-		"ft": 16384,
-		"iS": 290075,
-		"oA": 1,
-		"oAP": "\/practices\/forest-cousine\/img\/gallery-image-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/forest-cousine\/img\/gallery-image-3@2x.jpg": {
-		"ft": 16384,
-		"iS": 725268,
-		"oA": 1,
-		"oAP": "\/practices\/forest-cousine\/img\/gallery-image-3@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/forest-cousine\/img\/gallery-image-4.jpg": {
-		"ft": 16384,
-		"iS": 435280,
-		"oA": 1,
-		"oAP": "\/practices\/forest-cousine\/img\/gallery-image-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/forest-cousine\/img\/gallery-image-4@2x.jpg": {
-		"ft": 16384,
-		"iS": 1129291,
-		"oA": 1,
-		"oAP": "\/practices\/forest-cousine\/img\/gallery-image-4@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/forest-cousine\/img\/gallery-image-5.jpg": {
-		"ft": 16384,
-		"iS": 273251,
-		"oA": 1,
-		"oAP": "\/practices\/forest-cousine\/img\/gallery-image-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/forest-cousine\/img\/gallery-image-5@2x.jpg": {
-		"ft": 16384,
-		"iS": 705013,
-		"oA": 1,
-		"oAP": "\/practices\/forest-cousine\/img\/gallery-image-5@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/forest-cousine\/img\/gallery-image-6.jpg": {
-		"ft": 16384,
-		"iS": 337000,
-		"oA": 1,
-		"oAP": "\/practices\/forest-cousine\/img\/gallery-image-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/forest-cousine\/img\/gallery-image-6@2x.jpg": {
-		"ft": 16384,
-		"iS": 866060,
-		"oA": 1,
-		"oAP": "\/practices\/forest-cousine\/img\/gallery-image-6@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/forest-cousine\/img\/gallery-image-7.jpg": {
-		"ft": 16384,
-		"iS": 314600,
-		"oA": 1,
-		"oAP": "\/practices\/forest-cousine\/img\/gallery-image-7.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/forest-cousine\/img\/gallery-image-7@2x.jpg": {
-		"ft": 16384,
-		"iS": 796022,
-		"oA": 1,
-		"oAP": "\/practices\/forest-cousine\/img\/gallery-image-7@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/forest-cousine\/img\/hero-image.jpg": {
-		"ft": 16384,
-		"iS": 380922,
-		"oA": 1,
-		"oAP": "\/practices\/forest-cousine\/img\/hero-image.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/forest-cousine\/img\/hero-image@2x.jpg": {
-		"ft": 16384,
-		"iS": 976751,
-		"oA": 1,
-		"oAP": "\/practices\/forest-cousine\/img\/hero-image@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/forest-cousine\/index.php": {
+	"\/practices\/kargopol\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/practices\/forest-cousine\/index.php",
+		"oAP": "\/practices\/kargopol\/index.php",
 		"oF": 0
 		},
-	"\/practices\/historical-graffiti\/img\/gallery-image-1.jpg": {
-		"ft": 16384,
-		"iS": 368955,
-		"oA": 1,
-		"oAP": "\/practices\/historical-graffiti\/img\/gallery-image-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/historical-graffiti\/img\/gallery-image-1@2x.jpg": {
-		"ft": 16384,
-		"iS": 948126,
-		"oA": 1,
-		"oAP": "\/practices\/historical-graffiti\/img\/gallery-image-1@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/historical-graffiti\/img\/gallery-image-2.jpg": {
-		"ft": 16384,
-		"iS": 245418,
-		"oA": 1,
-		"oAP": "\/practices\/historical-graffiti\/img\/gallery-image-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/historical-graffiti\/img\/gallery-image-2@2x.jpg": {
-		"ft": 16384,
-		"iS": 614141,
-		"oA": 1,
-		"oAP": "\/practices\/historical-graffiti\/img\/gallery-image-2@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/historical-graffiti\/img\/gallery-image-3.jpg": {
-		"ft": 16384,
-		"iS": 290075,
-		"oA": 1,
-		"oAP": "\/practices\/historical-graffiti\/img\/gallery-image-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/historical-graffiti\/img\/gallery-image-3@2x.jpg": {
-		"ft": 16384,
-		"iS": 725268,
-		"oA": 1,
-		"oAP": "\/practices\/historical-graffiti\/img\/gallery-image-3@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/historical-graffiti\/img\/gallery-image-4.jpg": {
-		"ft": 16384,
-		"iS": 435280,
-		"oA": 1,
-		"oAP": "\/practices\/historical-graffiti\/img\/gallery-image-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/historical-graffiti\/img\/gallery-image-4@2x.jpg": {
-		"ft": 16384,
-		"iS": 1129291,
-		"oA": 1,
-		"oAP": "\/practices\/historical-graffiti\/img\/gallery-image-4@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/historical-graffiti\/img\/gallery-image-5.jpg": {
-		"ft": 16384,
-		"iS": 273251,
-		"oA": 1,
-		"oAP": "\/practices\/historical-graffiti\/img\/gallery-image-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/historical-graffiti\/img\/gallery-image-5@2x.jpg": {
-		"ft": 16384,
-		"iS": 705013,
-		"oA": 1,
-		"oAP": "\/practices\/historical-graffiti\/img\/gallery-image-5@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/historical-graffiti\/img\/gallery-image-6.jpg": {
-		"ft": 16384,
-		"iS": 337000,
-		"oA": 1,
-		"oAP": "\/practices\/historical-graffiti\/img\/gallery-image-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/historical-graffiti\/img\/gallery-image-6@2x.jpg": {
-		"ft": 16384,
-		"iS": 866060,
-		"oA": 1,
-		"oAP": "\/practices\/historical-graffiti\/img\/gallery-image-6@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/historical-graffiti\/img\/gallery-image-7.jpg": {
-		"ft": 16384,
-		"iS": 314600,
-		"oA": 1,
-		"oAP": "\/practices\/historical-graffiti\/img\/gallery-image-7.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/historical-graffiti\/img\/gallery-image-7@2x.jpg": {
-		"ft": 16384,
-		"iS": 796022,
-		"oA": 1,
-		"oAP": "\/practices\/historical-graffiti\/img\/gallery-image-7@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/historical-graffiti\/img\/hero-image.jpg": {
-		"ft": 16384,
-		"iS": 380922,
-		"oA": 1,
-		"oAP": "\/practices\/historical-graffiti\/img\/hero-image.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/historical-graffiti\/img\/hero-image@2x.jpg": {
-		"ft": 16384,
-		"iS": 976751,
-		"oA": 1,
-		"oAP": "\/practices\/historical-graffiti\/img\/hero-image@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/historical-graffiti\/index.php": {
+	"\/practices\/kolomna\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/practices\/historical-graffiti\/index.php",
+		"oAP": "\/practices\/kolomna\/index.php",
 		"oF": 0
 		},
-	"\/practices\/house-medicine\/img\/gallery-image-1.jpg": {
+	"\/practices\/sarapul\/img\/gallery-image-1.jpg": {
 		"ft": 16384,
 		"iS": 368955,
 		"oA": 1,
-		"oAP": "\/practices\/house-medicine\/img\/gallery-image-1.jpg",
+		"oAP": "\/practices\/sarapul\/img\/gallery-image-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/practices\/house-medicine\/img\/gallery-image-1@2x.jpg": {
+	"\/practices\/sarapul\/img\/gallery-image-1@2x.jpg": {
 		"ft": 16384,
 		"iS": 948126,
 		"oA": 1,
-		"oAP": "\/practices\/house-medicine\/img\/gallery-image-1@2x.jpg",
+		"oAP": "\/practices\/sarapul\/img\/gallery-image-1@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/practices\/house-medicine\/img\/gallery-image-2.jpg": {
+	"\/practices\/sarapul\/img\/gallery-image-2.jpg": {
 		"ft": 16384,
 		"iS": 245418,
 		"oA": 1,
-		"oAP": "\/practices\/house-medicine\/img\/gallery-image-2.jpg",
+		"oAP": "\/practices\/sarapul\/img\/gallery-image-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/practices\/house-medicine\/img\/gallery-image-2@2x.jpg": {
+	"\/practices\/sarapul\/img\/gallery-image-2@2x.jpg": {
 		"ft": 16384,
 		"iS": 614141,
 		"oA": 1,
-		"oAP": "\/practices\/house-medicine\/img\/gallery-image-2@2x.jpg",
+		"oAP": "\/practices\/sarapul\/img\/gallery-image-2@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/practices\/house-medicine\/img\/gallery-image-3.jpg": {
+	"\/practices\/sarapul\/img\/gallery-image-3.jpg": {
 		"ft": 16384,
 		"iS": 290075,
 		"oA": 1,
-		"oAP": "\/practices\/house-medicine\/img\/gallery-image-3.jpg",
+		"oAP": "\/practices\/sarapul\/img\/gallery-image-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/practices\/house-medicine\/img\/gallery-image-3@2x.jpg": {
+	"\/practices\/sarapul\/img\/gallery-image-3@2x.jpg": {
 		"ft": 16384,
 		"iS": 725268,
 		"oA": 1,
-		"oAP": "\/practices\/house-medicine\/img\/gallery-image-3@2x.jpg",
+		"oAP": "\/practices\/sarapul\/img\/gallery-image-3@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/practices\/house-medicine\/img\/gallery-image-4.jpg": {
+	"\/practices\/sarapul\/img\/gallery-image-4.jpg": {
 		"ft": 16384,
 		"iS": 435280,
 		"oA": 1,
-		"oAP": "\/practices\/house-medicine\/img\/gallery-image-4.jpg",
+		"oAP": "\/practices\/sarapul\/img\/gallery-image-4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/practices\/house-medicine\/img\/gallery-image-4@2x.jpg": {
+	"\/practices\/sarapul\/img\/gallery-image-4@2x.jpg": {
 		"ft": 16384,
 		"iS": 1129291,
 		"oA": 1,
-		"oAP": "\/practices\/house-medicine\/img\/gallery-image-4@2x.jpg",
+		"oAP": "\/practices\/sarapul\/img\/gallery-image-4@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/practices\/house-medicine\/img\/gallery-image-5.jpg": {
+	"\/practices\/sarapul\/img\/gallery-image-5.jpg": {
 		"ft": 16384,
 		"iS": 273251,
 		"oA": 1,
-		"oAP": "\/practices\/house-medicine\/img\/gallery-image-5.jpg",
+		"oAP": "\/practices\/sarapul\/img\/gallery-image-5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/practices\/house-medicine\/img\/gallery-image-5@2x.jpg": {
+	"\/practices\/sarapul\/img\/gallery-image-5@2x.jpg": {
 		"ft": 16384,
 		"iS": 705013,
 		"oA": 1,
-		"oAP": "\/practices\/house-medicine\/img\/gallery-image-5@2x.jpg",
+		"oAP": "\/practices\/sarapul\/img\/gallery-image-5@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/practices\/house-medicine\/img\/gallery-image-6.jpg": {
+	"\/practices\/sarapul\/img\/gallery-image-6.jpg": {
 		"ft": 16384,
 		"iS": 337000,
 		"oA": 1,
-		"oAP": "\/practices\/house-medicine\/img\/gallery-image-6.jpg",
+		"oAP": "\/practices\/sarapul\/img\/gallery-image-6.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/practices\/house-medicine\/img\/gallery-image-6@2x.jpg": {
+	"\/practices\/sarapul\/img\/gallery-image-6@2x.jpg": {
 		"ft": 16384,
 		"iS": 866060,
 		"oA": 1,
-		"oAP": "\/practices\/house-medicine\/img\/gallery-image-6@2x.jpg",
+		"oAP": "\/practices\/sarapul\/img\/gallery-image-6@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/practices\/house-medicine\/img\/gallery-image-7.jpg": {
+	"\/practices\/sarapul\/img\/gallery-image-7.jpg": {
 		"ft": 16384,
 		"iS": 314600,
 		"oA": 1,
-		"oAP": "\/practices\/house-medicine\/img\/gallery-image-7.jpg",
+		"oAP": "\/practices\/sarapul\/img\/gallery-image-7.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/practices\/house-medicine\/img\/gallery-image-7@2x.jpg": {
+	"\/practices\/sarapul\/img\/gallery-image-7@2x.jpg": {
 		"ft": 16384,
 		"iS": 796022,
 		"oA": 1,
-		"oAP": "\/practices\/house-medicine\/img\/gallery-image-7@2x.jpg",
+		"oAP": "\/practices\/sarapul\/img\/gallery-image-7@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/practices\/house-medicine\/img\/hero-image.jpg": {
+	"\/practices\/sarapul\/img\/gallery-image-8.jpg": {
 		"ft": 16384,
-		"iS": 380922,
+		"iS": 406470,
 		"oA": 1,
-		"oAP": "\/practices\/house-medicine\/img\/hero-image.jpg",
+		"oAP": "\/practices\/sarapul\/img\/gallery-image-8.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/practices\/house-medicine\/img\/hero-image@2x.jpg": {
+	"\/practices\/sarapul\/img\/gallery-image-8@2x.jpg": {
 		"ft": 16384,
-		"iS": 976751,
+		"iS": 1361630,
 		"oA": 1,
-		"oAP": "\/practices\/house-medicine\/img\/hero-image@2x.jpg",
+		"oAP": "\/practices\/sarapul\/img\/gallery-image-8@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/practices\/house-medicine\/index.php": {
+	"\/practices\/sarapul\/img\/hero-image.jpg": {
+		"ft": 16384,
+		"iS": 395648,
+		"oA": 1,
+		"oAP": "\/practices\/sarapul\/img\/hero-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/sarapul\/img\/hero-image@2x.jpg": {
+		"ft": 16384,
+		"iS": 395648,
+		"oA": 1,
+		"oAP": "\/practices\/sarapul\/img\/hero-image@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/sarapul\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/practices\/house-medicine\/index.php",
+		"oAP": "\/practices\/sarapul\/index.php",
 		"oF": 0
 		},
-	"\/practices\/kolomna-candy\/img\/gallery-image-1.jpg": {
-		"ft": 16384,
-		"iS": 368955,
-		"oA": 1,
-		"oAP": "\/practices\/kolomna-candy\/img\/gallery-image-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/kolomna-candy\/img\/gallery-image-1@2x.jpg": {
-		"ft": 16384,
-		"iS": 948126,
-		"oA": 1,
-		"oAP": "\/practices\/kolomna-candy\/img\/gallery-image-1@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/kolomna-candy\/img\/gallery-image-2.jpg": {
-		"ft": 16384,
-		"iS": 245418,
-		"oA": 1,
-		"oAP": "\/practices\/kolomna-candy\/img\/gallery-image-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/kolomna-candy\/img\/gallery-image-2@2x.jpg": {
-		"ft": 16384,
-		"iS": 614141,
-		"oA": 1,
-		"oAP": "\/practices\/kolomna-candy\/img\/gallery-image-2@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/kolomna-candy\/img\/gallery-image-3.jpg": {
-		"ft": 16384,
-		"iS": 290075,
-		"oA": 1,
-		"oAP": "\/practices\/kolomna-candy\/img\/gallery-image-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/kolomna-candy\/img\/gallery-image-3@2x.jpg": {
-		"ft": 16384,
-		"iS": 725268,
-		"oA": 1,
-		"oAP": "\/practices\/kolomna-candy\/img\/gallery-image-3@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/kolomna-candy\/img\/gallery-image-4.jpg": {
-		"ft": 16384,
-		"iS": 435280,
-		"oA": 1,
-		"oAP": "\/practices\/kolomna-candy\/img\/gallery-image-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/kolomna-candy\/img\/gallery-image-4@2x.jpg": {
-		"ft": 16384,
-		"iS": 1129291,
-		"oA": 1,
-		"oAP": "\/practices\/kolomna-candy\/img\/gallery-image-4@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/kolomna-candy\/img\/gallery-image-5.jpg": {
-		"ft": 16384,
-		"iS": 273251,
-		"oA": 1,
-		"oAP": "\/practices\/kolomna-candy\/img\/gallery-image-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/kolomna-candy\/img\/gallery-image-5@2x.jpg": {
-		"ft": 16384,
-		"iS": 705013,
-		"oA": 1,
-		"oAP": "\/practices\/kolomna-candy\/img\/gallery-image-5@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/kolomna-candy\/img\/gallery-image-6.jpg": {
-		"ft": 16384,
-		"iS": 337000,
-		"oA": 1,
-		"oAP": "\/practices\/kolomna-candy\/img\/gallery-image-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/kolomna-candy\/img\/gallery-image-6@2x.jpg": {
-		"ft": 16384,
-		"iS": 866060,
-		"oA": 1,
-		"oAP": "\/practices\/kolomna-candy\/img\/gallery-image-6@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/kolomna-candy\/img\/gallery-image-7.jpg": {
-		"ft": 16384,
-		"iS": 314600,
-		"oA": 1,
-		"oAP": "\/practices\/kolomna-candy\/img\/gallery-image-7.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/kolomna-candy\/img\/gallery-image-7@2x.jpg": {
-		"ft": 16384,
-		"iS": 796022,
-		"oA": 1,
-		"oAP": "\/practices\/kolomna-candy\/img\/gallery-image-7@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/kolomna-candy\/img\/hero-image.jpg": {
-		"ft": 16384,
-		"iS": 380922,
-		"oA": 1,
-		"oAP": "\/practices\/kolomna-candy\/img\/hero-image.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/kolomna-candy\/img\/hero-image@2x.jpg": {
-		"ft": 16384,
-		"iS": 976751,
-		"oA": 1,
-		"oAP": "\/practices\/kolomna-candy\/img\/hero-image@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/kolomna-candy\/index.php": {
+	"\/practices\/uglich\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/practices\/kolomna-candy\/index.php",
-		"oF": 0
-		},
-	"\/practices\/papertown\/img\/gallery-image-1.jpg": {
-		"ft": 16384,
-		"iS": 368955,
-		"oA": 1,
-		"oAP": "\/practices\/papertown\/img\/gallery-image-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/papertown\/img\/gallery-image-1@2x.jpg": {
-		"ft": 16384,
-		"iS": 948126,
-		"oA": 1,
-		"oAP": "\/practices\/papertown\/img\/gallery-image-1@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/papertown\/img\/gallery-image-2.jpg": {
-		"ft": 16384,
-		"iS": 245418,
-		"oA": 1,
-		"oAP": "\/practices\/papertown\/img\/gallery-image-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/papertown\/img\/gallery-image-2@2x.jpg": {
-		"ft": 16384,
-		"iS": 614141,
-		"oA": 1,
-		"oAP": "\/practices\/papertown\/img\/gallery-image-2@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/papertown\/img\/gallery-image-3.jpg": {
-		"ft": 16384,
-		"iS": 290075,
-		"oA": 1,
-		"oAP": "\/practices\/papertown\/img\/gallery-image-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/papertown\/img\/gallery-image-3@2x.jpg": {
-		"ft": 16384,
-		"iS": 725268,
-		"oA": 1,
-		"oAP": "\/practices\/papertown\/img\/gallery-image-3@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/papertown\/img\/gallery-image-4.jpg": {
-		"ft": 16384,
-		"iS": 435280,
-		"oA": 1,
-		"oAP": "\/practices\/papertown\/img\/gallery-image-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/papertown\/img\/gallery-image-4@2x.jpg": {
-		"ft": 16384,
-		"iS": 1129291,
-		"oA": 1,
-		"oAP": "\/practices\/papertown\/img\/gallery-image-4@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/papertown\/img\/gallery-image-5.jpg": {
-		"ft": 16384,
-		"iS": 273251,
-		"oA": 1,
-		"oAP": "\/practices\/papertown\/img\/gallery-image-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/papertown\/img\/gallery-image-5@2x.jpg": {
-		"ft": 16384,
-		"iS": 705013,
-		"oA": 1,
-		"oAP": "\/practices\/papertown\/img\/gallery-image-5@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/papertown\/img\/gallery-image-6.jpg": {
-		"ft": 16384,
-		"iS": 337000,
-		"oA": 1,
-		"oAP": "\/practices\/papertown\/img\/gallery-image-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/papertown\/img\/gallery-image-6@2x.jpg": {
-		"ft": 16384,
-		"iS": 866060,
-		"oA": 1,
-		"oAP": "\/practices\/papertown\/img\/gallery-image-6@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/papertown\/img\/gallery-image-7.jpg": {
-		"ft": 16384,
-		"iS": 314600,
-		"oA": 1,
-		"oAP": "\/practices\/papertown\/img\/gallery-image-7.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/papertown\/img\/gallery-image-7@2x.jpg": {
-		"ft": 16384,
-		"iS": 796022,
-		"oA": 1,
-		"oAP": "\/practices\/papertown\/img\/gallery-image-7@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/papertown\/img\/hero-image.jpg": {
-		"ft": 16384,
-		"iS": 380922,
-		"oA": 1,
-		"oAP": "\/practices\/papertown\/img\/hero-image.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/papertown\/img\/hero-image@2x.jpg": {
-		"ft": 16384,
-		"iS": 976751,
-		"oA": 1,
-		"oAP": "\/practices\/papertown\/img\/hero-image@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/papertown\/index.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/practices\/papertown\/index.php",
-		"oF": 0
-		},
-	"\/practices\/startup-school\/img\/gallery-image-1.jpg": {
-		"ft": 16384,
-		"iS": 368955,
-		"oA": 1,
-		"oAP": "\/practices\/startup-school\/img\/gallery-image-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/startup-school\/img\/gallery-image-1@2x.jpg": {
-		"ft": 16384,
-		"iS": 948126,
-		"oA": 1,
-		"oAP": "\/practices\/startup-school\/img\/gallery-image-1@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/startup-school\/img\/gallery-image-2.jpg": {
-		"ft": 16384,
-		"iS": 245418,
-		"oA": 1,
-		"oAP": "\/practices\/startup-school\/img\/gallery-image-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/startup-school\/img\/gallery-image-2@2x.jpg": {
-		"ft": 16384,
-		"iS": 614141,
-		"oA": 1,
-		"oAP": "\/practices\/startup-school\/img\/gallery-image-2@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/startup-school\/img\/gallery-image-3.jpg": {
-		"ft": 16384,
-		"iS": 290075,
-		"oA": 1,
-		"oAP": "\/practices\/startup-school\/img\/gallery-image-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/startup-school\/img\/gallery-image-3@2x.jpg": {
-		"ft": 16384,
-		"iS": 725268,
-		"oA": 1,
-		"oAP": "\/practices\/startup-school\/img\/gallery-image-3@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/startup-school\/img\/gallery-image-4.jpg": {
-		"ft": 16384,
-		"iS": 435280,
-		"oA": 1,
-		"oAP": "\/practices\/startup-school\/img\/gallery-image-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/startup-school\/img\/gallery-image-4@2x.jpg": {
-		"ft": 16384,
-		"iS": 1129291,
-		"oA": 1,
-		"oAP": "\/practices\/startup-school\/img\/gallery-image-4@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/startup-school\/img\/gallery-image-5.jpg": {
-		"ft": 16384,
-		"iS": 273251,
-		"oA": 1,
-		"oAP": "\/practices\/startup-school\/img\/gallery-image-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/startup-school\/img\/gallery-image-5@2x.jpg": {
-		"ft": 16384,
-		"iS": 705013,
-		"oA": 1,
-		"oAP": "\/practices\/startup-school\/img\/gallery-image-5@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/startup-school\/img\/gallery-image-6.jpg": {
-		"ft": 16384,
-		"iS": 337000,
-		"oA": 1,
-		"oAP": "\/practices\/startup-school\/img\/gallery-image-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/startup-school\/img\/gallery-image-6@2x.jpg": {
-		"ft": 16384,
-		"iS": 866060,
-		"oA": 1,
-		"oAP": "\/practices\/startup-school\/img\/gallery-image-6@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/startup-school\/img\/gallery-image-7.jpg": {
-		"ft": 16384,
-		"iS": 314600,
-		"oA": 1,
-		"oAP": "\/practices\/startup-school\/img\/gallery-image-7.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/startup-school\/img\/gallery-image-7@2x.jpg": {
-		"ft": 16384,
-		"iS": 796022,
-		"oA": 1,
-		"oAP": "\/practices\/startup-school\/img\/gallery-image-7@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/startup-school\/img\/hero-image.jpg": {
-		"ft": 16384,
-		"iS": 736391,
-		"oA": 1,
-		"oAP": "\/practices\/startup-school\/img\/hero-image.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/startup-school\/img\/hero-image@2x.jpg": {
-		"ft": 16384,
-		"iS": 1692530,
-		"oA": 1,
-		"oAP": "\/practices\/startup-school\/img\/hero-image@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/startup-school\/index.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/practices\/startup-school\/index.php",
-		"oF": 0
-		},
-	"\/practices\/tomsoyer\/img\/gallery-image-1.jpg": {
-		"ft": 16384,
-		"iS": 368955,
-		"oA": 1,
-		"oAP": "\/practices\/tomsoyer\/img\/gallery-image-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tomsoyer\/img\/gallery-image-1@2x.jpg": {
-		"ft": 16384,
-		"iS": 948126,
-		"oA": 1,
-		"oAP": "\/practices\/tomsoyer\/img\/gallery-image-1@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tomsoyer\/img\/gallery-image-2.jpg": {
-		"ft": 16384,
-		"iS": 245418,
-		"oA": 1,
-		"oAP": "\/practices\/tomsoyer\/img\/gallery-image-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tomsoyer\/img\/gallery-image-2@2x.jpg": {
-		"ft": 16384,
-		"iS": 614141,
-		"oA": 1,
-		"oAP": "\/practices\/tomsoyer\/img\/gallery-image-2@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tomsoyer\/img\/gallery-image-3.jpg": {
-		"ft": 16384,
-		"iS": 290075,
-		"oA": 1,
-		"oAP": "\/practices\/tomsoyer\/img\/gallery-image-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tomsoyer\/img\/gallery-image-3@2x.jpg": {
-		"ft": 16384,
-		"iS": 725268,
-		"oA": 1,
-		"oAP": "\/practices\/tomsoyer\/img\/gallery-image-3@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tomsoyer\/img\/gallery-image-4.jpg": {
-		"ft": 16384,
-		"iS": 435280,
-		"oA": 1,
-		"oAP": "\/practices\/tomsoyer\/img\/gallery-image-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tomsoyer\/img\/gallery-image-4@2x.jpg": {
-		"ft": 16384,
-		"iS": 1129291,
-		"oA": 1,
-		"oAP": "\/practices\/tomsoyer\/img\/gallery-image-4@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tomsoyer\/img\/gallery-image-5.jpg": {
-		"ft": 16384,
-		"iS": 273251,
-		"oA": 1,
-		"oAP": "\/practices\/tomsoyer\/img\/gallery-image-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tomsoyer\/img\/gallery-image-5@2x.jpg": {
-		"ft": 16384,
-		"iS": 705013,
-		"oA": 1,
-		"oAP": "\/practices\/tomsoyer\/img\/gallery-image-5@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tomsoyer\/img\/gallery-image-6.jpg": {
-		"ft": 16384,
-		"iS": 337000,
-		"oA": 1,
-		"oAP": "\/practices\/tomsoyer\/img\/gallery-image-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tomsoyer\/img\/gallery-image-6@2x.jpg": {
-		"ft": 16384,
-		"iS": 866060,
-		"oA": 1,
-		"oAP": "\/practices\/tomsoyer\/img\/gallery-image-6@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tomsoyer\/img\/gallery-image-7.jpg": {
-		"ft": 16384,
-		"iS": 314600,
-		"oA": 1,
-		"oAP": "\/practices\/tomsoyer\/img\/gallery-image-7.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tomsoyer\/img\/gallery-image-7@2x.jpg": {
-		"ft": 16384,
-		"iS": 796022,
-		"oA": 1,
-		"oAP": "\/practices\/tomsoyer\/img\/gallery-image-7@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tomsoyer\/img\/hero-image.jpg": {
-		"ft": 16384,
-		"iS": 380922,
-		"oA": 1,
-		"oAP": "\/practices\/tomsoyer\/img\/hero-image.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tomsoyer\/img\/hero-image@2x.jpg": {
-		"ft": 16384,
-		"iS": 976751,
-		"oA": 1,
-		"oAP": "\/practices\/tomsoyer\/img\/hero-image@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tomsoyer\/index.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/practices\/tomsoyer\/index.php",
-		"oF": 0
-		},
-	"\/practices\/tourist-petrol\/img\/gallery-image-1.jpg": {
-		"ft": 16384,
-		"iS": 368955,
-		"oA": 1,
-		"oAP": "\/practices\/tourist-petrol\/img\/gallery-image-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tourist-petrol\/img\/gallery-image-1@2x.jpg": {
-		"ft": 16384,
-		"iS": 948126,
-		"oA": 1,
-		"oAP": "\/practices\/tourist-petrol\/img\/gallery-image-1@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tourist-petrol\/img\/gallery-image-2.jpg": {
-		"ft": 16384,
-		"iS": 245418,
-		"oA": 1,
-		"oAP": "\/practices\/tourist-petrol\/img\/gallery-image-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tourist-petrol\/img\/gallery-image-2@2x.jpg": {
-		"ft": 16384,
-		"iS": 614141,
-		"oA": 1,
-		"oAP": "\/practices\/tourist-petrol\/img\/gallery-image-2@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tourist-petrol\/img\/gallery-image-3.jpg": {
-		"ft": 16384,
-		"iS": 290075,
-		"oA": 1,
-		"oAP": "\/practices\/tourist-petrol\/img\/gallery-image-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tourist-petrol\/img\/gallery-image-3@2x.jpg": {
-		"ft": 16384,
-		"iS": 725268,
-		"oA": 1,
-		"oAP": "\/practices\/tourist-petrol\/img\/gallery-image-3@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tourist-petrol\/img\/gallery-image-4.jpg": {
-		"ft": 16384,
-		"iS": 435280,
-		"oA": 1,
-		"oAP": "\/practices\/tourist-petrol\/img\/gallery-image-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tourist-petrol\/img\/gallery-image-4@2x.jpg": {
-		"ft": 16384,
-		"iS": 1129291,
-		"oA": 1,
-		"oAP": "\/practices\/tourist-petrol\/img\/gallery-image-4@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tourist-petrol\/img\/gallery-image-5.jpg": {
-		"ft": 16384,
-		"iS": 273251,
-		"oA": 1,
-		"oAP": "\/practices\/tourist-petrol\/img\/gallery-image-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tourist-petrol\/img\/gallery-image-5@2x.jpg": {
-		"ft": 16384,
-		"iS": 705013,
-		"oA": 1,
-		"oAP": "\/practices\/tourist-petrol\/img\/gallery-image-5@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tourist-petrol\/img\/gallery-image-6.jpg": {
-		"ft": 16384,
-		"iS": 337000,
-		"oA": 1,
-		"oAP": "\/practices\/tourist-petrol\/img\/gallery-image-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tourist-petrol\/img\/gallery-image-6@2x.jpg": {
-		"ft": 16384,
-		"iS": 866060,
-		"oA": 1,
-		"oAP": "\/practices\/tourist-petrol\/img\/gallery-image-6@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tourist-petrol\/img\/gallery-image-7.jpg": {
-		"ft": 16384,
-		"iS": 314600,
-		"oA": 1,
-		"oAP": "\/practices\/tourist-petrol\/img\/gallery-image-7.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tourist-petrol\/img\/gallery-image-7@2x.jpg": {
-		"ft": 16384,
-		"iS": 796022,
-		"oA": 1,
-		"oAP": "\/practices\/tourist-petrol\/img\/gallery-image-7@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tourist-petrol\/img\/hero-image.jpg": {
-		"ft": 16384,
-		"iS": 380922,
-		"oA": 1,
-		"oAP": "\/practices\/tourist-petrol\/img\/hero-image.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tourist-petrol\/img\/hero-image@2x.jpg": {
-		"ft": 16384,
-		"iS": 976751,
-		"oA": 1,
-		"oAP": "\/practices\/tourist-petrol\/img\/hero-image@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/tourist-petrol\/index.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/practices\/tourist-petrol\/index.php",
-		"oF": 0
-		},
-	"\/practices\/uglich-tic\/img\/gallery-image-1.jpg": {
-		"ft": 16384,
-		"iS": 368955,
-		"oA": 1,
-		"oAP": "\/practices\/uglich-tic\/img\/gallery-image-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/uglich-tic\/img\/gallery-image-1@2x.jpg": {
-		"ft": 16384,
-		"iS": 948126,
-		"oA": 1,
-		"oAP": "\/practices\/uglich-tic\/img\/gallery-image-1@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/uglich-tic\/img\/gallery-image-2.jpg": {
-		"ft": 16384,
-		"iS": 245418,
-		"oA": 1,
-		"oAP": "\/practices\/uglich-tic\/img\/gallery-image-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/uglich-tic\/img\/gallery-image-2@2x.jpg": {
-		"ft": 16384,
-		"iS": 614141,
-		"oA": 1,
-		"oAP": "\/practices\/uglich-tic\/img\/gallery-image-2@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/uglich-tic\/img\/gallery-image-3.jpg": {
-		"ft": 16384,
-		"iS": 290075,
-		"oA": 1,
-		"oAP": "\/practices\/uglich-tic\/img\/gallery-image-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/uglich-tic\/img\/gallery-image-3@2x.jpg": {
-		"ft": 16384,
-		"iS": 725268,
-		"oA": 1,
-		"oAP": "\/practices\/uglich-tic\/img\/gallery-image-3@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/uglich-tic\/img\/gallery-image-4.jpg": {
-		"ft": 16384,
-		"iS": 435280,
-		"oA": 1,
-		"oAP": "\/practices\/uglich-tic\/img\/gallery-image-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/uglich-tic\/img\/gallery-image-4@2x.jpg": {
-		"ft": 16384,
-		"iS": 1129291,
-		"oA": 1,
-		"oAP": "\/practices\/uglich-tic\/img\/gallery-image-4@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/uglich-tic\/img\/gallery-image-5.jpg": {
-		"ft": 16384,
-		"iS": 273251,
-		"oA": 1,
-		"oAP": "\/practices\/uglich-tic\/img\/gallery-image-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/uglich-tic\/img\/gallery-image-5@2x.jpg": {
-		"ft": 16384,
-		"iS": 705013,
-		"oA": 1,
-		"oAP": "\/practices\/uglich-tic\/img\/gallery-image-5@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/uglich-tic\/img\/gallery-image-6.jpg": {
-		"ft": 16384,
-		"iS": 337000,
-		"oA": 1,
-		"oAP": "\/practices\/uglich-tic\/img\/gallery-image-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/uglich-tic\/img\/gallery-image-6@2x.jpg": {
-		"ft": 16384,
-		"iS": 866060,
-		"oA": 1,
-		"oAP": "\/practices\/uglich-tic\/img\/gallery-image-6@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/uglich-tic\/img\/gallery-image-7.jpg": {
-		"ft": 16384,
-		"iS": 314600,
-		"oA": 1,
-		"oAP": "\/practices\/uglich-tic\/img\/gallery-image-7.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/uglich-tic\/img\/gallery-image-7@2x.jpg": {
-		"ft": 16384,
-		"iS": 796022,
-		"oA": 1,
-		"oAP": "\/practices\/uglich-tic\/img\/gallery-image-7@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/uglich-tic\/img\/hero-image.jpg": {
-		"ft": 16384,
-		"iS": 380922,
-		"oA": 1,
-		"oAP": "\/practices\/uglich-tic\/img\/hero-image.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/uglich-tic\/img\/hero-image@2x.jpg": {
-		"ft": 16384,
-		"iS": 976751,
-		"oA": 1,
-		"oAP": "\/practices\/uglich-tic\/img\/hero-image@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/uglich-tic\/index.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/practices\/uglich-tic\/index.php",
+		"oAP": "\/practices\/uglich\/index.php",
 		"oF": 0
 		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5302,156 +5123,182 @@
 		"uCM": 0
 		},
 	"\/scss\/.sass-cache\/364ced1777c7297150a8b8955ddb5d37865901fa\/_animations.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/364ced1777c7297150a8b8955ddb5d37865901fa\/_animations.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/364ced1777c7297150a8b8955ddb5d37865901fa\/_fonts.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/364ced1777c7297150a8b8955ddb5d37865901fa\/_fonts.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/364ced1777c7297150a8b8955ddb5d37865901fa\/_interactive.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/364ced1777c7297150a8b8955ddb5d37865901fa\/_interactive.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/364ced1777c7297150a8b8955ddb5d37865901fa\/_preloader.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/364ced1777c7297150a8b8955ddb5d37865901fa\/_preloader.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/364ced1777c7297150a8b8955ddb5d37865901fa\/_retinajs.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/364ced1777c7297150a8b8955ddb5d37865901fa\/_retinajs.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/364ced1777c7297150a8b8955ddb5d37865901fa\/_shorthands.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/364ced1777c7297150a8b8955ddb5d37865901fa\/_shorthands.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/364ced1777c7297150a8b8955ddb5d37865901fa\/_vars.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/364ced1777c7297150a8b8955ddb5d37865901fa\/_vars.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/364ced1777c7297150a8b8955ddb5d37865901fa\/custom.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/364ced1777c7297150a8b8955ddb5d37865901fa\/custom.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/364ced1777c7297150a8b8955ddb5d37865901fa\/main.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/364ced1777c7297150a8b8955ddb5d37865901fa\/main.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/7111d63e2dc0b108c60481c90e39b64f8893f3cb\/_animations.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/7111d63e2dc0b108c60481c90e39b64f8893f3cb\/_animations.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/7111d63e2dc0b108c60481c90e39b64f8893f3cb\/_fonts.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/7111d63e2dc0b108c60481c90e39b64f8893f3cb\/_fonts.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/7111d63e2dc0b108c60481c90e39b64f8893f3cb\/_footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/7111d63e2dc0b108c60481c90e39b64f8893f3cb\/_footer.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/7111d63e2dc0b108c60481c90e39b64f8893f3cb\/_header.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/7111d63e2dc0b108c60481c90e39b64f8893f3cb\/_header.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/7111d63e2dc0b108c60481c90e39b64f8893f3cb\/_hero-content.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/7111d63e2dc0b108c60481c90e39b64f8893f3cb\/_hero-content.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/7111d63e2dc0b108c60481c90e39b64f8893f3cb\/_hero-image.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/7111d63e2dc0b108c60481c90e39b64f8893f3cb\/_hero-image.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/7111d63e2dc0b108c60481c90e39b64f8893f3cb\/_interactive.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/7111d63e2dc0b108c60481c90e39b64f8893f3cb\/_interactive.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/7111d63e2dc0b108c60481c90e39b64f8893f3cb\/_retinajs.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/7111d63e2dc0b108c60481c90e39b64f8893f3cb\/_retinajs.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/7111d63e2dc0b108c60481c90e39b64f8893f3cb\/_shorthands.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/7111d63e2dc0b108c60481c90e39b64f8893f3cb\/_shorthands.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/7111d63e2dc0b108c60481c90e39b64f8893f3cb\/main.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/7111d63e2dc0b108c60481c90e39b64f8893f3cb\/main.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/b5cafe2ac9ef9419c898679e01e7aab547103a5e\/_animations.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/b5cafe2ac9ef9419c898679e01e7aab547103a5e\/_animations.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/b5cafe2ac9ef9419c898679e01e7aab547103a5e\/_fonts.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/b5cafe2ac9ef9419c898679e01e7aab547103a5e\/_fonts.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/b5cafe2ac9ef9419c898679e01e7aab547103a5e\/_header.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/b5cafe2ac9ef9419c898679e01e7aab547103a5e\/_header.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/b5cafe2ac9ef9419c898679e01e7aab547103a5e\/_interactive.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/b5cafe2ac9ef9419c898679e01e7aab547103a5e\/_interactive.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/b5cafe2ac9ef9419c898679e01e7aab547103a5e\/_shorthands.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/b5cafe2ac9ef9419c898679e01e7aab547103a5e\/_shorthands.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/b5cafe2ac9ef9419c898679e01e7aab547103a5e\/_vars.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/b5cafe2ac9ef9419c898679e01e7aab547103a5e\/_vars.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/b5cafe2ac9ef9419c898679e01e7aab547103a5e\/main.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/b5cafe2ac9ef9419c898679e01e7aab547103a5e\/main.scssc",
@@ -5509,19 +5356,6 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/scss\/_hero-content.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/_hero-content.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
 	"\/scss\/_hero-image.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -5535,6 +5369,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/scss\/_index.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_index.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/scss\/_interactive.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -5544,6 +5391,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/_interactive.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/scss\/_leaflet.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_leaflet.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/scss\/_practice.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_practice.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -6145,6 +6018,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -6209,9 +6086,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -6241,6 +6118,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -6250,14 +6131,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -7361,7 +7234,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 2,
@@ -7394,6 +7268,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -7435,7 +7310,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -7467,13 +7343,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -7482,7 +7358,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -7502,7 +7379,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -7530,7 +7408,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,

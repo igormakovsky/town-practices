@@ -1,0 +1,58 @@
+.index {
+    &_menu {
+        ul {
+            li {
+                font-size: 1.3rem;
+                float: left;
+                margin-right: 2rem;
+                padding-right: 2rem;
+                white-space: nowrap;
+                &:before {
+                    content: '';
+                }
+            }
+        }
+    }
+    &_list {
+        width: 1000px;
+        height: 100rem;
+        nav {
+            float: left;
+            margin-right: 1.5rem;
+            ul {
+                margin-left: 0;
+                padding-left: 0;
+                li {
+                    font-size: 1rem;
+                    line-height: .5rem;
+                    margin-left: 0;
+                    padding-left: 1rem;
+                    &:before {
+                        content: '';
+                    }
+                    a {
+                        &.chooser {}
+                        &.activated {
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }
+        .list-container {
+            float: left;
+            .list_card {
+                transition: all .5s;
+                opacity: 1;
+                height: 2.5rem;
+                &.hide {
+                    opacity: .1;
+                }
+                p {
+                    margin-top: 0;
+                }
+            }
+        }
+
+    }
+}

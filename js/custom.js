@@ -1,5 +1,15 @@
 $(function () {
 
+    $('a[href^="#"]').click(function () {
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top - 40
+        }, 2000);
+        return false;
+    });
+    
+    $('a[href^="http://"]').attr('target', '_blank');
+    $('a[href^="https://"]').attr('target', '_blank');
+
     $('#a:in-viewport').addClass('animated fadeInDown');
 
     $(window).scroll(function () {

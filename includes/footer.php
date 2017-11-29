@@ -1,3 +1,44 @@
+<script id="simListTplID" type="x-tmpl-mustache">
+    <section style="margin-top:5rem;">
+        <h3>Также будет интересно</h3>
+        {{#simList}}
+        <div id="practice_{{id}}" class="f-town">
+            <p><a href="{{link}}" class="">{{town}}</a></p>
+        </div>
+        {{/simList}}
+    </section>
+</script>
+
+<script>
+	$(document).ready(
+		function () {
+			var town = getObjects(data, 'id', "<?=$id?>")[0] // Returns an array of matching objects
+			var similiarListArray = []
+			if (town.hasOwnProperty('similiar')) {
+				for (i = 0; i < town.similiar.length; i++) {
+					var similiarTown = getObjects(data, 'id', town.similiar[i])[0]
+					if (similiarTown !== undefined) {
+						similiarListArray.push(
+							{
+								title: similiarTown.hasOwnProperty('title') ? similiarTown.title : '',
+								town: similiarTown.hasOwnProperty('town') ? similiarTown.town : '',
+								link: '/practices/' + similiarTown.id,
+								id: similiarTown.id
+							}
+						)
+					}
+				}
+			}
+			var simListTpl = $('#simListTplID').html()
+			Mustache.parse(simListTpl)   // optional, speeds up future uses
+			var output = Mustache.render(simListTpl, {simList: similiarListArray})
+			if (document.getElementById('similiar')) {
+				document.getElementById('similiar').innerHTML = output
+			}
+		}
+	)
+</script>
+
 <script>
     $(function() {
         $('.f-town-<?=$id;?>').addClass('active');
@@ -16,20 +57,6 @@
         $('#<?=$expert_5;?>').removeClass('hidden');
         $('#<?=$expert_6;?>').removeClass('hidden');
 
-        $('.f-town-<?=$town_id;?>').removeClass('hidden');
-        $('.f-town-<?=$oblast_id;?>').removeClass('hidden');
-        $('.<?=$practice_type_a_id;?>').removeClass('hidden');
-        $('#practice_<?=$link_1;?>').removeClass('hidden');
-        $('#practice_<?=$link_2;?>').removeClass('hidden');
-        $('#practice_<?=$link_3;?>').removeClass('hidden');
-        $('#practice_<?=$link_4;?>').removeClass('hidden');
-        $('#practice_<?=$link_5;?>').removeClass('hidden');
-        $('#practice_<?=$link_6;?>').removeClass('hidden');
-        $('#practice_<?=$link_7;?>').removeClass('hidden');
-        $('#practice_<?=$link_8;?>').removeClass('hidden');
-        $('#practice_<?=$link_9;?>').removeClass('hidden');
-        $('#practice_<?=$link_10;?>').removeClass('hidden');
-        
         $('.<?=$title;?>').addClass('active');
     });
 
@@ -135,562 +162,16 @@
 
     </section>
 
-    <section>
-    
-        <h3>Другие практики города
-            <?=$town?>
-        </h3>
-    
-        <div class="f-town hidden f-town-<?=$practice_1_town_id;?> <?=$practice_1_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_1_id;?>/">
-                    <?=$practice_1;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_2_town_id;?> <?=$practice_2_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_2_id;?>/">
-                    <?=$practice_2;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_3_town_id;?> <?=$practice_3_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_3_id;?>/">
-                    <?=$practice_3;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_4_town_id;?> <?=$practice_4_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_4_id;?>/">
-                    <?=$practice_4;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_5_town_id;?> <?=$practice_5_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_5_id;?>/">
-                    <?=$practice_5;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_6_town_id;?> <?=$practice_6_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_6_id;?>/">
-                    <?=$practice_6;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_7_town_id;?> <?=$practice_7_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_7_id;?>/">
-                    <?=$practice_7;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_8_town_id;?> <?=$practice_8_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_8_id;?>/">
-                    <?=$practice_8;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_9_town_id;?> <?=$practice_9_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_9_id;?>/">
-                    <?=$practice_9;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_10_town_id;?> <?=$practice_10_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_10_id;?>/">
-                    <?=$practice_10;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_11_town_id;?> <?=$practice_11_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_11_id;?>/">
-                    <?=$practice_11;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_12_town_id;?> <?=$practice_12_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_12_id;?>/">
-                    <?=$practice_12;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_13_town_id;?> <?=$practice_13_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_13_id;?>/">
-                    <?=$practice_13;?>
-                </a>
-            </p>
-    
-        </div>
-    
-    </section>
 
-    <section style="margin-top:5rem;">
-    
-        <h3>Другие практики —
-            <?=$oblast?>
-        </h3>
-    
-        <div class="f-town hidden f-town-<?=$practice_1_oblast_id;?> <?=$practice_1_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_1_id;?>/">
-                    <?=$practice_1;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_2_oblast_id;?> <?=$practice_2_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_2_id;?>/">
-                    <?=$practice_2;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_3_oblast_id;?> <?=$practice_3_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_3_id;?>/">
-                    <?=$practice_3;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_4_oblast_id;?> <?=$practice_4_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_4_id;?>/">
-                    <?=$practice_4;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_5_oblast_id;?> <?=$practice_5_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_5_id;?>/">
-                    <?=$practice_5;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_6_oblast_id;?> <?=$practice_6_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_6_id;?>/">
-                    <?=$practice_6;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_7_oblast_id;?> <?=$practice_7_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_7_id;?>/">
-                    <?=$practice_7;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_8_oblast_id;?> <?=$practice_8_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_8_id;?>/">
-                    <?=$practice_8;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_9_oblast_id;?> <?=$practice_9_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_9_id;?>/">
-                    <?=$practice_9;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_10_oblast_id;?> <?=$practice_10_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_10_id;?>/">
-                    <?=$practice_10;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_11_oblast_id;?> <?=$practice_11_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_11_id;?>/">
-                    <?=$practice_11;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_12_oblast_id;?> <?=$practice_12_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_12_id;?>/">
-                    <?=$practice_12;?>
-                </a>
-            </p>
-    
-        </div>
-    
-        <div class="f-town hidden f-town-<?=$practice_13_oblast_id;?> <?=$practice_13_id;?> ">
-    
-            <p>
-                <a href="/practices/<?=$practice_13_id;?>/">
-                    <?=$practice_13;?>
-                </a>
-            </p>
-    
-        </div>
-    
-    </section>
+    <section id="similiar" style="margin-top:5rem;">
 
-    <section style="margin-top:5rem;">
-
-        <h3>Другие практики на тему —
-            <?=$practice_type_a?>
-        </h3>
-
-        <div class="f-town hidden <?=$practice_1_id;?> <?=$practice_1_type;?>">
-
-            <p>
-                <a href="/practices/<?=$practice_1_id;?>/">
-                    <?=$practice_1;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div class="f-town hidden <?=$practice_2_id;?> <?=$practice_2_type;?>">
-
-            <p>
-                <a href="/practices/<?=$practice_2_id;?>/">
-                    <?=$practice_2;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div class="f-town hidden <?=$practice_3_id;?> <?=$practice_3_type;?>">
-
-            <p>
-                <a href="/practices/<?=$practice_3_id;?>/">
-                    <?=$practice_3;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div class="f-town hidden <?=$practice_4_id;?> <?=$practice_4_type;?>">
-
-            <p>
-                <a href="/practices/<?=$practice_4_id;?>/">
-                    <?=$practice_4;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div class="f-town hidden <?=$practice_5_id;?> <?=$practice_5_type;?>">
-
-            <p>
-                <a href="/practices/<?=$practice_5_id;?>/">
-                    <?=$practice_5;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div class="f-town hidden <?=$practice_6_id;?> <?=$practice_6_type;?>">
-
-            <p>
-                <a href="/practices/<?=$practice_6_id;?>/">
-                    <?=$practice_6;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div class="f-town hidden <?=$practice_7_id;?> <?=$practice_7_type;?>">
-
-            <p>
-                <a href="/practices/<?=$practice_7_id;?>/">
-                    <?=$practice_7;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div class="f-town hidden <?=$practice_8_id;?> <?=$practice_8_type;?>">
-
-            <p>
-                <a href="/practices/<?=$practice_8_id;?>/">
-                    <?=$practice_8;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div class="f-town hidden <?=$practice_9_id;?> <?=$practice_9_type;?>">
-
-            <p>
-                <a href="/practices/<?=$practice_9_id;?>/">
-                    <?=$practice_9;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div class="f-town hidden <?=$practice_10_id;?> <?=$practice_10_type;?>">
-
-            <p>
-                <a href="/practices/<?=$practice_10_id;?>/">
-                    <?=$practice_10;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div class="f-town hidden <?=$practice_11_id;?> <?=$practice_11_type;?>">
-
-            <p>
-                <a href="/practices/<?=$practice_11_id;?>/">
-                    <?=$practice_11;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div class="f-town hidden <?=$practice_12_id;?> <?=$practice_12_type;?>">
-
-            <p>
-                <a href="/practices/<?=$practice_12_id;?>/">
-                    <?=$practice_12;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div class="f-town hidden <?=$practice_13_id;?> <?=$practice_13_type;?>">
-
-            <p>
-                <a href="/practices/<?=$practice_13_id;?>/">
-                    <?=$practice_13;?>
-                </a>
-            </p>
-
-        </div>
-
-    </section>
-        
-    <section style="margin-top:5rem;">
-
-        <h3>
-        Также будет интересно
-        </h3>
-
-        <div id="practice_1" class="f-town hidden">
-
-            <p>
-                <a href="/practices/<?=$practice_1_id;?>/">
-                    <?=$practice_1;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div id="practice_2" class="f-town hidden">
-
-            <p>
-                <a href="/practices/<?=$practice_2_id;?>/">
-                    <?=$practice_2;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div id="practice_3" class="f-town hidden">
-
-            <p>
-                <a href="/practices/<?=$practice_3_id;?>/">
-                    <?=$practice_3;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div id="practice_4" class="f-town hidden">
-
-            <p>
-                <a href="/practices/<?=$practice_4_id;?>/">
-                    <?=$practice_4;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div id="practice_5" class="f-town hidden">
-
-            <p>
-                <a href="/practices/<?=$practice_5_id;?>/">
-                    <?=$practice_5;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div id="practice_6" class="f-town hidden">
-
-            <p>
-                <a href="/practices/<?=$practice_6_id;?>/">
-                    <?=$practice_6;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div id="practice_7" class="f-town hidden">
-
-            <p>
-                <a href="/practices/<?=$practice_7_id;?>/">
-                    <?=$practice_7;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div id="practice_8" class="f-town hidden">
-
-            <p>
-                <a href="/practices/<?=$practice_8_id;?>/">
-                    <?=$practice_8;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div id="practice_9" class="f-town hidden">
-
-            <p>
-                <a href="/practices/<?=$practice_9_id;?>/">
-                    <?=$practice_9;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div id="practice_10" class="f-town hidden">
-
-            <p>
-                <a href="/practices/<?=$practice_10_id;?>/">
-                    <?=$practice_10;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div id="practice_11" class="f-town hidden">
-
-            <p>
-                <a href="/practices/<?=$practice_11_id;?>/">
-                    <?=$practice_11;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div id="practice_12" class="f-town hidden">
-
-            <p>
-                <a href="/practices/<?=$practice_12_id;?>/">
-                    <?=$practice_12;?>
-                </a>
-            </p>
-
-        </div>
-
-        <div id="practice_13" class="f-town hidden">
-
-            <p>
-                <a href="/practices/<?=$practice_13_id;?>/">
-                    <?=$practice_13;?>
-                </a>
-            </p>
-
-        </div>
 
     </section>
 
     <section class="f-social" style="margin-top:5rem;">
-       
-       <h3>Поделиться в социальных сетях</h3>
-       
+
+        <h3>Поделиться в социальных сетях</h3>
+
         <div class="f social-element">
             <p><a href="#">вконтакте</a></p>
         </div>
@@ -703,7 +184,7 @@
     </section>
 
 
-<h2><a href="/">Назад на главную</a></h2>
+    <h2><a href="/">Назад на главную</a></h2>
 
 </footer>
 
