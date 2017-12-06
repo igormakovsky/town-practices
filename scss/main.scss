@@ -4,19 +4,6 @@ $dark-blue: #354452;
 $light-blue: #6895ab;
 $brown: #7b6059;
 $light: rgb(242, 238, 238);
-// fonts
-$font-regular: 'Graphik Regular',
-helvetica neue,
-arial,
-sans-serif;
-$font-bold: 'Graphik Bold',
-helvetica neue,
-arial,
-sans-serif;
-$font-cervo: 'Cervo-Regular',
-helvetica neue,
-arial,
-sans-serif;
 //
 @import "/bower_components/normalize-css/normalize.css";
 @import "fonts";
@@ -38,7 +25,7 @@ html {
 
 //
 body {
-    font-family: $font-regular;
+    @extend .regular;
     min-width: 320px;
     min-height: 100%;
     font-size: 1em;

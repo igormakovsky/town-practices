@@ -1,53 +1,41 @@
 <?php
 
-$id = 'startup-school'; // id страницы
+$id = ''; // id страницы
 $parent = 'practices'; // родительский элемент
 
-$title = 'Название'; // название практики
+require $_SERVER['DOCUMENT_ROOT'].'/includes/vars.php';
 
-$oblast = 'Область'; // область
-$town = 'Город'; // город
-$geotag = ''; //
-
+$title = '';
 $description = 'Описание страницы'; // описание для страницы и поисковиков
-$keywords = $oblast.$town.'Ключевые слова'; // ключевые слова для поиска
+$keywords = ''; // ключевые слова для поиска
 
-require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
+require $docroot.'includes/head.php';
 
-$practice_type_1 = $type_1; // тип практики №1
-$practice_type_2 = $type_0; // тип практики №2
-$practice_type_3 = $type_0; // тип практики №3
-
-$date_begin = 'Декабрь 1900'; // дата начала практики
-$date_end = 'Декабрь 2000'; // дата завершения практики
-
-$expert_1 = $exp_1a; // эксперт по гастрономии — 1 или 2
+$expert_1 = 'expert_1a'; // эксперт по гастрономии — 1 или 2
 $expert_1_text = 'Мне все очень понравилось';
 
-$expert_2 = $exp_2b; // эксперт по мероприятиям — 1 или 2
+$expert_2 = 'expert_2b'; // эксперт по мероприятиям — 1 или 2
 $expert_2_text = 'Это просто великолепно';
 
-$expert_3 = $exp_3a; // эксперт по экономическо-социальному эффекту — 1
+$expert_3 = 'expert_3a'; // эксперт по экономическо-социальному эффекту — 1
 $expert_3_text = 'Я не до конца понял, что это';
 
-$expert_4 = $exp_4a; // эксперт по дизайну — 1
+$expert_4 = 'expert_4a'; // эксперт по дизайну — 1
 $expert_4_text = 'Какой-то отстой. Пойду лучше выпью';
 
-$expert_5 = $exp_5b; // эксперт по масштабируемости — 1 или 2
+$expert_5 = 'expert_5b'; // эксперт по масштабируемости — 1 или 2
 $expert_5_text = 'Не решаюсь дать этому мероприятию свою оценку';
 
-$expert_6 = $exp_6a; // эксперт по инфраструктуре — 1
+$expert_6 = 'expert_6a'; // эксперт по инфраструктуре — 1
 $expert_6_text = 'Считаю, что это конгениально, но можно ведь сделать еще лучше';
 
 ?>
 
-    <section class="practice-hero">
+    <section class="hero">
 
-        <div id="title" class="practice-hero__title">
-            <h1>
-                <?=$project_title?>
-            </h1>
-        </div>
+        <!-- <div id="title" class="hero__title">
+            <h1 class="town-title"></h1>
+        </div> -->
 
         <div class="heroimage">
             <img src="img/hero-image.jpg" srcset="img/hero-image@2x.jpg 2x">
@@ -55,61 +43,94 @@ $expert_6_text = 'Считаю, что это конгениально, но м�
 
     </section>
 
-    <section class="practice-content">
+    <section class="content title">
 
         <p class="small">Название практики</p>
-        <h1>
+        <h1 class="title-title">
             <?=$title?>
         </h1>
 
-        <p class="small">Область, город</p>
-        <p>
-            <?=$oblast.', город '.$town?>
-        </p>
-
         <p class="small">Тема</p>
-        <p>
-            <?=$practice_type_1?>
+        <ul class="title-tags">
+            <li>
+                <?=$type_social?>
+            </li>
+            <li>
+                <?=$type_gastronomy?>
+            </li>
+            <li>
+                <?=$type_tourism?>
+            </li>
+            <li>
+                <?=$type_culture?>
+            </li>
+        </ul>
+        
+        <p class="small">Место</p>
+        <p class="title-place">
+            
         </p>
 
         <p class="small">Срок реализации</p>
-        <p>
-            <?=$date_begin.' – '.$date_end?>
+        <p class="title-date">
+            с 2008 года — по настоящее время
         </p>
-
-        <p class="small">Главная идея</p>
-        <p>Текст</p>
-
-        <p class="small">Организация процесса</p>
-        <ol>
-            <li>Раз</li>
-            <li>Два</li>
-            <li>Три</li>
-        </ol>
-
-        <p class="small">Неожиданные решения</p>
-        <p>Текст</p>
-
-        <p class="small">Значение для города <em>(что изменилось для жителей)</em></p>
-        <p>Текст</p>
 
     </section>
 
-    <section class="practice-content__carousel">
+    <section class="content text">
+
+        <h2>Город купеческих традиций</h2>
+        <p>
+            В кругу архитекторов его называют «Прикамской Барселоной» за особняки в стиле модерн, соседи приезжают сюда на свидание с купеческим городом, сами жители обожают Каму, именитых земляков и событийные активности, а бизнес все чаще рассматривает его как выгодную экономическую площадку. После забвения в советскую эпоху Сарапул вновь расправляет плечи, опираясь на предпринимательский дух конкуренции и сотрудничества.
+        </p>
+
+    </section>
+
+    <!--<section class="content-fullwidth">
+        
+        <img src="img/wide-1.jpg">
+        
+        <div class="author">
+            <p></p>
+        </div>
+        
+    </section> -->
+
+    <section class="content-citation">
+
+        <p class="content-citation__text">
+            Перспективы для Сарапула с точки зрения туристической дестинации существуют и реализовываются. Если ранее было 12 заходов туристских судов в город, то сейчас уже 100. Это очень здорово. Мы и позиционируем Сарапул как точку прибытия круизных судов
+        </p>
+        <p class="content-citation__author">
+            Николай Королев
+        </p>
+        <p class="content-citation__who">
+            Заместитель руководителя Ростуризма
+        </p>
+
+    </section>
+
+    <section class="content-carousel">
 
         <div class="photos" id="carousel">
 
-            <div class="photo"><img src="img/gallery-image-1.jpg"></div>
-            <div class="photo"><img src="img/gallery-image-2.jpg">
-                <p class="small">Фотограф — Анастасия Обуденкова, 2014</p>
+            <div><img src="img/gallery-image-8.jpg" srcset="img/gallery-image-8@2x.jpg 2x">
+                <p>
+                    Фотограф — <a href="https://www.flickr.com/photos/ae11/27770836594/in/photolist-Jj1Ncu-hQZmzy-hDZxpH-YWR17u-rwbUr4-hNh3La-Eaubt1-hGRxzJ-r69rj-YWR1K3-SBDT3v-TDYtyB-TBxoTN-21AP3Zg-21AP5xX-MdP38o-21AP34i-XWiyaN-pq61n2-YftVkH-YsXRwX-vauP2L-YsXQZp-Z21j6Z-KZiR6E-KTpyQh-LoP9kH-LRLZKL-BUWRD7-YVKr6S-DQHHRj-UQZdkW-Z21i5a-pcYPSn-LptQzw-wQnidM-x7RRar-TNWwb3-TNWvQo-XWiyG9-TRMmTs-TRMkCb-THSktg-XTNEYY-z77PhY-zuGAS2-XTNDHS-M356yj-M36Cin-zMdjta">Александр Ермолаев</a> (flickr)
+                </p>
             </div>
-            <div class="photo"><img src="img/gallery-image-3.jpg">
-                <p class="small">Фотограф — Маковский Игорь, 2015</p>
+            <div><img src="img/gallery-image-1.jpg"></div>
+            <div><img src="img/gallery-image-2.jpg">
+                <p>Фотограф — Анастасия Обуденкова, 2014</p>
             </div>
-            <div class="photo"><img src="img/gallery-image-4.jpg"></div>
-            <div class="photo"><img src="img/gallery-image-5.jpg"></div>
-            <div class="photo"><img src="img/gallery-image-6.jpg"></div>
-            <div class="photo"><img src="img/gallery-image-7.jpg"></div>
+            <div><img src="img/gallery-image-3.jpg">
+                <p>Фотограф — Маковский Игорь, 2015</p>
+            </div>
+            <div><img src="img/gallery-image-4.jpg"></div>
+            <div><img src="img/gallery-image-5.jpg"></div>
+            <div><img src="img/gallery-image-6.jpg"></div>
+            <div><img src="img/gallery-image-7.jpg"></div>
 
         </div>
 
@@ -118,6 +139,14 @@ $expert_6_text = 'Считаю, что это конгениально, но м�
             <div id="btn-right" class="btn-right"></div>
         </nav>
 
-</section>
+    </section>
 
-<?php require $docroot.'includes/bottom.php'; ?>
+    <!-- <section class="content-video">
+    
+        <div class="video">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/oYa2BXpkYvQ?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+    
+    </section> -->
+
+    <?php require $docroot.'includes/bottom.php'; ?>

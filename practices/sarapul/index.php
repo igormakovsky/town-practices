@@ -31,16 +31,6 @@ $expert_6_text = 'Считаю, что это конгениально, но м�
 
 ?>
 
-    <script>
-        $(document).ready(
-            function() {
-                var town = getObjects(data, 'id', "<?=$id?>")[0] // Returns an array of matching objects
-                $('.title-title').html(town.title)
-            }
-        )
-
-    </script>
-
     <section class="hero">
 
         <!-- <div id="title" class="hero__title">
@@ -56,7 +46,10 @@ $expert_6_text = 'Считаю, что это конгениально, но м�
     <section class="content title">
 
         <p class="small">Название практики</p>
-        <h1 class="title-title"></h1>
+        <h1 class="title-title"><?=$title?></h1>
+        
+        <p class="small">Название практики</p>
+        <p class="title-place">Удмуртская Республика, город Сарапул</p>
 
         <p class="small">Тема</p>
         <ul class="title-tags">

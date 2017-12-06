@@ -12,6 +12,9 @@
         &-title {
             font-size: 5rem;
         }
+        &-place {
+            font-size: 2rem;
+        }
         &-tags {
             opacity: .6;
             list-style: none;
@@ -27,7 +30,7 @@
         margin: 7rem auto 10rem;
         min-width: inherit;
         &__text {
-            font-size: 2.5rem;
+            font-size: 2rem;
             margin-bottom: 1.5rem;
             position: relative;
             //@extend .quotes;
@@ -40,6 +43,9 @@
             font-size: .7rem;
             opacity: .8;
             width: 50%;
+            &:first-letter {
+                text-transform: capitalize;
+            }
         }
         &__comment {
             font-size: 1.5rem;
@@ -66,6 +72,10 @@
                 margin: 0 auto;
             }
         }
+    }
+    &-algorythm {
+        margin: 4rem auto 0;
+        width: 60vw;
     }
     &-important {
         width: 75vw;

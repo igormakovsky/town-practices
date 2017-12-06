@@ -21,7 +21,7 @@ $(document).ready(function () {
                 data: ['id']
             }
 			],
-        item: '<li><a href="" class="title"></a><p style="display: none;" class="town"></p> </li>'
+        item: '<li><a href="" class="link title"></a><p style="display: none;" class="town"></p> </li>'
     }
     var practicesMenuList = new List('practices', options, practicesListArray)
     practicesMenuList.on('updated', function (list) {

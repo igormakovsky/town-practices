@@ -56,7 +56,10 @@ $expert_6_text = 'Считаю, что это конгениально, но м�
     <section class="content title">
 
         <p class="small">Название практики</p>
-        <h1 class="title-title"></h1>
+        <h1 class="title-title"><?=$title?></h1>
+        
+        <p class="small">Место</p>
+        <p class="title-place">Ярославская область, город Углич</p>
 
         <p class="small">Тема</p>
         <ul class="title-tags">

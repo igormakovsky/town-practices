@@ -19,13 +19,13 @@ var data = {
         {
             type: 'Feature',
             properties: {
-                title: 'Зонтичный бренд Сарапула',
+                title: 'Разработка зонтичного бренда города',
                 id: 'sarapul',
                 town: 'Сарапул',
                 townId: 'sarapul',
                 types: ['tourism', 'social', 'culture'],
                 img: '',
-                descr: 'Город купеческих традиций',
+                descr: 'Разработка зонтичного бренда города',
                 similiar: ['kolomna']
             },
             geometry: {
@@ -36,7 +36,7 @@ var data = {
         {
             type: 'Feature',
             properties: {
-                title: 'Кластер «Коломенский посад»',
+                title: 'Музейно-творческий кластер «Коломенский посад»',
                 id: 'kolomna',
                 town: 'Коломна',
                 townId: 'kolomna',
@@ -53,13 +53,13 @@ var data = {
         {
             type: 'Feature',
             properties: {
-                title: 'Туристский информационный центр Углича',
+                title: 'Первый в Ярославской области Туристско-информационный центр',
                 id: 'uglich',
                 town: 'Углич',
                 townId: 'uglich',
                 types: ['tourism', 'events'],
                 img: '',
-                descr: 'Туристский информационный центр Углича',
+                descr: 'Первый в Ярославской области Туристско-информационный центр',
                 similiar: ['sarapul']
             },
             geometry: {
@@ -70,18 +70,86 @@ var data = {
         {
             type: 'Feature',
             properties: {
-                title: 'Кластер «Фамилия» в Каргополе',
+                title: 'От «Иллюзии Старого города» к кластеру «Фамилия»',
                 id: 'kargopol',
                 town: 'Каргополь',
                 townId: 'kargopol',
                 types: ['business', 'social', 'events', 'tourism', 'culture'],
                 img: '',
-                descr: '«Иллюзия» Старого города. Перекресток времен. Кластер «Фамилия».',
+                descr: 'От «Иллюзии Старого города» к кластеру «Фамилия»',
                 similiar: ['uglich', 'sarapul']
             },
             geometry: {
                 type: 'Point',
                 coordinates: [38.947214, 61.505400]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Возрождение гуслицкой росписи «Провинциальный эксперимент»',
+                id: 'egorievsk',
+                town: 'Егорьевск',
+                townId: 'egorievsk',
+                types: ['social', 'tourism', 'culture'],
+                img: '',
+                descr: 'Возрождение гуслицкой росписи «Провинциальный эксперимент»',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [39.035833, 55.383050]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Тема шляп как основа развития туристического кластера ',
+                id: 'vyatskie-polyany',
+                town: 'Вятские Поляны',
+                townId: 'vyatskie-polyany',
+                types: ['events', 'tourism', 'culture'],
+                img: '',
+                descr: 'Тема шляп как основа развития туристического кластера',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [51.074919, 56.222896]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Общественное пространство «Антикафе „Ветер“»',
+                id: 'tarusa',
+                town: 'Таруса',
+                townId: 'tarusa',
+                types: ['business', 'social'],
+                img: '',
+                descr: 'Общественное пространство «Антикафе «Ветер»',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [37.177416, 54.728030]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Создание и развитие бренда «Клин звучит»',
+                id: 'klin',
+                town: 'Клин',
+                townId: 'klin',
+                types: ['tourism', 'social', 'culture'],
+                img: '',
+                descr: 'Создание и развитие бренда «Клин звучит»',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [36.728716, 56.331693]
             }
 		},
 	]

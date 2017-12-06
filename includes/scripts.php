@@ -12,3 +12,4 @@
 <script src="/js/custom.js"></script>
 <script src="/js/objects.js"></script>
 <script src="/js/lists.js"></script>
+<script src="/js/fonts.js"></script>

@@ -4226,6 +4226,146 @@
 		"oAP": "\/fonts\/cervo-regular\/322B3C_0_0.woff2",
 		"oF": 0
 		},
+	"\/fonts\/gerbera\/354694_0_0.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/gerbera\/354694_0_0.eot",
+		"oF": 0
+		},
+	"\/fonts\/gerbera\/354694_0_0.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/gerbera\/354694_0_0.ttf",
+		"oF": 0
+		},
+	"\/fonts\/gerbera\/354694_0_0.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/gerbera\/354694_0_0.woff",
+		"oF": 0
+		},
+	"\/fonts\/gerbera\/354694_0_0.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/gerbera\/354694_0_0.woff2",
+		"oF": 0
+		},
+	"\/fonts\/gerbera\/354694_1_0.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/gerbera\/354694_1_0.eot",
+		"oF": 0
+		},
+	"\/fonts\/gerbera\/354694_1_0.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/gerbera\/354694_1_0.ttf",
+		"oF": 0
+		},
+	"\/fonts\/gerbera\/354694_1_0.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/gerbera\/354694_1_0.woff",
+		"oF": 0
+		},
+	"\/fonts\/gerbera\/354694_1_0.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/gerbera\/354694_1_0.woff2",
+		"oF": 0
+		},
+	"\/fonts\/gerbera\/354694_2_0.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/gerbera\/354694_2_0.eot",
+		"oF": 0
+		},
+	"\/fonts\/gerbera\/354694_2_0.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/gerbera\/354694_2_0.ttf",
+		"oF": 0
+		},
+	"\/fonts\/gerbera\/354694_2_0.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/gerbera\/354694_2_0.woff",
+		"oF": 0
+		},
+	"\/fonts\/gerbera\/354694_2_0.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/gerbera\/354694_2_0.woff2",
+		"oF": 0
+		},
+	"\/fonts\/gerbera\/354694_3_0.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/gerbera\/354694_3_0.eot",
+		"oF": 0
+		},
+	"\/fonts\/gerbera\/354694_3_0.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/gerbera\/354694_3_0.ttf",
+		"oF": 0
+		},
+	"\/fonts\/gerbera\/354694_3_0.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/gerbera\/354694_3_0.woff",
+		"oF": 0
+		},
+	"\/fonts\/gerbera\/354694_3_0.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/gerbera\/354694_3_0.woff2",
+		"oF": 0
+		},
+	"\/fonts\/gerbera\/354694_4_0.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/gerbera\/354694_4_0.eot",
+		"oF": 0
+		},
+	"\/fonts\/gerbera\/354694_4_0.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/gerbera\/354694_4_0.ttf",
+		"oF": 0
+		},
+	"\/fonts\/gerbera\/354694_4_0.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/gerbera\/354694_4_0.woff",
+		"oF": 0
+		},
+	"\/fonts\/gerbera\/354694_4_0.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/gerbera\/354694_4_0.woff2",
+		"oF": 0
+		},
 	"\/fonts\/graphik-bold-web\/Graphik usage example.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -4715,18 +4855,18 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/practices\/!empty\/index-new.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/practices\/!empty\/index-new.php",
-		"oF": 0
-		},
 	"\/practices\/!empty\/index.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/practices\/!empty\/index.php",
+		"oF": 0
+		},
+	"\/practices\/egorievsk\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/egorievsk\/index.php",
 		"oF": 0
 		},
 	"\/practices\/flower-carnival\/img\/gallery-image-1.jpg": {
@@ -4896,11 +5036,38 @@
 		"oAP": "\/practices\/flower-carnival\/index.php",
 		"oF": 0
 		},
+	"\/practices\/kargopol\/img\/hero-image.jpg": {
+		"ft": 16384,
+		"iS": 311677,
+		"oA": 1,
+		"oAP": "\/practices\/kargopol\/img\/hero-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/kargopol\/img\/hero-image@2x.jpg": {
+		"ft": 16384,
+		"iS": 704228,
+		"oA": 1,
+		"oAP": "\/practices\/kargopol\/img\/hero-image@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/practices\/kargopol\/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/practices\/kargopol\/index.php",
+		"oF": 0
+		},
+	"\/practices\/klin\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/klin\/index.php",
 		"oF": 0
 		},
 	"\/practices\/kolomna\/index.php": {
@@ -5097,11 +5264,65 @@
 		"oAP": "\/practices\/sarapul\/index.php",
 		"oF": 0
 		},
+	"\/practices\/tarusa\/img\/hero-image.jpg": {
+		"ft": 16384,
+		"iS": 294413,
+		"oA": 1,
+		"oAP": "\/practices\/tarusa\/img\/hero-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/tarusa\/img\/hero-image@2x.jpg": {
+		"ft": 16384,
+		"iS": 722911,
+		"oA": 1,
+		"oAP": "\/practices\/tarusa\/img\/hero-image@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/tarusa\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/tarusa\/index.php",
+		"oF": 0
+		},
+	"\/practices\/uglich\/img\/hero-image.jpg": {
+		"ft": 16384,
+		"iS": 329370,
+		"oA": 1,
+		"oAP": "\/practices\/uglich\/img\/hero-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/uglich\/img\/hero-image@2x.jpg": {
+		"ft": 16384,
+		"iS": 905902,
+		"oA": 1,
+		"oAP": "\/practices\/uglich\/img\/hero-image@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/practices\/uglich\/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/practices\/uglich\/index.php",
+		"oF": 0
+		},
+	"\/practices\/vyatskie-polyany\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/vyatskie-polyany\/index.php",
 		"oF": 0
 		},
 	"\/README.md": {

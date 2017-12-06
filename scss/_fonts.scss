@@ -1,3 +1,21 @@
+@import url("//hello.myfonts.net/count/354694");
+
+  
+@font-face {font-family: 'Gerbera-Black';src: url('../fonts/gerbera/354694_0_0.eot');src: url('../fonts/gerbera/354694_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/gerbera/354694_0_0.woff2') format('woff2'),url('../fonts/gerbera/354694_0_0.woff') format('woff'),url('../fonts/gerbera/354694_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Gerbera';src: url('webfonts/354694_1_0.eot');src: url('../fonts/gerbera/354694_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/gerbera/354694_1_0.woff2') format('woff2'),url('../fonts/gerbera/354694_1_0.woff') format('woff'),url('../fonts/gerbera/354694_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Gerbera-Bold';src: url('../fonts/gerbera/354694_2_0.eot');src: url('../fonts/gerbera/354694_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/gerbera/354694_2_0.woff2') format('woff2'),url('../fonts/gerbera/354694_2_0.woff') format('woff'),url('../fonts/gerbera/354694_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Gerbera-Medium';src: url('../fonts/gerbera/354694_3_0.eot');src: url('../fonts/gerbera/354694_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/gerbera/354694_3_0.woff2') format('woff2'),url('../fonts/gerbera/354694_3_0.woff') format('woff'),url('../fonts/gerbera/354694_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Gerbera-Light';src: url('../fonts/gerbera/354694_4_0.eot');src: url('../fonts/gerbera/354694_4_0.eot?#iefix') format('embedded-opentype'),url('../fonts/gerbera/354694_4_0.woff2') format('woff2'),url('../fonts/gerbera/354694_4_0.woff') format('woff'),url('../fonts/gerbera/354694_4_0.ttf') format('truetype');}
+
+
 @font-face {
     font-family: 'Graphik Regular';
     src: url('../fonts/graphik-regular-web/Graphik-Regular-Web.eot');
@@ -22,15 +40,19 @@
 
 //
 .regular {
-    font-family: $font-regular;
+    font-family: 'Gerbera-Medium', helvetica neue, arial, sans-serif;
 }
 
 .bold {
-    font-family: $font-bold;
+    font-family: 'Gerbera-Black', helvetica neue, arial, sans-serif;
+}
+
+.thin {
+    font-family: 'Gerbera-Light', helvetica neue, arial, sans-serif;
 }
 
 .cervo {
-    font-family: $font-cervo;
+    font-family: 'Cervo-Regular', helvetica neue, arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: .35rem;
 }
@@ -79,7 +101,7 @@ a {
 
 h1 {
     //@extend .cervo;
-    //@extend .light;
+    @extend .thin;
     font-size: 3rem;
     font-weight: normal;
     padding: 0;
@@ -90,6 +112,7 @@ h2 {
     @extend .bold;
     @extend .brown;
     font-size: 1.5rem;
+    line-height: 1.35;
     font-weight: normal;
     padding: 0;
 }
