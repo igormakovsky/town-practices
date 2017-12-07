@@ -5144,6 +5144,33 @@
 		"oAP": "\/practices\/flower-carnival\/index.php",
 		"oF": 0
 		},
+	"\/practices\/kandalaksha\/img\/hero-image.jpg": {
+		"ft": 16384,
+		"iS": 285578,
+		"oA": 1,
+		"oAP": "\/practices\/kandalaksha\/img\/hero-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/kandalaksha\/img\/hero-image@2x.jpg": {
+		"ft": 16384,
+		"iS": 716962,
+		"oA": 1,
+		"oAP": "\/practices\/kandalaksha\/img\/hero-image@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/kandalaksha\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/kandalaksha\/index.php",
+		"oF": 0
+		},
 	"\/practices\/kargopol\/img\/hero-image.jpg": {
 		"ft": 16384,
 		"iS": 311677,
@@ -5210,6 +5237,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/practices\/kolomna\/index.php",
+		"oF": 0
+		},
+	"\/practices\/krapivna\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/krapivna\/index.php",
 		"oF": 0
 		},
 	"\/practices\/lukhovitsy\/index.php": {
@@ -5546,6 +5580,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/practices\/urupinsk\/index.php",
+		"oF": 0
+		},
+	"\/practices\/velsk\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/velsk\/index.php",
 		"oF": 0
 		},
 	"\/practices\/votkinsk\/img\/hero-image.jpg": {

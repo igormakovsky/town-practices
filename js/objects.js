@@ -356,5 +356,56 @@ var data = {
                 coordinates: [36.483584, 55.207634]
             }
 		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Создание общественного яхт-клуба',
+                id: 'kandalaksha',
+                town: 'Кандалакша',
+                townId: 'kandalaksha',
+                types: ['business', 'social', 'tourism'],
+                img: '',
+                descr: 'Создание общественного яхт-клуба',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [32.414306, 67.156727]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Архидеи для уездного города',
+                id: 'krapivna',
+                town: 'Крапивна',
+                townId: 'krapivna',
+                types: ['business', 'social', 'tourism', 'culture'],
+                img: '',
+                descr: 'Сохранение и благоустройство среды «Архидеи для уездного города»',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [37.155398, 53.941580]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Стилизация территории элементами традиционной важской росписи',
+                id: 'velsk',
+                town: 'Вельск',
+                townId: 'velsk',
+                types: ['social', 'tourism', 'culture'],
+                img: '',
+                descr: 'Стилизация территории элементами традиционной важской росписи',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [42.103310, 61.065915]
+            }
+		},
 	]
 }
