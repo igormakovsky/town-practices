@@ -254,5 +254,107 @@ var data = {
                 coordinates: [31.355452, 57.990715]
             }
 		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'АнтреСоль, культурный квартал и «соль земли»',
+                id: 'totma',
+                town: 'Тотьма',
+                townId: 'totma',
+                types: ['business', 'social', 'culture', 'tourism'],
+                img: '',
+                descr: 'АнтреСоль, культурный квартал и «соль земли»',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [42.758873, 59.973487]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Возрождение золотного шитья',
+                id: 'belomorsk',
+                town: 'Беломорск',
+                townId: 'belomorsk',
+                types: ['culture'],
+                img: '',
+                descr: 'Возрождение золотного шитья «Дом вести — не бородой трясти»',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [34.779911, 64.537827]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Маршрут выходного дня «Петровская ассамблея»',
+                id: 'azov',
+                town: 'Азов',
+                townId: 'azov',
+                types: ['culture', 'tourism'],
+                img: '',
+                descr: 'Маршрут выходного дня «Петровская ассамблея»',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [39.423267, 47.112129]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Туристско-рекреационный кластер «Касимовский»',
+                id: 'kasimov',
+                town: 'Касимов',
+                townId: 'kasimov',
+                types: ['culture', 'tourism', 'business'],
+                img: '',
+                descr: 'Туристско-рекреационный кластер «Касимовский»',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [41.391368, 54.937288]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Фестиваль новой городской культуры «Арт-Овраг»',
+                id: 'vyksa',
+                town: 'Выкса',
+                townId: 'vyksa',
+                types: ['culture', 'social', 'events', 'tourism', 'business'],
+                img: '',
+                descr: 'Фестиваль новой городской культуры «Арт-Овраг»',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [42.167961, 55.320683]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Культурно-исторический центр «Боровский край»',
+                id: 'borovsk',
+                town: 'Боровск',
+                townId: 'borovsk',
+                types: ['culture', 'social', 'events', 'tourism'],
+                img: '',
+                descr: 'Культурно-исторический центр «Боровский край»',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [36.483584, 55.207634]
+            }
+		},
 	]
 }

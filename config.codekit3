@@ -4862,6 +4862,87 @@
 		"oAP": "\/practices\/!empty\/index.php",
 		"oF": 0
 		},
+	"\/practices\/azov\/img\/hero-image.jpg": {
+		"ft": 16384,
+		"iS": 382821,
+		"oA": 1,
+		"oAP": "\/practices\/azov\/img\/hero-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/azov\/img\/hero-image@2x.jpg": {
+		"ft": 16384,
+		"iS": 900235,
+		"oA": 1,
+		"oAP": "\/practices\/azov\/img\/hero-image@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/azov\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/azov\/index.php",
+		"oF": 0
+		},
+	"\/practices\/belomorsk\/img\/hero-image.jpg": {
+		"ft": 16384,
+		"iS": 517459,
+		"oA": 1,
+		"oAP": "\/practices\/belomorsk\/img\/hero-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/belomorsk\/img\/hero-image@2x.jpg": {
+		"ft": 16384,
+		"iS": 1618103,
+		"oA": 1,
+		"oAP": "\/practices\/belomorsk\/img\/hero-image@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/belomorsk\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/belomorsk\/index.php",
+		"oF": 0
+		},
+	"\/practices\/borovsk\/img\/hero-image.jpg": {
+		"ft": 16384,
+		"iS": 271002,
+		"oA": 1,
+		"oAP": "\/practices\/borovsk\/img\/hero-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/borovsk\/img\/hero-image@2x.jpg": {
+		"ft": 16384,
+		"iS": 706325,
+		"oA": 1,
+		"oAP": "\/practices\/borovsk\/img\/hero-image@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/borovsk\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/borovsk\/index.php",
+		"oF": 0
+		},
 	"\/practices\/egorievsk\/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -5061,6 +5142,33 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/practices\/kargopol\/index.php",
+		"oF": 0
+		},
+	"\/practices\/kasimov\/img\/hero-image.jpg": {
+		"ft": 16384,
+		"iS": 381336,
+		"oA": 1,
+		"oAP": "\/practices\/kasimov\/img\/hero-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/kasimov\/img\/hero-image@2x.jpg": {
+		"ft": 16384,
+		"iS": 1143298,
+		"oA": 1,
+		"oAP": "\/practices\/kasimov\/img\/hero-image@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/kasimov\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/kasimov\/index.php",
 		"oF": 0
 		},
 	"\/practices\/klin\/index.php": {
@@ -5352,6 +5460,33 @@
 		"oAP": "\/practices\/torzhok\/index.php",
 		"oF": 0
 		},
+	"\/practices\/totma\/img\/hero-image.jpg": {
+		"ft": 16384,
+		"iS": 531170,
+		"oA": 1,
+		"oAP": "\/practices\/totma\/img\/hero-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/totma\/img\/hero-image@2x.jpg": {
+		"ft": 16384,
+		"iS": 2088863,
+		"oA": 1,
+		"oAP": "\/practices\/totma\/img\/hero-image@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/totma\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/totma\/index.php",
+		"oF": 0
+		},
 	"\/practices\/uglich\/img\/hero-image.jpg": {
 		"ft": 16384,
 		"iS": 329370,
@@ -5418,6 +5553,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/practices\/vyatskie-polyany\/index.php",
+		"oF": 0
+		},
+	"\/practices\/vyksa\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/vyksa\/index.php",
 		"oF": 0
 		},
 	"\/practices\/zaraysk\/index.php": {

@@ -49,6 +49,11 @@ $expert_6_text = 'Считаю, что это конгениально, но м�
         <h1 class="title-title">
             <?=$title?>
         </h1>
+        
+        <p class="small">Место</p>
+        <p class="title-place">
+            Волгоградская область, город Урюпинск
+        </p>
 
         <p class="small">Тема</p>
         <ul class="title-tags">
@@ -59,11 +64,6 @@ $expert_6_text = 'Считаю, что это конгениально, но м�
                 <?=$type_tourism?>
             </li>
         </ul>
-
-        <p class="small">Место</p>
-        <p class="title-place">
-
-        </p>
 
         <p class="small">Срок реализации</p>
         <p class="title-date">
