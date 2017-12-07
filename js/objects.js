@@ -152,5 +152,107 @@ var data = {
                 coordinates: [36.728716, 56.331693]
             }
 		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Центр развития Зарайска',
+                id: 'zaraysk',
+                town: 'Зарайск',
+                townId: 'zaraysk',
+                types: ['tourism', 'business', 'culture'],
+                img: '',
+                descr: 'МБУ «Центр развития туризма, инфраструктуры и инвестиций Зарайского муниципального района»',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [38.874845, 54.756973]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Туры выходного дня «Экспедиция в Торжок»',
+                id: 'torzhok',
+                town: 'Торжок',
+                townId: 'torzhok',
+                types: ['tourism', 'social'],
+                img: '',
+                descr: 'Туры выходного дня «Экспедиция в Торжок»',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [34.960140, 57.041338]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Развитие бренда «Луховицкий огурец»',
+                id: 'lukhovitsy',
+                town: 'Луховицы',
+                townId: 'lukhovitsy',
+                types: ['events', 'gastronomy', 'tourism'],
+                img: '',
+                descr: 'Развитие бренда «Луховицкий огурец»',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [39.025394, 54.965217]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Институализация бренда города «Урюпинск-столица российской провинции»',
+                id: 'urupinsk',
+                town: 'Урюпинск',
+                townId: 'urupinsk',
+                types: ['social', 'tourism'],
+                img: '',
+                descr: 'Институализация бренда города «Урюпинск-столица российской провинции»',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [41.995844, 50.794522]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Живой Воткинск',
+                id: 'votkinsk',
+                town: 'Воткинск',
+                townId: 'votkinsk',
+                types: ['social', 'tourism'],
+                img: '',
+                descr: 'Живой Воткинск',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [53.987392, 57.051806]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Усадьба средневекового рушанина',
+                id: 'russa',
+                town: 'Старая Русса',
+                townId: 'russa',
+                types: ['culture', 'tourism'],
+                img: '',
+                descr: 'Усадьба средневекового рушанина',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [31.355452, 57.990715]
+            }
+		},
 	]
 }

@@ -5077,6 +5077,40 @@
 		"oAP": "\/practices\/kolomna\/index.php",
 		"oF": 0
 		},
+	"\/practices\/lukhovitsy\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/lukhovitsy\/index.php",
+		"oF": 0
+		},
+	"\/practices\/russa\/img\/hero-image.jpg": {
+		"ft": 16384,
+		"iS": 423675,
+		"oA": 1,
+		"oAP": "\/practices\/russa\/img\/hero-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/russa\/img\/hero-image@2x.jpg": {
+		"ft": 16384,
+		"iS": 998057,
+		"oA": 1,
+		"oAP": "\/practices\/russa\/img\/hero-image@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/russa\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/russa\/index.php",
+		"oF": 0
+		},
 	"\/practices\/sarapul\/img\/gallery-image-1.jpg": {
 		"ft": 16384,
 		"iS": 368955,
@@ -5291,6 +5325,33 @@
 		"oAP": "\/practices\/tarusa\/index.php",
 		"oF": 0
 		},
+	"\/practices\/torzhok\/img\/hero-image.jpg": {
+		"ft": 16384,
+		"iS": 284007,
+		"oA": 1,
+		"oAP": "\/practices\/torzhok\/img\/hero-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/torzhok\/img\/hero-image@2x.jpg": {
+		"ft": 16384,
+		"iS": 517250,
+		"oA": 1,
+		"oAP": "\/practices\/torzhok\/img\/hero-image@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/torzhok\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/torzhok\/index.php",
+		"oF": 0
+		},
 	"\/practices\/uglich\/img\/hero-image.jpg": {
 		"ft": 16384,
 		"iS": 329370,
@@ -5318,11 +5379,52 @@
 		"oAP": "\/practices\/uglich\/index.php",
 		"oF": 0
 		},
+	"\/practices\/urupinsk\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/urupinsk\/index.php",
+		"oF": 0
+		},
+	"\/practices\/votkinsk\/img\/hero-image.jpg": {
+		"ft": 16384,
+		"iS": 239389,
+		"oA": 1,
+		"oAP": "\/practices\/votkinsk\/img\/hero-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/votkinsk\/img\/hero-image@2x.jpg": {
+		"ft": 16384,
+		"iS": 545226,
+		"oA": 1,
+		"oAP": "\/practices\/votkinsk\/img\/hero-image@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/votkinsk\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/votkinsk\/index.php",
+		"oF": 0
+		},
 	"\/practices\/vyatskie-polyany\/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/practices\/vyatskie-polyany\/index.php",
+		"oF": 0
+		},
+	"\/practices\/zaraysk\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/zaraysk\/index.php",
 		"oF": 0
 		},
 	"\/README.md": {
