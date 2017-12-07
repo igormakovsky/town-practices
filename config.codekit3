@@ -4134,6 +4134,33 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/construction\/construction.jpg": {
+		"ft": 16384,
+		"iS": 347409,
+		"oA": 1,
+		"oAP": "\/construction\/construction.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/construction\/construction@2x.jpg": {
+		"ft": 16384,
+		"iS": 838668,
+		"oA": 1,
+		"oAP": "\/construction\/construction@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/construction\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/construction\/index.html",
+		"oF": 0
+		},
 	"\/css\/custom.css": {
 		"aP": 0,
 		"bl": 0,
