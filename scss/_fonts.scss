@@ -17,6 +17,17 @@
 
 
 @font-face {
+	font-family: 'Shire-Worcestershire';
+	src: url('../fonts/shire/ShireTypesPro-Worcestershire.eot');
+	src: local('ShireTypesPro-Worcestershire'),
+		url('../fonts/shire/ShireTypesPro-Worcestershire.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/shire/ShireTypesPro-Worcestershire.woff') format('woff'),
+		url('../fonts/shire/ShireTypesPro-Worcestershire.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
     font-family: 'Graphik Regular';
     src: url('../fonts/graphik-regular-web/Graphik-Regular-Web.eot');
     src: url('../fonts/graphik-regular-web/Graphik-Regular-Web.eot#iefix') format('embedded-opentype'), url('../fonts/graphik-regular-web/Graphik-Regular-Web.woff2') format('woff2'), url('../fonts/graphik-regular-web/Graphik-Regular-Web.woff') format('woff'), url('../fonts/graphik-regular-web/Graphik-Regular-Web.ttf') format('truetype');
@@ -49,6 +60,10 @@
 
 .thin {
     font-family: 'Gerbera-Light', helvetica neue, arial, sans-serif;
+}
+
+.shire {
+    font-family: 'Shire-Worcestershire', helvetica neue, arial, sans-serif;
 }
 
 .cervo {

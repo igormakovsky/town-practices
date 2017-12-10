@@ -6,3 +6,10 @@
 <link href="/css/MarkerCluster.css" rel="stylesheet">
 <link href="/css/MarkerCluster.Default.css" rel="stylesheet">
 <link href="/css/main.css" rel="stylesheet">
+
+<style>
+
+    .title {background-color: <?='#'.$keycolor?>;}
+    .content-citation {background-color: <?='#'.$keycolor?>;}
+    
+</style>

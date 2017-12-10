@@ -59,4 +59,9 @@ $type_tourism = 'Туризм и продвижение';
 $type_tourism_id = 'tourism';
 $type_culture = 'Культура и эстетика';
 $type_culture_id = 'culture';
+
+$expert_1 = 'Ольга Гончарова';
+$expert_2 = 'Олег Мосеев';
+$expert_3 = 'Анастасия Обуденкова';
+
 ?>

@@ -4393,88 +4393,25 @@
 		"oAP": "\/fonts\/gerbera\/354694_4_0.woff2",
 		"oF": 0
 		},
-	"\/fonts\/graphik-bold-web\/Graphik usage example.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/graphik-bold-web\/Graphik usage example.html",
-		"oF": 0
-		},
-	"\/fonts\/graphik-bold-web\/Graphik-Bold-Web.eot": {
+	"\/fonts\/shire\/ShireTypesPro-Worcestershire.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/graphik-bold-web\/Graphik-Bold-Web.eot",
+		"oAP": "\/fonts\/shire\/ShireTypesPro-Worcestershire.eot",
 		"oF": 0
 		},
-	"\/fonts\/graphik-bold-web\/Graphik-Bold-Web.ttf": {
+	"\/fonts\/shire\/ShireTypesPro-Worcestershire.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/graphik-bold-web\/Graphik-Bold-Web.ttf",
+		"oAP": "\/fonts\/shire\/ShireTypesPro-Worcestershire.ttf",
 		"oF": 0
 		},
-	"\/fonts\/graphik-bold-web\/Graphik-Bold-Web.woff": {
+	"\/fonts\/shire\/ShireTypesPro-Worcestershire.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/graphik-bold-web\/Graphik-Bold-Web.woff",
-		"oF": 0
-		},
-	"\/fonts\/graphik-bold-web\/Graphik-Bold-Web.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/graphik-bold-web\/Graphik-Bold-Web.woff2",
-		"oF": 0
-		},
-	"\/fonts\/graphik-bold-web\/ttEULA.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/graphik-bold-web\/ttEULA.txt",
-		"oF": 0
-		},
-	"\/fonts\/graphik-regular-web\/Graphik usage example.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/graphik-regular-web\/Graphik usage example.html",
-		"oF": 0
-		},
-	"\/fonts\/graphik-regular-web\/Graphik-Regular-Web.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/graphik-regular-web\/Graphik-Regular-Web.eot",
-		"oF": 0
-		},
-	"\/fonts\/graphik-regular-web\/Graphik-Regular-Web.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/graphik-regular-web\/Graphik-Regular-Web.ttf",
-		"oF": 0
-		},
-	"\/fonts\/graphik-regular-web\/Graphik-Regular-Web.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/graphik-regular-web\/Graphik-Regular-Web.woff",
-		"oF": 0
-		},
-	"\/fonts\/graphik-regular-web\/Graphik-Regular-Web.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/graphik-regular-web\/Graphik-Regular-Web.woff2",
-		"oF": 0
-		},
-	"\/fonts\/graphik-regular-web\/ttEULA.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/graphik-regular-web\/ttEULA.txt",
+		"oAP": "\/fonts\/shire\/ShireTypesPro-Worcestershire.woff",
 		"oF": 0
 		},
 	"\/img\/carousel-arrow-left.svg": {
@@ -4629,6 +4566,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/img\/townpractices-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/townpractices-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/includes\/backtocontents.php": {
 		"cB": 0,
@@ -4977,171 +4924,38 @@
 		"oAP": "\/practices\/egorievsk\/index.php",
 		"oF": 0
 		},
-	"\/practices\/flower-carnival\/img\/gallery-image-1.jpg": {
+	"\/practices\/elabuga\/img\/hero-image.jpg": {
 		"ft": 16384,
-		"iS": 368955,
+		"iS": 351198,
 		"oA": 1,
-		"oAP": "\/practices\/flower-carnival\/img\/gallery-image-1.jpg",
+		"oAP": "\/practices\/elabuga\/img\/hero-image.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/practices\/flower-carnival\/img\/gallery-image-1@2x.jpg": {
+	"\/practices\/elabuga\/img\/hero-image@2x.jpg": {
 		"ft": 16384,
-		"iS": 948126,
+		"iS": 902119,
 		"oA": 1,
-		"oAP": "\/practices\/flower-carnival\/img\/gallery-image-1@2x.jpg",
+		"oAP": "\/practices\/elabuga\/img\/hero-image@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/practices\/flower-carnival\/img\/gallery-image-2.jpg": {
-		"ft": 16384,
-		"iS": 245418,
-		"oA": 1,
-		"oAP": "\/practices\/flower-carnival\/img\/gallery-image-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/flower-carnival\/img\/gallery-image-2@2x.jpg": {
-		"ft": 16384,
-		"iS": 614141,
-		"oA": 1,
-		"oAP": "\/practices\/flower-carnival\/img\/gallery-image-2@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/flower-carnival\/img\/gallery-image-3.jpg": {
-		"ft": 16384,
-		"iS": 290075,
-		"oA": 1,
-		"oAP": "\/practices\/flower-carnival\/img\/gallery-image-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/flower-carnival\/img\/gallery-image-3@2x.jpg": {
-		"ft": 16384,
-		"iS": 725268,
-		"oA": 1,
-		"oAP": "\/practices\/flower-carnival\/img\/gallery-image-3@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/flower-carnival\/img\/gallery-image-4.jpg": {
-		"ft": 16384,
-		"iS": 435280,
-		"oA": 1,
-		"oAP": "\/practices\/flower-carnival\/img\/gallery-image-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/flower-carnival\/img\/gallery-image-4@2x.jpg": {
-		"ft": 16384,
-		"iS": 1129291,
-		"oA": 1,
-		"oAP": "\/practices\/flower-carnival\/img\/gallery-image-4@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/flower-carnival\/img\/gallery-image-5.jpg": {
-		"ft": 16384,
-		"iS": 273251,
-		"oA": 1,
-		"oAP": "\/practices\/flower-carnival\/img\/gallery-image-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/flower-carnival\/img\/gallery-image-5@2x.jpg": {
-		"ft": 16384,
-		"iS": 705013,
-		"oA": 1,
-		"oAP": "\/practices\/flower-carnival\/img\/gallery-image-5@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/flower-carnival\/img\/gallery-image-6.jpg": {
-		"ft": 16384,
-		"iS": 337000,
-		"oA": 1,
-		"oAP": "\/practices\/flower-carnival\/img\/gallery-image-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/flower-carnival\/img\/gallery-image-6@2x.jpg": {
-		"ft": 16384,
-		"iS": 866060,
-		"oA": 1,
-		"oAP": "\/practices\/flower-carnival\/img\/gallery-image-6@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/flower-carnival\/img\/gallery-image-7.jpg": {
-		"ft": 16384,
-		"iS": 314600,
-		"oA": 1,
-		"oAP": "\/practices\/flower-carnival\/img\/gallery-image-7.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/flower-carnival\/img\/gallery-image-7@2x.jpg": {
-		"ft": 16384,
-		"iS": 796022,
-		"oA": 1,
-		"oAP": "\/practices\/flower-carnival\/img\/gallery-image-7@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/flower-carnival\/img\/hero-image.jpg": {
-		"ft": 16384,
-		"iS": 380922,
-		"oA": 1,
-		"oAP": "\/practices\/flower-carnival\/img\/hero-image.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/flower-carnival\/img\/hero-image@2x.jpg": {
-		"ft": 16384,
-		"iS": 976751,
-		"oA": 1,
-		"oAP": "\/practices\/flower-carnival\/img\/hero-image@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/practices\/flower-carnival\/index.php": {
+	"\/practices\/elabuga\/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/practices\/flower-carnival\/index.php",
+		"oAP": "\/practices\/elabuga\/index.php",
+		"oF": 0
+		},
+	"\/practices\/gorodets\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/gorodets\/index.php",
 		"oF": 0
 		},
 	"\/practices\/kandalaksha\/img\/hero-image.jpg": {
@@ -5223,6 +5037,33 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/practices\/kasimov\/index.php",
+		"oF": 0
+		},
+	"\/practices\/khvalynsk\/img\/hero-image.jpg": {
+		"ft": 16384,
+		"iS": 864761,
+		"oA": 1,
+		"oAP": "\/practices\/khvalynsk\/img\/hero-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/khvalynsk\/img\/hero-image@2x.jpg": {
+		"ft": 16384,
+		"iS": 3974241,
+		"oA": 1,
+		"oAP": "\/practices\/khvalynsk\/img\/hero-image@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/khvalynsk\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/khvalynsk\/index.php",
 		"oF": 0
 		},
 	"\/practices\/klin\/index.php": {
@@ -5467,6 +5308,34 @@
 		"oAP": "\/practices\/sarapul\/index.php",
 		"oF": 0
 		},
+	"\/practices\/semenov\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/semenov\/index.php",
+		"oF": 0
+		},
+	"\/practices\/severodvinsk\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/severodvinsk\/index.php",
+		"oF": 0
+		},
+	"\/practices\/suzdal\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/suzdal\/index.php",
+		"oF": 0
+		},
+	"\/practices\/sviyazhsk\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/sviyazhsk\/index.php",
+		"oF": 0
+		},
 	"\/practices\/tarusa\/img\/hero-image.jpg": {
 		"ft": 16384,
 		"iS": 294413,
@@ -5580,6 +5449,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/practices\/urupinsk\/index.php",
+		"oF": 0
+		},
+	"\/practices\/ustyani\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/practices\/ustyani\/index.php",
 		"oF": 0
 		},
 	"\/practices\/velsk\/index.php": {

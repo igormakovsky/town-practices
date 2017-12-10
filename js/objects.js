@@ -407,5 +407,141 @@ var data = {
                 coordinates: [42.103310, 61.065915]
             }
 		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Создание бренда «Суздаль сокровенный»',
+                id: 'suzdal',
+                town: 'Суздаль',
+                townId: 'suzdal',
+                types: ['social', 'tourism', 'culture'],
+                img: '',
+                descr: 'Создание бренда «Суздаль сокровенный»',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [40.449457, 56.419836]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'ТИЦ райцентра как туристический консолидатор',
+                id: 'ustyani',
+                town: 'Устьяны',
+                townId: 'ustyani',
+                types: ['social', 'tourism', 'culture'],
+                img: '',
+                descr: 'ТИЦ райцентра как туристический консолидатор',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [43.173115, 61.091783]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Музей-заповедник как ключевое градоразвивающее учреждение',
+                id: 'elabuga',
+                town: 'Елабуга',
+                townId: 'elabuga',
+                types: ['social', 'tourism', 'culture'],
+                img: '',
+                descr: 'Музей-заповедник как ключевое градоразвивающее учреждение',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [52.054460, 55.756670]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Брендинг самого компактного туристического поселения России',
+                id: 'sviyazhsk',
+                town: 'Свияжск',
+                townId: 'sviyazhsk',
+                types: ['social', 'tourism', 'culture'],
+                img: '',
+                descr: 'Брендинг самого компактного туристического поселения России',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [48.658981, 55.772254]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: '«Город мастеров»: интеграция туризма и народных художественных промыслов',
+                id: 'gorodets',
+                town: 'Городец',
+                townId: 'gorodets',
+                types: ['social', 'tourism', 'culture'],
+                img: '',
+                descr: '«Город мастеров»: интеграция туризма и народных художественных промыслов',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [43.472351, 56.644822]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Фонд сохранения и развития историко-культурного наследия Хвалынского района «Сосновый остров»',
+                id: 'khvalynsk',
+                town: 'Хвалынск',
+                townId: 'khvalynsk',
+                types: ['social', 'tourism', 'culture'],
+                img: '',
+                descr: 'Фонд сохранения и развития историко-культурного наследия Хвалынского района «Сосновый остров»',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [48.104604, 52.495089]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Брендирование города Семенов элементами  хохломской росписи',
+                id: 'semenov',
+                town: 'Семенов',
+                townId: 'semenov',
+                types: ['events', 'tourism', 'culture'],
+                img: '',
+                descr: 'Брендирование города Семенов  элементами  хохломской росписи',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [44.490331, 56.789012]
+            }
+		},
+        {
+            type: 'Feature',
+            properties: {
+                title: 'Сообщество активных горожан «Мой Северодвинск»',
+                id: 'severodvinsk',
+                town: 'Северодвинск',
+                townId: 'severodvinsk',
+                types: ['social', 'culture'],
+                img: '',
+                descr: 'Сообщество активных горожан «Мой Северодвинск»',
+                similiar: ['uglich', 'sarapul']
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [39.818175, 64.562501]
+            }
+		}
 	]
 }

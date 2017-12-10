@@ -1,6 +1,6 @@
 .content {
-    width: 60vw;
-    margin: 3rem auto 0;
+    width: 100vw;
+    margin: 0 auto;
     min-width: 320px;
     p {
         margin-top: 0;
@@ -9,31 +9,91 @@
         }
     }
     .title {
-        &-title {
-            font-size: 5rem;
+        &-logo {
+            @extend .absolute;
+            left: 2rem;
+            top: 2rem;
+            width: 13rem;
+            img {
+                width: auto;
+            }
         }
         &-place {
-            font-size: 2rem;
+            @extend .center;
+            padding-top: 9rem;
+            font-size: 1.5rem;
+            color: $light;
+            margin: 0;
+        }
+        &-town {
+            @extend .center;
+            @extend .shire;
+            color: $light;
+            font-size: 10vw;
+        }
+        &-title {
+            @extend .center;
+            color: $light;
+            font-size: 3rem;
+            width: 60%;
+            margin: 0 auto;
+        }
+        &-date {
+            @extend .center;
+            color: $light;
+            margin: 1rem auto 6rem;
+            /* &:before {
+                content: 'Срок реализации';
+            } */
         }
         &-tags {
             opacity: .6;
+            width: 96%;
+            margin: 0 auto;
+            padding-bottom: 7rem;
+            color: $light;
             list-style: none;
             text-indent: 0em;
-        }
-        &-date {
-            margin-bottom: 10rem;
+            display: flex;
+            justify-content: space-between;
+            li {
+                width: 25%;
+                text-align: center;
+                font-size: 1.5rem;
+                &::before {
+                    list-style-type: none;
+                }
+            }
         }
     }
-    .text {}
+    &-fullwidth {
+        width: 100vw;
+        margin: 0 auto 7rem;
+        img {
+            width: 100%;
+        }
+        .author {
+            height: 3rem;
+            margin: 0rem auto;
+            background-color: rgba(131, 131, 131, 0.1);
+            p {
+                @extend .small;
+                width: 60vw;
+                padding: .8rem 0;
+                margin: 0 auto;
+            }
+        }
+    }
+    &-text {
+        width: 60vw;
+    }
     &-citation {
-        width: 80vw;
         margin: 7rem auto 10rem;
         min-width: inherit;
         &__text {
             font-size: 2rem;
             margin-bottom: 1.5rem;
-            position: relative;
-            //@extend .quotes;
+            position: relative; //@extend .quotes;
         }
         &__author {
             font-size: 1rem;
@@ -55,24 +115,6 @@
             opacity: .75;
         }
     }
-    &-fullwidth {
-        width: 100vw;
-        margin: 5rem auto;
-        img {
-            width: 100%;
-        }
-        .author {
-            height: 3rem;
-            margin: 0rem auto;
-            background-color: rgba(131, 131, 131, 0.1);
-            p {
-                @extend .small;
-                width: 60vw;
-                padding: .8rem 0;
-                margin: 0 auto;
-            }
-        }
-    }
     &-algorythm {
         margin: 4rem auto 0;
         width: 60vw;
@@ -92,6 +134,10 @@
         text-align: center;
         width: 800px;
         margin: 5rem auto 6.5rem;
+        p {
+            @extend .small;
+            text-align: center;
+        }
     }
     &-carousel {
         height: auto;
@@ -109,9 +155,9 @@
                 }
                 p {
                     @extend .small;
-                    @media (max-width:1000px){
-                    padding: 0 1rem;
-                        }
+                    @media (max-width: 1000px) {
+                        padding: 0 1rem;
+                    }
                 }
             }
         }

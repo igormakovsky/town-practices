@@ -50,13 +50,6 @@
         $('#f-contactinfo-secondary').addClass('hidden');
         <?php endif; ?>
 
-        $('#<?=$expert_1;?>').removeClass('hidden');
-        $('#<?=$expert_2;?>').removeClass('hidden');
-        $('#<?=$expert_3;?>').removeClass('hidden');
-        $('#<?=$expert_4;?>').removeClass('hidden');
-        $('#<?=$expert_5;?>').removeClass('hidden');
-        $('#<?=$expert_6;?>').removeClass('hidden');
-
         $('.<?=$title;?>').addClass('active');
     });
 
@@ -64,107 +57,7 @@
 
 <footer class="footer" style="margin-top:5rem;">
 
-    <section class="experts">
-
-        <h3>Отзывы экспертов</h3>
-
-        <div class="expert-container">
-            <div class="expert expert_1">
-
-                <div id="expert_1a" class="expert-face hidden">
-                    <img src="/img/expert/makovsky.jpg" srcset="/img/expert/makovsky@2x.jpg 2x">
-                    <p>Анатолий Одинцов</p>
-                </div>
-                <div id="expert_1b" class="expert-face hidden">
-                    <img src="/img/expert/rybalchenko.jpg" srcset="/img/expert/rybalchenko@2x.jpg 2x">
-                    <p>Екатерина Дроздова</p>
-                </div>
-
-                <p class="review">
-                    <?=$expert_1_text; ?>
-                </p>
-
-            </div>
-
-            <div class="expert expert_2">
-
-                <div id="expert_2a" class="expert-face hidden">
-                    <img src="/img/expert/obudenkova.jpg" srcset="/img/expert/obudenkova@2x.jpg 2x">
-                    <p>Владислав Шулаев</p>
-                </div>
-                <div id="expert_2b" class="expert-face hidden">
-                    <img src="/img/expert/moseev.jpg" srcset="/img/expert/moseev@2x.jpg 2x">
-                    <p>Олег Мосеев</p>
-                </div>
-
-                <p class="review">
-                    <?=$expert_2_text; ?>
-                </p>
-
-            </div>
-
-            <div class="expert expert_3">
-
-                <div class="expert-face hidden" id="expert_3a">
-                    <img src="/img/expert/makovsky.jpg" srcset="/img/expert/makovsky@2x.jpg 2x">
-                    <p>Николай Новичков</p>
-                </div>
-
-                <p class="review">
-                    <?=$expert_3_text; ?>
-                </p>
-
-            </div>
-
-            <div class="expert expert_4">
-
-                <div class="expert-face hidden" id="expert_4a">
-                    <img src="/img/expert/vetrov.jpg" srcset="/img/expert/vetrov@2x.jpg 2x">
-                    <p>Иван Ветров</p>
-                </div>
-
-                <p class="review">
-                    <?=$expert_4_text; ?>
-                </p>
-
-            </div>
-
-            <div class="expert expert_5">
-
-                <div class="expert-face hidden" id="expert_5a">
-                    <img src="/img/expert/makovsky.jpg" srcset="/img/expert/makovsky@2x.jpg 2x">
-                    <p>Алена Светушкова</p>
-                </div>
-                <div class="expert-face hidden" id="expert_5b">
-                    <img src="/img/expert/rybalchenko.jpg" srcset="/img/expert/rybalchenko@2x.jpg 2x">
-                    <p>Елена Канева</p>
-                </div>
-
-                <p class="review">
-                    <?=$expert_5_text; ?>
-                </p>
-
-            </div>
-
-            <div class="expert expert_6">
-
-                <div class="expert-face hidden" id="expert_6a">
-                    <img src="/img/expert/makovsky.jpg" srcset="/img/expert/makovsky@2x.jpg 2x">
-                    <p>Иван Ксенофонтов</p>
-                </div>
-
-                <p class="review">
-                    <?=$expert_6_text; ?>
-                </p>
-
-            </div>
-        </div>
-
-    </section>
-
-
     <section id="similiar" style="margin-top:5rem;">
-
 
     </section>
 
