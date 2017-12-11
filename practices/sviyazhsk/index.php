@@ -5,62 +5,55 @@ $parent = 'practices'; // родительский элемент
 
 require $_SERVER['DOCUMENT_ROOT'].'/includes/vars.php';
 
+$keycolor = '#cea022';
+$seccolor = '#c68c30';
 $title = 'Брендинг самого компактного туристического поселения России';
-$description = 'Брендинг самого компактного туристического поселения России'; // описание для страницы и поисковиков
-$keywords = ''; // ключевые слова для поиска
+$place = 'Республика Татарстан';
+$town = 'Свияжск';
+$date = 'с 2013 — по настоящее время';
+$description = 'Брендинг самого компактного туристического поселения России';
+$keywords = '';
 
 require $docroot.'includes/head.php';
 
 ?>
-
-    <section class="hero">
-
-        <!-- <div id="title" class="hero__title">
-            <h1 class="town-title"></h1>
-        </div> -->
-
-        <div class="heroimage">
-            <img src="img/hero-image.jpg" srcset="img/hero-image@2x.jpg 2x">
-        </div>
-
-    </section>
-
+    
     <section class="content title">
 
-        <p class="small">Название практики</p>
+        <p class="title-place">
+            <?=$place?>
+        </p>
+
+        <p class="title-town">
+            <?=$town?>
+        </p>
+
         <h1 class="title-title">
             <?=$title?>
         </h1>
 
-        <p class="small">Место</p>
-        <p class="title-place">
-            Республика Татарстан, остров-град Свияжск
+        <p class="title-date">
+            <?=$date?>
         </p>
 
-        <p class="small">Тема</p>
         <ul class="title-tags">
             <li>
-                <?=$type_social?>
+                <?=$type_culture?>
             </li>
             <li>
                 <?=$type_gastronomy?>
             </li>
             <li>
-                <?=$type_tourism?>
+                <?=$type_social?>
             </li>
-            <li>
+               <li>
                 <?=$type_culture?>
             </li>
         </ul>
 
-        <p class="small">Срок реализации</p>
-        <p class="title-date">
-            с 2013 года — по настоящее время
-        </p>
-
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Место действия — туристическое микропоселение</h2>
         <p>
@@ -75,7 +68,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Без слабых мест</h2>
         <p>
@@ -102,7 +95,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Малый бизнес и брендинг</h2>
         <p>
@@ -114,7 +107,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>В поисках подлинной идентичности</h2>
         <p>

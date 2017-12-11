@@ -13,7 +13,7 @@ $light: rgb(242, 238, 238);
 @import "retinajs";
 //
 @import "header";
-@import "hero-image";
+//@import "hero-image";
 @import "index";
 @import "practice";
 @import "footer";
@@ -45,7 +45,6 @@ article {
 section {
     margin: 0 auto;
     position: relative;
-    min-width: inherit;
 }
 
 ///

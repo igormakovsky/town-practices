@@ -60,7 +60,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Город купеческих традиций</h2>
         <p>

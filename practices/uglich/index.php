@@ -5,62 +5,55 @@ $parent = 'practices'; // родительский элемент
 
 require $_SERVER['DOCUMENT_ROOT'].'/includes/vars.php';
 
+$keycolor = '#69c2e3';
+$seccolor = '#e09451';
 $title = 'Туристский информационный центр Углича';
-$description = 'Описание страницы'; // описание для страницы и поисковиков
-$keywords = 'углич, тиц, туризм'; // ключевые слова для поиска
+$place = 'Ярославская область';
+$town = 'Углич';
+$date = 'с 2008 — по настоящее время';
+$description = 'Туристский информационный центр Углича';
+$keywords = 'углич, тиц, туризм';
 
 require $docroot.'includes/head.php';
 
 ?>
-
-    <script>
-        $(document).ready(
-            function() {
-                var town = getObjects(data, 'id', "<?=$id?>")[0] // Returns an array of matching objects
-                $('.title-title').html(town.title)
-            }
-        )
-
-    </script>
-
-    <section class="hero">
-
-        <!-- <div id="title" class="hero__title">
-            <h1 class="town-title"></h1>
-        </div> -->
-
-        <div class="heroimage">
-            <img src="img/hero-image.jpg" srcset="img/hero-image@2x.jpg 2x">
-        </div>
-
-    </section>
-
+    
     <section class="content title">
 
-        <p class="small">Название практики</p>
-        <h1 class="title-title"><?=$title?></h1>
-        
-        <p class="small">Место</p>
-        <p class="title-place">Ярославская область, город Углич</p>
+        <p class="title-place">
+            <?=$place?>
+        </p>
 
-        <p class="small">Тема</p>
-        <ul class="title-tags">
+        <p class="title-town">
+            <?=$town?>
+        </p>
+
+        <h1 class="title-title">
+            <?=$title?>
+        </h1>
+
+        <p class="title-date">
+            <?=$date?>
+        </p>
+
+        <ul class="title-tags">           
             <li>
                 <?=$type_events?>
             </li>
-            <li>
+               <li>
                 <?=$type_tourism?>
             </li>
         </ul>
 
-        <p class="small">Срок реализации</p>
-        <p class="title-date">
-            с 2008 года — по настоящее время
-        </p>
+    </section>
+    
+    <section class="content-fullwidth">
+
+        <img src="img/hero-image.jpg" srcset="img/hero-image@2x.jpg 2x">
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Углич — один из самых известных городов Золотого Кольца России</h2>
         <p>
@@ -72,7 +65,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Календарный план</h2>
         <p>
@@ -116,7 +109,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>
             Угличская верста, хреновый фестиваль и другие забавы
@@ -138,7 +131,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Информационный комфорт для гостей</h2>
         <p>ТИЦ «Углича» был первым в Ярославской области. Его цель — объединить участников рынка, создать для гостей города максимальный информационный комфорт, и тем самым побудить их внести максимальный вклад в <a href="https://www.facebook.com/visituglich/ https://vk.com/visituglich http://visituglich.com/">экономику Углича</a>. </p>
@@ -162,7 +155,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Продвижение в массы</h2>
         <p>
@@ -188,7 +181,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Инструменты работы</h2>
         <p>
@@ -197,7 +190,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Влияние на город</h2>
         <p>
@@ -226,7 +219,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>
             Следующие шаги

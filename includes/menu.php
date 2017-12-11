@@ -1,4 +1,8 @@
 <header class="header">
+    
+    <div class="header__logo">
+            <?=$logo?>
+        </div>
 
     <div id="header__opener" class="header__opener">
 

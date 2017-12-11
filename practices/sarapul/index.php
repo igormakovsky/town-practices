@@ -5,55 +5,58 @@ $parent = 'practices'; // родительский элемент
 
 require $_SERVER['DOCUMENT_ROOT'].'/includes/vars.php';
 
+$keycolor = '#ea7b1c';
+$seccolor = '#e2be29';
 $title = 'Зонтичный бренд Сарапула';
-$description = 'Описание страницы'; // описание для страницы и поисковиков
-$keywords = 'сарапул, стартап, школа'; // ключевые слова для поиска
+$place = 'Республика Удмуртия';
+$town = 'Сарапул';
+$date = 'с 2015 — по настоящее время';
+$description = 'Зонтичный бренд Сарапула';
+$keywords = 'сарапул, стартап, школа';
 
 require $docroot.'includes/head.php';
 
 ?>
 
-    <section class="hero">
-
-        <!-- <div id="title" class="hero__title">
-            <h1 class="town-title"></h1>
-        </div> -->
-
-        <div class="heroimage">
-            <img src="img/hero-image.jpg" srcset="img/hero-image@2x.jpg 2x">
-        </div>
-
-    </section>
-
     <section class="content title">
 
-        <p class="small">Название практики</p>
-        <h1 class="title-title"><?=$title?></h1>
-        
-        <p class="small">Название практики</p>
-        <p class="title-place">Удмуртская Республика, город Сарапул</p>
+        <p class="title-place">
+            <?=$place?>
+        </p>
 
-        <p class="small">Тема</p>
+        <p class="title-town">
+            <?=$town?>
+        </p>
+
+        <h1 class="title-title">
+            <?=$title?>
+        </h1>
+
+        <p class="title-date">
+            <?=$date?>
+        </p>
+
         <ul class="title-tags">
-            <li>
-                <?=$type_tourism?>
-            </li>
             <li>
                 <?=$type_social?>
             </li>
             <li>
                 <?=$type_culture?>
             </li>
+            <li>
+                <?=$type_tourism?>
+            </li>
         </ul>
-
-        <p class="small">Срок реализации</p>
-        <p class="title-date">
-            с 2015 года — по настоящее время
-        </p>
 
     </section>
 
-    <section class="content text">
+    <section class="content-fullwidth">
+
+        <img src="img/hero-image.jpg" srcset="img/hero-image@2x.jpg 2x">
+
+    </section>
+
+    <section class="content-text">
 
         <h2>Город купеческих традиций</h2>
         <p>
@@ -65,17 +68,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <!--     <section class="content-fullwidth">
-        
-        <img src="img/wide-1.jpg">
-        
-        <div class="author">
-            <p></p>
-        </div>
-        
-    </section> -->
-
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Сила и слабость города</h2>
         <p>
@@ -84,7 +77,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Почему хреново в СарапУле?</h2>
         <p>
@@ -93,7 +86,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Вход в Федерально-целевую программу</h2>
         <p>
@@ -115,11 +108,11 @@ require $docroot.'includes/head.php';
         </p>
 
     </section>
+
+    <!-- <section class="content-carousel">
     
-    <section class="content-carousel">
-
         <div class="photos" id="carousel">
-
+    
             <div><img src="img/gallery-image-8.jpg" srcset="img/gallery-image-8@2x.jpg 2x">
                 <p>
                     Фотограф — <a href="https://www.flickr.com/photos/ae11/27770836594/in/photolist-Jj1Ncu-hQZmzy-hDZxpH-YWR17u-rwbUr4-hNh3La-Eaubt1-hGRxzJ-r69rj-YWR1K3-SBDT3v-TDYtyB-TBxoTN-21AP3Zg-21AP5xX-MdP38o-21AP34i-XWiyaN-pq61n2-YftVkH-YsXRwX-vauP2L-YsXQZp-Z21j6Z-KZiR6E-KTpyQh-LoP9kH-LRLZKL-BUWRD7-YVKr6S-DQHHRj-UQZdkW-Z21i5a-pcYPSn-LptQzw-wQnidM-x7RRar-TNWwb3-TNWvQo-XWiyG9-TRMmTs-TRMkCb-THSktg-XTNEYY-z77PhY-zuGAS2-XTNDHS-M356yj-M36Cin-zMdjta">Александр Ермолаев</a> (flickr)
@@ -136,23 +129,23 @@ require $docroot.'includes/head.php';
             <div><img src="img/gallery-image-5.jpg"></div>
             <div><img src="img/gallery-image-6.jpg"></div>
             <div><img src="img/gallery-image-7.jpg"></div>
-
+    
         </div>
-
+    
         <nav class="carousel-btns">
             <div id="btn-left" class="btn-left"></div>
             <div id="btn-right" class="btn-right"></div>
         </nav>
+    
+    </section> -->
 
-    </section>
-
-    <section class="content text">
+    <section class="content-text">
         <p>
             Из федерального бюджета за три года Сарапул в общей сложности получит 300 млн. рублей. За счет частных инвестиций удалось привлечь уже 760 млн рублей. Большая часть — вложения в 5 инвестиционных проектов туристического кластера: ресторанно-гостиничный комплекс «Старая Башня», дом Башенина, гостиница «Сарапул», городская набережная и центральный сквер Красной площади.
         </p>
     </section>
 
-    <section class="content text">
+    <section class="content-text">
         <h2>
             Слияние денежных потоков
         </h2>
@@ -161,7 +154,7 @@ require $docroot.'includes/head.php';
         </p>
     </section>
 
-    <section class="content text">
+    <section class="content-text">
         <h2>
             Зонтичный бренд города
         </h2>
@@ -184,7 +177,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
         <h2>
             Этапы исследований
         </h2>
@@ -196,7 +189,7 @@ require $docroot.'includes/head.php';
         </p>
     </section>
 
-    <section class="content text">
+    <section class="content-text">
         <h2>
             Миссии бренда
         </h2>
@@ -205,7 +198,7 @@ require $docroot.'includes/head.php';
         </p>
     </section>
 
-    <section class="content text">
+    <section class="content-text">
         <h2>
             Активность инвесторов
         </h2>
@@ -230,7 +223,7 @@ require $docroot.'includes/head.php';
         </p>
     </section>
 
-    <section class="content text">
+    <section class="content-text">
         <h2>
             Территория опережающего развития
         </h2>
@@ -253,7 +246,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>
             Дизайн-код и другие проекты благоустройства
@@ -269,7 +262,7 @@ require $docroot.'includes/head.php';
         </p>
     </section>
 
-    <section class="content text">
+    <section class="content-algorythm">
 
         <h2>Алгоритм разработки зонтичного бренда Сарапула</h2>
         <ol>
@@ -285,6 +278,16 @@ require $docroot.'includes/head.php';
         </ol>
 
     </section>
+    
+    <!-- <section class="content-fullwidth">
+        
+        <img src="img/wide-1.jpg">
+        
+        <div class="author">
+            <p></p>
+        </div>
+        
+    </section> -->
 
     <!-- <section class="content-video">
     

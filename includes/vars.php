@@ -47,21 +47,23 @@ $author_google = '';
 
 $type_business = 'Малый бизнес, стартапы';
 $type_business_id = 'business';
-$type_social = 'Социальные проекты и вовлечение жителей';
+$type_social = 'Социальные проекты, вовлечение жителей';
 $type_social_id = 'social';
-$type_education = 'Образование и новые технологии';
+$type_education = 'Образование, новые технологии';
 $type_education_id = 'education';
 $type_events = 'События';
 $type_events_id = 'events';
-$type_gastronomy = 'Гастрономия и сельское хозяйство';
+$type_gastronomy = 'Гастрономия, сельское хозяйство';
 $type_gastronomy_id = 'gastronomy';
-$type_tourism = 'Туризм и продвижение';
+$type_tourism = 'Туризм, продвижение';
 $type_tourism_id = 'tourism';
-$type_culture = 'Культура и эстетика';
+$type_culture = 'Культура, эстетика';
 $type_culture_id = 'culture';
 
 $expert_1 = 'Ольга Гончарова';
 $expert_2 = 'Олег Мосеев';
 $expert_3 = 'Анастасия Обуденкова';
+
+$logo = '<a href="/"><img src="/img/townpractices-logo.svg"></a>';
 
 ?>

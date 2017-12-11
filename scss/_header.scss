@@ -1,6 +1,22 @@
 $max-height: 520px;
 .header {
     position: absolute;
+    &__logo {
+        @extend .absolute;
+        transition: transform .5s, opacity 1s;
+        left: 2rem;
+        top: 2rem;
+        z-index: 1;
+        width: 13rem;
+        opacity: .9;
+        &:hover {
+            transform: scale(1.025);
+            opacity: 1;
+        }
+        img {
+            width: auto;
+        }
+    }
     &__opener {
         height: 2.1em;
         width: 2.1em;
@@ -78,8 +94,7 @@ $max-height: 520px;
             height: 8.5rem;
             padding: 0;
             border-bottom: dotted 1px rgba(255, 255, 255, 0.21);
-            text-align: center;
-            //
+            text-align: center; //
             display: flex;
             flex-direction: column;
             justify-content: center;

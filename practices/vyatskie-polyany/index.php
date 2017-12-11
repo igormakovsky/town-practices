@@ -5,59 +5,52 @@ $parent = 'practices'; // родительский элемент
 
 require $_SERVER['DOCUMENT_ROOT'].'/includes/vars.php';
 
-$title = 'Тема шляп как основа развития туристического кластера ';
-$description = 'Описание страницы'; // описание для страницы и поисковиков
-$keywords = ''; // ключевые слова для поиска
+$keycolor = '#bf4377';
+$seccolor = '#3b77a7';
+$title = 'Тема шляп как основа развития туристического кластера';
+$place = 'Кировская область';
+$town = 'Вятские Поляны';
+$date = 'с 2014 — по настоящее время';
+$description = 'Тема шляп как основа развития туристического кластера';
+$keywords = '';
 
 require $docroot.'includes/head.php';
 
 ?>
 
-    <section class="hero">
-
-        <!-- <div id="title" class="hero__title">
-            <h1 class="town-title"></h1>
-        </div> -->
-
-        <div class="heroimage">
-            <img src="img/hero-image.jpg" srcset="img/hero-image@2x.jpg 2x">
-        </div>
-
-    </section>
-
     <section class="content title">
 
-        <p class="small">Название практики</p>
+        <p class="title-place">
+            <?=$place?>
+        </p>
+
+        <p class="title-town">
+            <?=$town?>
+        </p>
+
         <h1 class="title-title">
             <?=$title?>
         </h1>
 
-        <p class="small">Место</p>
-        <p class="title-place">
-            Кировская область, город Вятские Поляны
+        <p class="title-date">
+            <?=$date?>
         </p>
 
-        <p class="small">Тема</p>
         <ul class="title-tags">
             <li>
                 <?=$type_events?>
             </li>
             <li>
-                <?=$type_tourism?>
+                <?=$type_culture?>
             </li>
             <li>
-                <?=$type_culture?>
+                <?=$type_tourism?>
             </li>
         </ul>
 
-        <p class="small">Срок реализации</p>
-        <p class="title-date">
-            с 2014 года — по настоящее время
-        </p>
-
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Кругосветка безумных шляпников</h2>
         <p>
@@ -93,7 +86,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Дом шляп</h2>
         <p>В 2015 году в Вятских Полянах компанией "Метелица-тур«был открыт частный музей головных уборов народов мира «Дом шляп». Коллекция музея постоянно пополняется и сегодня насчитывает уже больше 600 экземпляров.</p>
@@ -122,7 +115,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>
             Фестиваль «Карнавал цвета»
@@ -147,7 +140,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <p>
             В показах мод в качестве моделей выступали сами жители. Для этого за полгода до события они проходили кастинги по интернету и общались с дизайнерами. Хедлайнеры фестиваля в Вятские поляны приезжали за гонорар, да и профессиональные дизайнеры имели возможность заработать. Общий призовой фонд всех конкурсов составил 150 тысяч рублей. Несколько крупных российских производителей верхней одежды выступили спонсорами праздника и внесли свой материальный вклад. Привлечение партнеров стало возможным благодаря <a href="https://vk.com/letinakarnaval">резонансу в СМИ и масштабной аудитории</a>. За оба дня фестиваля в 2017 году в нем приняли участие более 7 тысяч человек. Помимо СМИ для продвижения были задействованы <a href="https://vk.com/letinakarnaval">собственные группы с соцсетях</a>, <a href="https://www.livemaster.ru/ilonago">блоги известных модельеров</a> и группы <a href="https://shkatulochka.com/">профильных сообществ</a>. Показательно, что количество запросов «Вятские Поляны» по результатам статистики Яндекса за год увеличилось почти в полтора раза (с 80 тыс. до 144 тыс. в месяц). В 2018 году главное событие города, обещают организаторы, станет еще более впечатляющим.
@@ -172,7 +165,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Шляпная тема в городской среде</h2>
         <p>
@@ -181,7 +174,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Туркомпания</h2>
         <p>
@@ -190,7 +183,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Кластер</h2>
         <p>

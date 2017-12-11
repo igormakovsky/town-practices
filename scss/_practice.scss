@@ -1,7 +1,5 @@
 .content {
-    width: 100vw;
-    margin: 0 auto;
-    min-width: 320px;
+    //margin: 0 auto;
     p {
         margin-top: 0;
         &.small {
@@ -9,18 +7,9 @@
         }
     }
     .title {
-        &-logo {
-            @extend .absolute;
-            left: 2rem;
-            top: 2rem;
-            width: 13rem;
-            img {
-                width: auto;
-            }
-        }
         &-place {
             @extend .center;
-            padding-top: 9rem;
+            padding-top: 10rem;
             font-size: 1.5rem;
             color: $light;
             margin: 0;
@@ -30,6 +19,14 @@
             @extend .shire;
             color: $light;
             font-size: 10vw;
+            margin: 1.5rem auto 3rem;
+            opacity: .9;
+            line-height: .8;
+            transition: transform 1s, opacity 1.5s;
+            &:hover {
+                transform: scale(1.015);
+                opacity: 1;
+            }
         }
         &-title {
             @extend .center;
@@ -41,34 +38,43 @@
         &-date {
             @extend .center;
             color: $light;
-            margin: 1rem auto 6rem;
+            margin: 1rem auto 10rem;
             /* &:before {
                 content: 'Срок реализации';
             } */
         }
         &-tags {
-            opacity: .6;
-            width: 96%;
+            width: 100%;
             margin: 0 auto;
-            padding-bottom: 7rem;
+            padding: 0 0 7rem 0;
             color: $light;
-            list-style: none;
-            text-indent: 0em;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
+            ul {
+                margin: 0 auto;
+            }
             li {
-                width: 25%;
+                width: auto;
                 text-align: center;
-                font-size: 1.5rem;
+                font-size: 1rem;
+                padding-left: 0;
+                margin-left: 0;
+                opacity: .6;
+                transition: transform .3s;
+                &:hover {
+                    opacity: 1;
+                    transform: scale(1.05);
+                }
                 &::before {
-                    list-style-type: none;
+                    content: '';
+                    margin-left: -.32em;
                 }
             }
         }
     }
     &-fullwidth {
         width: 100vw;
-        margin: 0 auto 7rem;
+        margin: 0 auto;
         img {
             width: 100%;
         }
@@ -86,38 +92,83 @@
     }
     &-text {
         width: 60vw;
+        margin: 4rem auto 0;
+        p {
+            margin-bottom: 2.5rem;
+        }
+        .title {
+            @expand .bold;
+            color: $black;
+            background-color: white;
+        }
+        .date {
+            color: $black;
+            opacity: .65;
+        }
     }
     &-citation {
-        margin: 7rem auto 10rem;
+        margin: 7rem auto 5rem;
+        padding: 6.5rem 0 8rem;
         min-width: inherit;
+        color: $light;
         &__text {
+            width: 70vw;
+            margin: 0 auto 1.5rem;
             font-size: 2rem;
-            margin-bottom: 1.5rem;
             position: relative; //@extend .quotes;
         }
         &__author {
+            width: 70vw;
+            margin: 0 auto;
             font-size: 1rem;
-            margin-bottom: 0;
         }
         &__who {
+            width: 70vw;
+            margin: 0 auto;
             font-size: .7rem;
             opacity: .8;
-            width: 50%;
             &:first-letter {
                 text-transform: capitalize;
             }
         }
         &__comment {
+            width: 70vw;
+            margin: 1.5rem auto 0;
             font-size: 1.5rem;
-            @extend .bold;
-            color: $brown;
-            width: 85%;
+            @extend .regular;
             opacity: .75;
+        }
+        a {
+            color: $black;
+            border-bottom-color: $black;
         }
     }
     &-algorythm {
+        width: 75vw;
         margin: 4rem auto 0;
-        width: 60vw;
+        h2 {
+            text-align: left;
+        }
+        ol {
+            list-style: none;
+            text-align: left;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            padding-left: 1rem;
+            li {
+                counter-increment: algorythm;
+                padding: 0 2rem 2rem 0;
+                width: 28%;
+                &:before {
+                    @extend .shire;
+                    content: counter(algorythm, decimal);
+                    font-size: 4rem;
+                    display: block;
+                    transition: transform .5s;
+                }
+            }
+        }
     }
     &-important {
         width: 75vw;
@@ -128,6 +179,10 @@
             padding: 2rem 0;
             border-top: $brown 1px solid;
             border-bottom: $brown 1px solid;
+        }
+        a {
+            @extend .black;
+            border-bottom: 1px $black solid;
         }
     }
     &-video {
@@ -202,54 +257,6 @@
 
 .hero-content {
     margin-top: 5rem;
-    &__matlas-logo {
-        width: 90%;
-        height: 6.5em;
-        margin: 0 auto;
-        transform: translate(-.2rem, 0);
-        &_light {
-            @extend .hero-content__matlas-logo;
-            background: url(/img/matlas-logo-white.png) top center / contain no-repeat;
-            &:lang(en) {
-                background: url(/img/matlas-logo-white-en.png) top center / contain no-repeat;
-            }
-        }
-        &_dark {
-            @extend .hero-content__matlas-logo;
-            background: url(/img/matlas-logo-dark.png) top center / contain no-repeat;
-            &:lang(en) {
-                background: url(/img/matlas-logo-dark-en.png) top center / contain no-repeat;
-            }
-        }
-        &_link {
-            transition: transform 1.5s, opacity .5s;
-            opacity: .9;
-            width: 40%;
-            height: inherit;
-            margin: inherit;
-            a {
-                width: 100%;
-            }
-            &:hover {
-                transform: scale(1.03);
-                opacity: 1;
-            }
-        }
-    }
-    &__title {
-        max-width: 900px;
-        margin: 0 auto;
-        text-align: center;
-        h2 {
-            margin: 1.5rem auto 0;
-        }
-    }
-    &__stars {
-        @extend .hero-image__stars;
-    }
-    &__star {
-        @extend .hero-image__star;
-    }
     &__description {
         width: 1000px;
         opacity: .8;
@@ -387,290 +394,6 @@
                 & > td {
                     &:first-child {
                         border-left: none;
-                    }
-                }
-            }
-        }
-    }
-    &__carousel {
-        height: auto;
-        width: 1000px;
-        position: relative;
-        margin: 6em auto 0; //overflow: hidden;
-        .photos {
-            height: inherit;
-            width: inherit;
-            .photo {
-                outline: none;
-                img {
-                    width: 1000px; //height: 630px;
-                    margin: 0 auto;
-                }
-            }
-        }
-        .carousel-btns {
-            position: absolute;
-            width: inherit;
-            top: 17.5rem;
-            z-index: 1;
-            .btn {
-                height: 4.5em;
-                width: 4.5em;
-                position: absolute;
-                border-radius: 50%;
-                opacity: .5;
-                transition: transform .4s, opacity 1.2s, left .5s, right .5s;
-                &:hover {
-                    transform: scale(1.3);
-                    opacity: 1;
-                }
-            }
-            .btn-left {
-                left: -6rem;
-                background: url(/img/carousel-arrow-left.svg) 30% 50% / 75% 75% no-repeat, $light;
-                @extend .btn;
-                @media screen and (max-width: 1200px) {
-                    left: 2.5rem;
-                    border: solid 1px $light;
-                }
-            }
-            .btn-right {
-                right: -6rem;
-                background: url(/img/carousel-arrow-right.svg) 70% 50% / 75% 75% no-repeat, $light;
-                @extend .btn;
-                @media screen and (max-width: 1200px) {
-                    right: 2.5rem;
-                    border: solid 1px $light;
-                }
-            }
-        }
-    }
-    &__intermediate {
-        width: 100vw;
-        margin: 10rem 0;
-        min-width: 1000px;
-        img {
-            width: 100%;
-        } // farm
-        &_area {
-            clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 0% 98%);
-        }
-        &_farm-1 {
-            clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 80% 70%, 20% 98%, 0% 85%);
-        }
-        &_farm-2 {
-            clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 70% 98%, 0% 80%);
-        }
-        &_craft {
-            clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 80% 77%, 20% 98%, 0% 85%);
-        }
-        &_farm-3 {
-            clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 70% 98%, 0% 80%);
-        } // stronghold
-        &_stronghold {
-            clip-path: polygon(0% 0%, 100% 0%, 100% 65%, 80% 98%, 60% 80%, 0% 98%);
-        } // airport
-        &_map-global {
-            clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 81.5% 88%, 68% 98%, 15% 70%, 0% 80%);
-        }
-        &_map-local {
-            position: relative;
-            max-width: 1400px;
-            margin: 0 auto;
-            .dot {
-                position: absolute;
-                height: 3rem;
-                width: 3rem;
-                opacity: .7;
-                border-radius: 50%;
-                background-color: white;
-                transition: transform .4s, opacity 1s;
-                &__number {
-                    @extend .bold;
-                    text-align: center;
-                    font-size: 1.5rem;
-                    color: $dark-blue;
-                    display: block;
-                    padding-top: .7rem;
-                    z-index: 1;
-                }
-                @extend .map-dot-animation;
-                &:after {
-                    @extend .bold;
-                    pointer-events: none;
-                    content: attr(data-tooltip);
-                    width: auto;
-                    padding: .2rem;
-                    opacity: 0;
-                    visibility: hidden;
-                    color: white;
-                    font-size: 2rem;
-                    line-height: 1;
-                    position: absolute;
-                    top: 0.3rem;
-                    text-shadow: $dark-blue 0 0 4px;
-                    z-index: 2;
-                }
-                &:lang(en) {
-                    &:after {
-                        @extend .bold;
-                        pointer-events: none;
-                        content: attr(data-tooltip-en);
-                        width: auto;
-                        padding: .2rem;
-                        opacity: 0;
-                        visibility: hidden;
-                        color: white;
-                        font-size: 2rem;
-                        line-height: 1;
-                        position: absolute;
-                        top: 0.3rem;
-                        text-shadow: $dark-blue 0 0 4px;
-                        z-index: 2;
-                    }
-                }
-                &.align-right {
-                    &:after {
-                        right: 3.3rem;
-                        text-align: right;
-                        transform: translate(0, 0, 0);
-                        z-index: 100;
-                    }
-                }
-                &.align-left {
-                    &:after {
-                        text-align: left;
-                        left: 3.3rem;
-                        transform: translate(0, 0, 0);
-                    }
-                }
-                &:hover {
-                    //animation-play-state: paused;
-                    animation: none;
-                    transform: scale(1.1);
-                    opacity: 1;
-                    &:after {
-                        opacity: 1;
-                        visibility: visible;
-                        z-index: 2;
-                    }
-                }
-                @media screen and (max-width: 1300px) {
-                    transform: scale(.8);
-                }
-            }
-        } ///
-        &_map-main {
-            clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 50% 90%, 0% 98%);
-            position: relative;
-            max-width: 1400px;
-            margin: 0 auto;
-            img {
-                opacity: .75;
-            }
-            .dot {
-                position: absolute;
-                height: 3rem;
-                width: 3rem;
-                opacity: .7;
-                border-radius: 50%;
-                background-color: $dark-blue;
-                transition: transform .4s, opacity 1s;
-                &__number {
-                    @extend .bold;
-                    text-align: center;
-                    font-size: 1.5rem;
-                    color: $light;
-                    display: block;
-                    padding-top: .7rem;
-                    z-index: 1;
-                }
-                @extend .map-dot-animation-main;
-                &:after {
-                    @extend .bold;
-                    pointer-events: none;
-                    content: attr(data-tooltip);
-                    width: auto;
-                    padding: .2rem;
-                    opacity: 0;
-                    visibility: hidden;
-                    color: $dark-blue;
-                    font-size: 2rem;
-                    line-height: 1;
-                    position: absolute;
-                    top: 0.3rem;
-                    text-shadow: white 0 0 10px;
-                    z-index: 2;
-                }
-                &:lang(en) {
-                    &:after {
-                        @extend .bold;
-                        pointer-events: none;
-                        content: attr(data-tooltip-en);
-                        width: auto;
-                        padding: .2rem;
-                        opacity: 0;
-                        visibility: hidden;
-                        color: $dark-blue;
-                        font-size: 2rem;
-                        line-height: 1;
-                        position: absolute;
-                        top: 0.3rem;
-                        text-shadow: white 0 0 10px;
-                        z-index: 2;
-                    }
-                }
-                &.align-right {
-                    &:after {
-                        right: 3.3rem;
-                        text-align: right;
-                        transform: translate(0, 0, 0);
-                        z-index: 100;
-                    }
-                }
-                &.align-left {
-                    &:after {
-                        text-align: left;
-                        left: 3.3rem;
-                        transform: translate(0, 0, 0);
-                    }
-                }
-                &:hover {
-                    //animation-play-state: paused;
-                    animation: none;
-                    transform: scale(1.1);
-                    opacity: 1;
-                    &:after {
-                        opacity: 1;
-                        visibility: visible;
-                        z-index: 2;
-                    }
-                }
-                @media screen and (max-width: 1300px) {
-                    transform: scale(.8);
-                }
-            }
-        }
-    }
-    &__poetic {
-        @extend .flex-centered;
-        margin: 5rem auto;
-        &_poem {
-            p {
-                margin-bottom: .5rem;
-            }
-        }
-        &_author {
-            opacity: .6;
-            padding-top: .5rem;
-            p {
-                .title {
-                    &:before {
-                        content: '«';
-                        margin-left: -.8rem;
-                    }
-                    &:after {
-                        content: '»';
                     }
                 }
             }

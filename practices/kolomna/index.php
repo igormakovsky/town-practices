@@ -5,35 +5,37 @@ $parent = 'practices'; // родительский элемент
 
 require $_SERVER['DOCUMENT_ROOT'].'/includes/vars.php';
 
+$keycolor = '#61be4a';
+$seccolor = '#de5283';
 $title = 'Музейно-творческий кластер «Коломенский посад»';
-$description = 'Описание страницы'; // описание для страницы и поисковиков
-$keywords = 'коломна'; // ключевые слова для поиска
+$place = 'Московская область';
+$town = 'Коломна';
+$date = 'с 2008 — по настоящее время';
+$description = 'Музейно-творческий кластер «Коломенский посад»';
+$keywords = '';
 
 require $docroot.'includes/head.php';
 
 ?>
-
-    <section class="hero">
-
-        <!-- <div id="title" class="hero__title">
-            <h1 class="town-title"></h1>
-        </div> -->
-
-        <div class="heroimage">
-            <img src="img/hero-image.jpg" srcset="img/hero-image@2x.jpg 2x">
-        </div>
-
-    </section>
-
+    
     <section class="content title">
 
-        <p class="small">Название практики</p>
-        <h1 class="title-title"><?=$title?></h1>
-        
-        <p class="small">Место</p>
-        <p class="title-place">Московская область, город Коломна</p>
+        <p class="title-place">
+            <?=$place?>
+        </p>
 
-        <p class="small">Тема</p>
+        <p class="title-town">
+            <?=$town?>
+        </p>
+
+        <h1 class="title-title">
+            <?=$title?>
+        </h1>
+
+        <p class="title-date">
+            <?=$date?>
+        </p>
+
         <ul class="title-tags">
             <li>
                 <?=$type_social?>
@@ -49,14 +51,9 @@ require $docroot.'includes/head.php';
             </li>
         </ul>
 
-        <p class="small">Срок реализации</p>
-        <p class="title-date">
-            с 2008 года — по настоящее время
-        </p>
-
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Коломна сегодня</h2>
         <p>
@@ -65,7 +62,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Новая жизнь старого города </h2>
         <p>
@@ -88,7 +85,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Музей исчезнувшего вкуса</h2>
         <p>
@@ -97,7 +94,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Осмыслить прошлое, чтобы увидеть будущее</h2>
         <p>
@@ -114,7 +111,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Впечатления решают</h2>
         <p>
@@ -123,14 +120,14 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Живые музеи </h2>
         <p>Пастила стала своеобразным полигоном для отработки рабочей модели всех последующих проектов. Формула успеха — на основе подлинной истории места создавать музей с производством и <a href="https://youtu.be/IuJeMJffiXM" target="blank">формировать среду вокруг</a>.Таким образом, исторические мануфактуры способны обеспечить жителям устойчивый доход и счастливый образ жизни. Сейчас основу музейно-творческого кластера «Коломенский посад» составляют 4 музея («Коломенская пастила», «Калачная», резиденция «Арткоммуналка» и «Навигатор») и 3 исторических производства (кондитерский и пекарский цеха, картонажная мануфактура). Параллельно запущены еще несколько проектов: «Кружечный двор», «Свечной завод», «Усадьба купцов Сурановых», «Английский садик», «Сад коломенской пастильницы», «Яблочная дорога» и другие.</p>
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <ol>
             <li><span class="title">Музей «Коломенская пастила»</span><span class="date">(2009 год)</span>Во время мастер-классов можно отведать 35 сортов пастилы, воссозданных по старинным рецептам: «Торт госпожи Сыцанко», «Апельсиновая в шоколадной пыли», «Пастила от запоя и пьянства» с добавлением хмеля и другие.</li>
@@ -151,7 +148,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Организационная структура</h2>
         <p>
@@ -160,7 +157,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Формирование сообщества жителей</h2>
         <p>
@@ -186,7 +183,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Престижное место для жизни</h2>
         <p>
@@ -198,7 +195,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Потенциал развития</h2>
         <p>

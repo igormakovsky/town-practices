@@ -8,8 +8,30 @@
 <link href="/css/main.css" rel="stylesheet">
 
 <style>
+    .title {
+        background-color: <?=$keycolor?>;
+    }
 
-    .title {background-color: <?='#'.$keycolor?>;}
-    .content-citation {background-color: <?='#'.$keycolor?>;}
-    
+    .content-citation {
+        background-color: <?=$keycolor?>;
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: <?=$keycolor?>;
+    }
+
+    a {
+        color: <?=$seccolor?>;
+        border-bottom-color: <?=$seccolor?>;
+    }
+
+    .content-important p {
+        color: <?=$seccolor?>;
+        font-size: 2rem;
+        padding: 2rem 0;
+        border-top: <?=$seccolor.' 1px solid'?>;
+        border-bottom: <?=$seccolor.' 1px solid'?>;
+    }
 </style>

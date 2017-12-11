@@ -4917,6 +4917,26 @@
 		"oAP": "\/practices\/borovsk\/index.php",
 		"oF": 0
 		},
+	"\/practices\/egorievsk\/img\/hero-image.jpg": {
+		"ft": 16384,
+		"iS": 342993,
+		"oA": 1,
+		"oAP": "\/practices\/egorievsk\/img\/hero-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/egorievsk\/img\/hero-image@2x.jpg": {
+		"ft": 16384,
+		"iS": 900756,
+		"oA": 1,
+		"oAP": "\/practices\/egorievsk\/img\/hero-image@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/practices\/egorievsk\/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -5443,6 +5463,26 @@
 		"oA": 2,
 		"oAP": "\/practices\/uglich\/index.php",
 		"oF": 0
+		},
+	"\/practices\/urupinsk\/img\/hero-image.jpg": {
+		"ft": 16384,
+		"iS": 292713,
+		"oA": 1,
+		"oAP": "\/practices\/urupinsk\/img\/hero-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/practices\/urupinsk\/img\/hero-image@2x.jpg": {
+		"ft": 16384,
+		"iS": 647746,
+		"oA": 1,
+		"oAP": "\/practices\/urupinsk\/img\/hero-image@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/practices\/urupinsk\/index.php": {
 		"cB": 0,

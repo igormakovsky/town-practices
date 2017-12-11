@@ -5,41 +5,37 @@ $parent = 'practices'; // родительский элемент
 
 require $_SERVER['DOCUMENT_ROOT'].'/includes/vars.php';
 
-$title = 'Музей-заповедник 
-как ключевое градоразвивающее учреждение';
-$description = 'Музей-заповедник 
-как ключевое градоразвивающее учреждение'; // описание для страницы и поисковиков
-$keywords = ''; // ключевые слова для поиска
+$keycolor = '#1d65ac';
+$seccolor = '#1d65ac';
+$title = 'Музей-заповедник как ключевое градоразвивающее учреждение';
+$place = 'Республика Татарстан';
+$town = 'Елабуга';
+$date = 'с 2008 года — по настоящее время';
+$description = 'Музей-заповедник как ключевое градоразвивающее учреждение';
+$keywords = '';
 
 require $docroot.'includes/head.php';
 
 ?>
-
-    <section class="hero">
-
-        <!-- <div id="title" class="hero__title">
-            <h1 class="town-title"></h1>
-        </div> -->
-
-        <div class="heroimage">
-            <img src="img/hero-image.jpg" srcset="img/hero-image@2x.jpg 2x">
-        </div>
-
-    </section>
-
+    
     <section class="content title">
 
-        <p class="small">Название практики</p>
+        <p class="title-place">
+            <?=$place?>
+        </p>
+
+        <p class="title-town">
+            <?=$town?>
+        </p>
+       
         <h1 class="title-title">
             <?=$title?>
         </h1>
 
-        <p class="small">Место</p>
-        <p class="title-place">
-            Республика Татарстан, г. Елабуга
+        <p class="title-date">
+            <?=$date?>
         </p>
 
-        <p class="small">Тема</p>
         <ul class="title-tags">
             <li>
                 <?=$type_social?>
@@ -52,14 +48,9 @@ require $docroot.'includes/head.php';
             </li>
         </ul>
 
-        <p class="small">Срок реализации</p>
-        <p class="title-date">
-            с 2008 года — по настоящее время
-        </p>
-
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Место действия</h2>
         <p>
@@ -82,7 +73,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>
             «За» и «против» развития туризма
@@ -119,7 +110,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>Секрет успеха</h2>
         <p>
@@ -157,7 +148,7 @@ require $docroot.'includes/head.php';
 
     </section>
 
-    <section class="content text">
+    <section class="content-text">
 
         <h2>
             Музей как субъект эффективного и социально ответственного предпринимательства
