@@ -44,7 +44,7 @@
 
     <!-- <section id="similiar" style="margin-top:5rem;"></section> -->
 
-    <section class="center" style="margin-top:5rem;">
+    <section id="share" class="center" style="margin-top:5rem;">
 
         <h3>Поделитесь практикой и вдохновите друзей</h3>
 
@@ -66,7 +66,7 @@
 
     </section>
 
-    <section class="center" style="margin-top:5rem;">
+    <section id="other" class="center" style="margin-top:5rem;">
 
         <h3>Другие практики</h3>
 
@@ -102,7 +102,7 @@
 
     </section>
 
-    <section class="f-contactinfo">
+    <section id="contactinfo" class="f-contactinfo">
 
         <div class="f-contactinfo__container">
 
@@ -139,9 +139,7 @@
         <?php if ($id == 'index'): ?>
         //$('#f-menu-primary').removeClass('hidden');
         //$('#f-menu-secondary').addClass('hidden');
-        $('#f-partners-primary').removeClass('hidden');
-        $('#f-partners-secondary').addClass('hidden');
-        $('#f-contactinfo-secondary').addClass('hidden');
+        $('#share').addClass('hidden');
         <?php endif; ?>
 
         $('.<?=$id;?>').addClass('active');

@@ -15,20 +15,24 @@
     }
     &_list {
         width: 1000px;
-        height: 100rem;
+        height: 8rem;
         nav {
             float: left;
             margin-right: 1.5rem;
             ul {
                 margin-left: 0;
                 padding-left: 0;
+                display: flex;
+                justify-content: flex-start;
+                flex-wrap: nowrap;
                 li {
                     font-size: 1rem;
-                    line-height: .5rem;
-                    margin-left: 0;
+                    line-height: 1.3rem;
+                    margin: 0 1.5rem 0;
                     padding-left: 1rem;
                     &:before {
                         content: '';
+                        margin-left: 0;
                     }
                     a {
                         &.chooser {}

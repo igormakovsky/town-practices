@@ -51,7 +51,7 @@ $(function () {
     $(document).on('click', '#choose_all',
         function (e) {
             e.preventDefault();
-            $('.list_card').removeClass("hide");
+            $('.card').removeClass("hide");
             $('.chooser').removeClass("activated");
             $(this).addClass("activated");
         });
@@ -59,7 +59,7 @@ $(function () {
     $(document).on('click', '#choose_business',
         function (e) {
             e.preventDefault();
-            $('.list_card').addClass("hide");
+            $('.card').addClass("hide");
             $('.business').removeClass("hide");
             $('.chooser').removeClass("activated");
             $(this).addClass("activated");
@@ -68,7 +68,7 @@ $(function () {
     $(document).on('click', '#choose_social',
         function (e) {
             e.preventDefault();
-            $('.list_card').addClass("hide");
+            $('.card').addClass("hide");
             $('.social').removeClass("hide");
             $('.chooser').removeClass("activated");
             $(this).addClass("activated");
@@ -77,7 +77,7 @@ $(function () {
     $(document).on('click', '#choose_education',
         function (e) {
             e.preventDefault();
-            $('.list_card').addClass("hide");
+            $('.card').addClass("hide");
             $('.education').removeClass("hide");
             $('.chooser').removeClass("activated");
             $(this).addClass("activated");
@@ -86,7 +86,7 @@ $(function () {
     $(document).on('click', '#choose_events',
         function (e) {
             e.preventDefault();
-            $('.list_card').addClass("hide");
+            $('.card').addClass("hide");
             $('.events').removeClass("hide");
             $('.chooser').removeClass("activated");
             $(this).addClass("activated");
@@ -95,7 +95,7 @@ $(function () {
     $(document).on('click', '#choose_gastronomy',
         function (e) {
             e.preventDefault();
-            $('.list_card').addClass("hide");
+            $('.card').addClass("hide");
             $('.gastronomy').removeClass("hide");
             $('.chooser').removeClass("activated");
             $(this).addClass("activated");
@@ -104,7 +104,7 @@ $(function () {
     $(document).on('click', '#choose_tourism',
         function (e) {
             e.preventDefault();
-            $('.list_card').addClass("hide");
+            $('.card').addClass("hide");
             $('.tourism').removeClass("hide");
             $('.chooser').removeClass("activated");
             $(this).addClass("activated");
@@ -113,7 +113,7 @@ $(function () {
     $(document).on('click', '#choose_culture',
         function (e) {
             e.preventDefault();
-            $('.list_card').addClass("hide");
+            $('.card').addClass("hide");
             $('.culture').removeClass("hide");
             $('.chooser').removeClass("activated");
             $(this).addClass("activated");

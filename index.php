@@ -4,9 +4,14 @@ $parent = ''; // родительский элемент
 
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/vars.php';
 
+$keycolor = '#354452';
+$seccolor = '#6895ab';
 $title = $project_title;
-$description = 'Описание страницы'; // описание для страницы и поисковиков
-$keywords    = 'стартап, школа'; // ключевые слова для поиска
+$place = '';
+$town = '';
+$date = '';
+$description = 'Интерактивная карта лучших практик малых городов';
+$keywords = 'стартап, школа';
 
 require $docroot . 'includes/head.php';
 
@@ -28,7 +33,7 @@ require $docroot . 'includes/head.php';
     </div>
 </section>
 
-<section class="index_list" style="margin-top:5rem;">
+<section class="index_list center" style="margin-top:5rem;">
 
     <h3>
         Выбор практик по типу деятельности
@@ -47,11 +52,11 @@ require $docroot . 'includes/head.php';
                     <?=$type_social;?>
                 </a>
             </li>
-            <li>
+            <!-- <li>
                 <a class="chooser" href="#" id="choose_<?=$type_education_id;?>">
                     <?=$type_education;?>
                 </a>
-            </li>
+            </li> -->
             <li>
                 <a class="chooser" href="#" id="choose_<?=$type_events_id;?>">
                     <?=$type_events;?>
@@ -75,7 +80,7 @@ require $docroot . 'includes/head.php';
         </ul>
     </nav>
 
-    <script>
+    <!-- <script>
         $(document).ready(function() {
             var template = $('#template').html()
             Mustache.parse(template) // optional, speeds up future uses
@@ -86,18 +91,18 @@ require $docroot . 'includes/head.php';
                 document.getElementById('practicesList').innerHTML = output
             }
         })
+    
+    </script> -->
 
-    </script>
-
-    <script id="template" type="x-tmpl-mustache">
+    <!-- <script id="template" type="x-tmpl-mustache">
         {{#practices}}
         <div class="list_card {{id}} {{types}}">
             <p><a href="{{link}}" class="">{{title}}</a></p>
         </div>
         {{/practices}}
-    </script>
+    </script> -->
 
-    <div class="list-container" id="practicesList"></div>
+    <!-- <div class="list-container" id="practicesList"></div> -->
 
 </section>
 

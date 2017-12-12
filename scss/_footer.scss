@@ -39,7 +39,7 @@
     &-practices {
         margin: 0 auto;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         flex-wrap: wrap;
         .f-practices-link {
             border-bottom: none;
@@ -51,6 +51,11 @@
             height: 15rem;
             transition: all .5s;
             border-bottom: none;
+            &.hide {
+                pointer-events: none;
+                opacity: .3;
+                display: none;
+            }
             p {
                 line-height: 1;
             }
