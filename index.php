@@ -21,20 +21,6 @@ require $docroot . 'includes/head.php';
     </p>
 </section>
 
-<section class="index_menu width1000" style="height:5rem;">
-    <ul>
-        <li>
-            <a href="#">Об авторах проекта</a>
-        </li>
-        <li>
-            <a href="#">Список всех городов</a>
-        </li>
-        <li>
-            <a href="#">Еще какие-то пункты меню</a>
-        </li>
-    </ul>
-</section>
-
 <section class="width1000" style="height:25rem;">
     <h3>Здесь большая карта</h3>
     <div id="mapid" style="height: 100%">

@@ -34,4 +34,13 @@
         border-top: <?=$seccolor.' 1px solid'?>;
         border-bottom: <?=$seccolor.' 1px solid'?>;
     }
+
+    .f-contactinfo {
+        background-color: <?=$keycolor?>;
+    }
+
+    .card:hover {
+        background-color: <?=$seccolor?>
+    }
+
 </style>

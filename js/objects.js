@@ -223,13 +223,13 @@ var data = {
         {
             type: 'Feature',
             properties: {
-                title: 'Живой Воткинск',
+                title: 'Социальный проект «Живой Воткинск»',
                 id: 'votkinsk',
                 town: 'Воткинск',
                 townId: 'votkinsk',
                 types: ['social', 'tourism'],
                 img: '',
-                descr: 'Живой Воткинск',
+                descr: 'Социальный проект «Живой Воткинск»',
                 similiar: ['uglich', 'sarapul']
             },
             geometry: {
