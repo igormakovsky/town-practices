@@ -4,12 +4,17 @@ var mainMarkerIcon = L.icon({
 	shadowUrl: '/img/markers/marker-shadow.png',
 	iconSize: [25, 41], // size of the icon
 	shadowSize: [41, 41], // size of the shadow
-	iconAnchor: [0, 0], // point of the icon which will correspond to marker's location
-	shadowAnchor: [0, 0],  // the same for the shadow
-	popupAnchor: [12, 4] // point from which the popup should open relative to the iconAnchor
+	iconAnchor: [13, 40], // point of the icon which will correspond to marker's location
+	shadowAnchor: [13, 40],  // the same for the shadow
+	popupAnchor: [0, -30] // point from which the popup should open relative to the iconAnchor
 })
 
-var mymap = L.map('mapid').setView([60, 70], 4)
+var mymap = L.map('mapid', {
+	scrollWheelZoom:false,
+	touchZoom: true,
+	center: [60, 70],
+	zoom: 10
+})
 
 /* параметры подключения OSM */
 var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
@@ -49,7 +54,7 @@ mymap.addLayer(mapLayer)
 var allobjects = L.geoJson(data,
 	{
 		pointToLayer: function (feature, latlng) {
-			return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup('<a href="/practices/'+feature.properties.id+'">'+feature.properties.title+'</a><br>'+feature.properties.town).openPopup()
+			return L.marker(latlng, {icon: mainMarkerIcon}).bindPopup('<span class="pin-town"><a href="/practices/'+feature.properties.id+'">'+feature.properties.town+'</span><br><span class="pin-title">'+feature.properties.title+'</span></a>').openPopup()
 		}
 	})
 var business = L.geoJson(data, {

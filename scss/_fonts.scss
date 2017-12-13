@@ -139,6 +139,7 @@ h2 {
 h3 {
     @extend .bold;
     @extend .black;
+    @extend .center;
     font-size: 1.5rem;
     font-weight: normal;
     margin-top: .5em;
@@ -146,9 +147,19 @@ h3 {
 }
 
 h4 {
-    @extend .cervo;
+    @extend .bold;
     @extend .brown;
-    font-size: inherit;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 1.5rem 0 0 .2rem;
+    padding: 0;
+    display: inline-block;
+}
+
+h5 {
+    @extend .bold;
+    @extend .brown;
+    font-size: 1/rem;
     font-weight: normal;
     margin: 1.5rem 0 0 .2rem;
     padding: 0;

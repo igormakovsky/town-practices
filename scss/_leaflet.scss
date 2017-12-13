@@ -1,23 +1,40 @@
-.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
-        text-align: left;
-        border-radius: 0;
-        font-size: 14px;
+.leaflet-touch .leaflet-control-layers,
+.leaflet-touch .leaflet-bar {
+    text-align: left;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.leaflet-tooltip {
+    position: absolute;
+    padding: 1px;
+    background-color: red;
+    border: 1px solid transparent; //border-radius: 3px;
+    color: $black;
+    font-weight: bold;
+    white-space: nowrap;
+    user-select: none;
+    pointer-events: none;
+    box-shadow: none;
+}
+
+.leaflet-tooltip-right:before {
+    left: 0;
+    margin-left: -12px;
+    border-right-color: transparent;
+}
+
+.pin {
+    &-town {
+        @extend .bold;
+        @extend .black;
+        display: block;
+        font-size: 1.5rem;
     }
-    .leaflet-tooltip {
-        position: absolute;
-        padding: 6px;
-        background-color: transparent;
-        border: 1px solid transparent;
-        border-radius: 3px;
-        color: #222;
-        font-weight: bold;
-        white-space: nowrap;
-        user-select: none;
-        pointer-events: none;
-        box-shadow: none;
+    &-title {
+        @extend .regular;
+        @extend .black;
+        opacity: .8;
+        font-size: 1rem;
     }
-    .leaflet-tooltip-right:before {
-        left: 0;
-        margin-left: -12px;
-        border-right-color: transparent;
-    }
+}

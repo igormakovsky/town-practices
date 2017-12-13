@@ -42,5 +42,9 @@
     .card:hover {
         background-color: <?=$seccolor?>
     }
+    
+    .header__nav {
+        background-color: <?=$seccolor?>
+    }
 
 </style>

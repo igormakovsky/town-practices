@@ -70,7 +70,7 @@ var data = {
         {
             type: 'Feature',
             properties: {
-                title: 'От «Иллюзии Старого города» к кластеру «Фамилия»',
+                title: 'От «Иллюзии Старого города» к&nbsp;кластеру «Фамилия»',
                 id: 'kargopol',
                 town: 'Каргополь',
                 townId: 'kargopol',

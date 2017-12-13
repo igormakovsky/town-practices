@@ -1,6 +1,6 @@
 <header class="header">
     
-    <div class="header__logo">
+    <div class="header-logo">
             <?=$logo?>
         </div>
 
@@ -15,10 +15,10 @@
     <nav id="header__nav" class="header__nav">
 
         <div class="logo">
-            <h3><a href="/"><?=$project_title;?></a></h3>
+            <?=$logo?>
         </div>
 
-        <div id="practices">
+        <div id="practices" class="search-container">
             <input class="search" placeholder="Поиск"/>
 
             <ul class="list"></ul>

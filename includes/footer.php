@@ -112,14 +112,14 @@
 
             <div class="thanks_1">
                 <p>
-                    Сайт разработан на средства гранта Президента Российской Федерации для поддержки творческих проектов общенационального значения в области культуры и искусства
+                    <?=$thanks_1?>
                     <span class="thanks_1__year"><?=date("Y")?></span>
                 </p>
             </div>
 
             <div class="thanks_2">
                 <p>
-                    Проект создан при поддержке министерства культуры
+                    <?=$thanks_2?>
                 </p>
             </div>
 
@@ -134,9 +134,11 @@
 </footer>
 
 <script>
+    
     $(function() {
         $('.f-town-<?=$id;?>').addClass('active');
         <?php if ($id == 'index'): ?>
+        $('.header-logo').addClass('hidden');
         //$('#f-menu-primary').removeClass('hidden');
         //$('#f-menu-secondary').addClass('hidden');
         $('#share').addClass('hidden');

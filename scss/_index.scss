@@ -13,6 +13,10 @@
             }
         }
     }
+    &-map {
+        width: 100vw;
+        height: 50rem;
+    }
     &_list {
         width: 1000px;
         height: 8rem;
@@ -20,7 +24,7 @@
             float: left;
             margin-right: 1.5rem;
             ul {
-                margin-left: 0;
+                margin: 0 auto;
                 padding-left: 0;
                 display: flex;
                 justify-content: flex-start;
@@ -30,14 +34,22 @@
                     line-height: 1.3rem;
                     margin: 0 1.5rem 0;
                     padding-left: 1rem;
+                    transition: all .3s;
+                    opacity: .9;
                     &:before {
                         content: '';
                         margin-left: 0;
                     }
+                    &:hover {
+                        transform: scale(1.025);
+                        opacity: 1;
+                    }
                     a {
                         &.chooser {}
                         &.activated {
-                            color: red;
+                            color: $black;
+                            border-bottom: none;
+                            pointer-events: none;
                         }
                     }
                 }
@@ -58,6 +70,69 @@
                 }
             }
         }
-
+    }
+    &-information {
+        @extend .relate;
+        overflow: hidden;
+        margin: 1.5rem 1.5rem 2.5rem;
+        &__logo {
+            position: absolute;
+            left: 1.5rem;
+            top: 1.5rem;
+            width: 25rem;
+            z-index: 10;
+            img {
+                width: 100%;
+            }
+        }
+        &__first,
+        &__second {
+            margin-left: 32rem;
+            width: 35%;
+        }
+        &__showmore {
+            margin-left: 32rem;
+            .more {
+                content: 'Прочитать целиком';
+            }
+            .less {
+                content: 'Кратко';
+            }
+        }
+        &__creators {
+            @extend .absolute;
+            left: 1.2rem;
+            top: 17rem;
+            h4 {
+                display: block;
+                color: $black;
+                font-size: 1.5rem;
+                margin-bottom: 1.5rem;
+            }
+            h5 {
+                font-size: 1.25rem;
+                margin: 0 0 0 .2rem;
+            }
+            p {
+                font-size: .8rem;
+                opacity: .75;
+                margin: 0 0 2rem .2rem;
+                display: block;
+                &:first-letter {
+                    text-transform: uppercase;
+                }
+            }
+        }
+        &__thanks {
+            @extend .absolute;
+            left: 21rem;
+            top: 17.7rem;
+            width: 8rem;
+            p {
+                font-size: .8rem;
+                opacity: .75;
+                display: block;
+            }
+        }
     }
 }

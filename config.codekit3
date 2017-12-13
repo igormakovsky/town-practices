@@ -4178,6 +4178,16 @@
 		"oAP": "\/css\/custom.css.map",
 		"oF": 0
 		},
+	"\/css\/leaflet-ck.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/leaflet-ck-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/leaflet.css": {
 		"aP": 0,
 		"bl": 0,
@@ -4566,6 +4576,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/img\/townpractices-logo-dark.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/townpractices-logo-dark.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/img\/townpractices-logo.svg": {
 		"ft": 2097152,

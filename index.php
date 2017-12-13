@@ -17,23 +17,54 @@ require $docroot . 'includes/head.php';
 
 ?>
 
-<section class="width1000" style="height:12rem;">
-    <h1 style="margin-top:5.5rem;">
-        <?=$project_title;?>
-    </h1>
-    <p class="small">
-        Проект создан на средства гранта президента РФ
-    </p>
-</section>
+<section class="index-information">
 
-<section class="width1000" style="height:25rem;">
-    <h3>Здесь большая карта</h3>
-    <div id="mapid" style="height: 100%">
+    <div class="index-information__logo">
+
+        <img src="/img/townpractices-logo-dark.svg">
 
     </div>
+
+    <p class="index-information__first">
+        «Лучшие практики малых городов» — это отобранная профессионалами библиотека знаний, конкретных рекомендаций и подробных инструкций, как можно улучшить жизнь в своем городе, это специально созданная база решений, которые уже работают и могут быть использованы в других регионах.
+    </p>
+    <p class="index-information__second hidden">
+        Универсальность решений в сочетании с авторским подходом дает возможность не просто копировать чужой успешный опыт, а брать работающий механизм, добавляя в него свое творчество, идеи и задумки. Интерактивная карта – это библиотека постоянно обновляемых знаний и решений, которая станет стимулом для появления новых проектов и позволит избежать того количества ошибок, с которыми приходилось сталкиваться первопроходцам.
+    </p>
+    <div class="index-information__creators hidden">
+        <h4>Разработка проекта:</h4>
+        <h5><a href="mailto:fish-fox@yandex.ru">Наталья Рыбальченко</a></h5>
+        <p>руководитель проекта</p>
+        <h5><a href="mailto:igor@igormakovsky.ru">Игорь Маковский</a></h5>
+        <p>дизайн, разработка сайта</p>
+        <h5>Ольга Гришина,<br> Олег Мосеев,<br> Анастасия Обуденкова</h5>
+        <p>описания практик</p>
+        <h5>Надежда Давыдова<br> Игорь Маковский</h5>
+        <p>иллюстрации</p>
+    </div>
+    <div class="index-information__thanks hidden">
+        <p><?=$thanks_1?></p>
+        <p><?=$thanks_2?></p>
+    </div>
+    <div class="index-information__showmore">
+        <p class="more">
+            <a id="more" href="">Прочитать целиком</a>
+        </p>
+        <p class="less hidden">
+            <a id="less" href="">Кратко</a>
+        </p>
+    </div>
+
+
 </section>
 
-<section class="index_list center" style="margin-top:5rem;">
+<section class="index-map">
+
+    <div id="mapid" style="height: 100%"></div>
+
+</section>
+
+<section class="index_list" style="margin-top:5rem;">
 
     <h3>
         Выбор практик по типу деятельности
@@ -41,7 +72,7 @@ require $docroot . 'includes/head.php';
 
     <nav>
         <ul>
-            <li><a class="chooser" href="#" id="choose_all">Показать все практики</a></li>
+            <li><a class="chooser activated" href="#" id="choose_all">Показать все практики</a></li>
             <li>
                 <a class="chooser" href="#" id="choose_<?=$type_business_id;?>">
                     <?=$type_business;?>
@@ -79,31 +110,6 @@ require $docroot . 'includes/head.php';
             </li>
         </ul>
     </nav>
-
-    <!-- <script>
-        $(document).ready(function() {
-            var template = $('#template').html()
-            Mustache.parse(template) // optional, speeds up future uses
-            var output = Mustache.render(template, {
-                practices: practicesListArray
-            })
-            if (document.getElementById('practicesList')) {
-                document.getElementById('practicesList').innerHTML = output
-            }
-        })
-    
-    </script> -->
-
-    <!-- <script id="template" type="x-tmpl-mustache">
-        {{#practices}}
-        <div class="list_card {{id}} {{types}}">
-            <p><a href="{{link}}" class="">{{title}}</a></p>
-        </div>
-        {{/practices}}
-    </script> -->
-
-    <!-- <div class="list-container" id="practicesList"></div> -->
-
 </section>
 
 <script src="/js/leaflet.js"></script>
